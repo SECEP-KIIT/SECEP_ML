@@ -94,3 +94,71 @@
 (2026-11-19 , 3:00)
 - The pool doesn’t match I2. It has pool_uid instead of email_uid, and slice instead of sample. C2/C3 will treat pool_uid as the join key unless Phase B’s labels use something else.
 - pseudo_train.csv doesn’t exist yet. There’s no Data\pseudo\ folder at all. C2 (embedding) can go ahead without it, but C3 (training) can’t. Where did Phase B’s teacher output land? Probably still in the Kaggle notebook output.
+
+## 2026-11-18 — Teacher prompt tuning (Phase B1)
+- Teacher inputs dataset: gold_dev, gold_calib, labelling-guide v2, human_baseline.json, common/text.py only. gold_test not uploaded; the notebook refuses to run if it is attached.
+- Tuned on dev+calib (n 271), strict macro-F1, gate = human − 0.05.
+- Round 1: type 0.585, urgency 0.407, sentiment 0.425 — all pass.
+- Round 2 (added rules for Task/Approval/Meeting/Credentials boundaries + SRS urgency definitions): type 0.602, urgency 0.474, sentiment 0.415 — all pass; sentiment by only +0.003 (about one email).
+- Frozen at round 2; no round 3 (all heads pass, no sentiment pattern to target). Approval→Info errors rose 4 → 8 under the "agreeing is Info" rule; humans' own Approval F1 is ~0.3, so the label is noisy.
+- Frozen prompt (5 few-shots): runs/2026-11-18-teacher-throughput/frozen_prompt.json. Every later teacher run uses exactly this file.
+
+## 2026-11-18 — Pseudo-labelling (Phase B2)
+- 10,000 pool emails, n 3, temperature 0.7, per-head majority vote. Weight 1.0 (3/3), 0.67 (2/3); no majority → blank label + weight 0 (type 10, urgency 29, sentiment 8 rows).
+- Resumable shards; kernel crash at shard 15/20 resumed without loss. Type yield 99.9%.
+- Spot check (30 random rows, reviewed by Claude; borderlines confirmed by ___): clear errors type 10% (23% incl. borderline), urgency 7% (17%), sentiment 0% (7%). Main failure: instructions inside broadcast/announcement emails labelled Info. Consistent with the teacher's dev macro-F1 ≈ 0.60. Accepted; not re-run.
+- Known issue: common/text.py credential masking false-positives on "pass-" words ("pass-through" → "Pass-[MASKED:password]") and misses some username/password-hint fields. Left unchanged for v1 so gold, pool and live text stay identical (a change would invalidate embeddings). Fix with the credential-masking track after v1.
+- Run folders: runs/2026-11-18-teacher-b1-r1/, -b1-r2/, -b2/.
+
+## 2026-11-19 — Phase C setup (closes the 3:00 note)
+- Phase B output found in the Kaggle notebook output; saved as Data/pseudo/pseudo_train.csv. Folder spelled `psuedo`, renamed to `pseudo`.
+- pseudo_train.csv uses email_uid, which holds the same ids as the pool's pool_uid. Join verified in C3: 10,000 rows matched, text identical to the embedded text.
+- Cuts for the compressed plan: teacher prompt rounds capped at 3; no encoder bake-off; 384-token truncation, no windowing; C grid {0.3, 1, 3}; role prior dropped; MLP / fine-tuning escalation dropped; ONNX optional; retraining = script + one simulated run.
+
+## 2026-11-19 — Scorer (C1)
+- common/metrics.py, scripts/score.py, tests/test_metrics.py (17 tests pass).
+- Lenient F1: a correct prediction counts for whichever label it matched; a wrong prediction counts against the primary label.
+- Absent classes handled exactly as in human_baseline.py, so human and model scores are comparable.
+- ECE: 10 equal-width bins (headline) + 10 equal-count bins (reported).
+- Bad input (unknown class, missing uid, probabilities not summing to 1) fails loudly.
+- dev and calib are all single-labelled, so lenient = strict there; gold-test is the first set where they differ.
+
+## 2026-11-19 — Embeddings (C2)
+- Frozen all-mpnet-base-v2 on a Kaggle T4, 384-token truncation, L2-normalised. CPU parity cosine 1.000000.
+- Truncated: pool 28%, gold_dev 26%, gold_calib 22%, gold_test 27%. Pool median 173 tokens, p95 ≈ 2,392.
+- gold_test embedded only; labels not read.
+
+## 2026-11-19 — Student heads (C3)
+- Features 777 = 768 embedding + 6 roles + 3 positions. Engineer and Bcc never occur in training → mapped to Other / List/Unknown.
+- C by cross-validated log-loss: type 1.0, urgency 0.3, sentiment 0.3.
+- Class weights fully balanced × teacher vote weight. 0 of 702 gold uids in training. numpy = scikit-learn to 2e-16.
+- Prior correction added (deviation): softmax((logits + log prior) / T_prior), prior = teacher-weighted class share in the training pool, T refit on gold-calib. Reason: balanced heads flagged 67–84% of emails for review.
+- Pool mix ≠ gold mix: uniform pool Info 70% vs gold_dev 54%, Critical 0.2% vs 3.8%, Frustrated 0.3% vs 1.6% (gold sets were enriched). Prior mode learns the pool mix, so it is penalised on gold relative to real mailboxes.
+- Model folder: model_v1/ (heads.npz, manifest.json); training file sha256 75ee0555… (full hash in manifest.json).
+
+## 2026-11-19 — Mode, routing, latency (C4; decided on gold-dev before gold-test)
+- Per-head mode: type prior, urgency prior, sentiment balanced (set_head_modes.py). Strict macro-F1, balanced vs prior: type 0.449 / 0.566, urgency 0.323 / 0.344, sentiment 0.299 / 0.258. Prior mode collapses sentiment to Neutral (182/184).
+- Temperatures in use: type 1.33 (prior), urgency 1.91 (prior), sentiment 0.86 (balanced).
+- Review routing option (a): 0.60 threshold on every head. Flagged heads are re-decided by the LLM in the same call that writes the summary (no extra round trip).
+- Rejected: (b) type-only, which loses the urgency/sentiment correction; (c) per-head thresholds tuned to a target rate, which trades accuracy for load.
+- This changes FR-DEC-006 (type-only in SRS v1.1), the enrich.v1 schema and the M3 needs_review rule. Amitava to be told. The LLM stage is async (NFR-PERF-004); the fast path is unaffected.
+- Latency (predict_one, laptop CPU, 50 emails): median 117 ms, p95 313 ms, max 327 ms (target 350); model load 24 s.
+- Ablation (dev, indicative): without role/position, urgency −0.08; without temperature, urgency ECE 0.069 → 0.147; unbalanced type head +0.04 (within noise, type_action worse) → class balancing kept, v2 candidate; teacher vote weighting has no measurable effect.
+
+## 2026-11-19 — Final evaluation (C5)
+- Teacher re-scored with our scorer on dev+calib (271): 0.602 / 0.474 / 0.415, identical to Phase B. 5 dev emails have no round-2 teacher prediction; all 5 are in rebuild_problems.csv (text rebuilt after the teacher run). Teacher on the 179 dev emails: 0.539 / 0.471 / 0.389.
+- Gold-test hash: the Step 6 hash (839514…) is the pre-rebuild file. The sealed file is the rebuilt one (a5b24fa8…, Stage 0 rebuild entry), verified MATCH at final evaluation.
+- Labelling manifest has 450 test uids; 24 dropped at finalisation (in issues.csv) → 426. final_eval.py check changed from "manifest uids == gold-test uids" to "every gold-test uid is in the manifest" before any scoring.
+- Teacher gold-test run (Kaggle): frozen round-2 prompt, label-free input built from Data/emb_inputs/gold_test.csv + manifest.csv (gold_test.csv never opened). 426 emails, 450 s, 0 retries. Unanimous votes: type 93%, urgency 76%, sentiment 94%.
+- vLLM warm-up error `No module named 'cutlass'` on first start; a full session restart cleared it. No packages or engine settings changed.
+- Final evaluation run once, 2026-11-19 21:36 (runs/2026-11-19-final-eval/, locked by runs/final_eval.lock.json). Gold-test is now spent; no future model is tuned or gated on it.
+- Test rows 426: double-labelled 140, single-labelled 286 (Akashdeep 51). Strict n: type 397, urgency 376, sentiment 400.
+- Strict macro-F1 (type / urgency / sentiment): student 0.501 / 0.286 / 0.372 (fails all six gates); teacher 0.599 / 0.402 / 0.407; hybrid 0.577 / 0.393 / 0.419 (meets 5 of 6; urgency_2 0.665 vs gate 0.678, within CI).
+- Robustness: without Akashdeep's single-labelled rows ≈ +0.01 for every system (no labeller skew). Single-labelled-only view lower for every system.
+- Student ECE (equal-width) 0.051 / 0.061 / 0.043 — NFR-ML-004 met.
+- Flagged < 0.60: type 39.9%, urgency 70.4%, sentiment 37.6%, any head 78.9%. LLM changed the label on 19% / 34% / 19% of emails.
+- The hybrid is an optimistic proxy (3-vote teacher reading 1,500 tokens vs the live decoder's single call). The live decoder is evaluated in Phase D.
+- Teacher Critical blind spot: 0 Critical predictions on gold-test, 1 in 271 dev+calib. A flagged urgency head cannot become Critical in the hybrid → Critical recall is a required check in the decoder evaluation.
+- SRS NFR-ML-001–003 (0.75 / 0.60 / 0.60) exceed human agreement (0.625 / 0.440 / 0.462). Human-relative gates remain the operative targets; revise in SRS v1.3.
+- Known text error: final_summary.md calls the hybrid's teacher "14B"; it is 7B. Not re-run.
+- Model card: model_card.md (project copy: claude/model-card-v1.md).
