@@ -1,0 +1,32 @@
+{
+  "n_pool": 10000,
+  "n_uniform": 6000,
+  "n_enriched": 4000,
+  "received_scanned": 181630,
+  "eligible": 137259,
+  "removed": {
+    "leak: gold subject + shared participants": 287,
+    "leak: gold thread_id": 1156,
+    "leak: gold email (same text, any mailbox)": 536,
+    "duplicate text": 41732,
+    "leak: gold Message-ID": 660
+  },
+  "rejected_after_cleaning": {
+    "body too short after cleaning": 5,
+    "duplicate cleaned text": 7
+  },
+  "enriched_shortfalls": {},
+  "gate": {
+    "gold_message_id_overlap": 0,
+    "gold_uid_overlap": 0,
+    "gold_thread_overlap": 0,
+    "gold_text_overlap": 0,
+    "dup_message_id": 0,
+    "dup_uid": 0,
+    "dup_text": 0,
+    "max_per_thread": 2,
+    "passed": true,
+    "gold_files_missing": 0
+  },
+  "seconds": 481.0
+}

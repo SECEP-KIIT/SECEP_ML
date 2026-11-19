@@ -1,0 +1,96 @@
+{
+  "created": "2026-11-19T21:00:22",
+  "split": "gold_dev (indicative)",
+  "head_mode": {
+    "type": "prior",
+    "urgency": "prior",
+    "sentiment": "balanced"
+  },
+  "C": {
+    "type": 1.0,
+    "urgency": 0.3,
+    "sentiment": 0.3
+  },
+  "results": {
+    "full": {
+      "seconds": 18.7,
+      "type": 0.5663734686137406,
+      "ece_type": 0.07660726316543219,
+      "review_type": 0.43478260869565216,
+      "type_action": 0.7248451185644094,
+      "urgency": 0.34362119967757143,
+      "ece_urgency": 0.06883188383684587,
+      "review_urgency": 0.7554347826086957,
+      "urgency_2": 0.6065408805031447,
+      "sentiment": 0.2987246175560007,
+      "ece_sentiment": 0.05843252736561693,
+      "review_sentiment": 0.40217391304347827,
+      "sentiment_2": 0.5728614602952127,
+      "review_any": 0.8206521739130435
+    },
+    "embedding_only": {
+      "seconds": 8.9,
+      "type": 0.5596243730968589,
+      "ece_type": 0.04816276746673497,
+      "review_type": 0.4076086956521739,
+      "type_action": 0.6884907809277557,
+      "urgency": 0.26213729970282096,
+      "ece_urgency": 0.06772335436475256,
+      "review_urgency": 0.7771739130434783,
+      "urgency_2": 0.577639751552795,
+      "sentiment": 0.3465200018133423,
+      "ece_sentiment": 0.0683862584774114,
+      "review_sentiment": 0.391304347826087,
+      "sentiment_2": 0.6064618885096701,
+      "review_any": 0.8152173913043478
+    },
+    "no_class_balance": {
+      "seconds": 8.9,
+      "type": 0.6062892180283483,
+      "ece_type": 0.05828135828612772,
+      "review_type": 0.42934782608695654,
+      "type_action": 0.7116335141651597,
+      "urgency": 0.2989395546129374,
+      "ece_urgency": 0.10644174789098428,
+      "review_urgency": 0.717391304347826,
+      "urgency_2": 0.6166666666666667,
+      "sentiment": 0.25774810418727334,
+      "ece_sentiment": 0.03249022103478612,
+      "review_sentiment": 0.021739130434782608,
+      "sentiment_2": 0.5244567818512491,
+      "review_any": 0.7336956521739131
+    },
+    "no_teacher_weight": {
+      "seconds": 11.0,
+      "type": 0.5765950057419389,
+      "ece_type": 0.06903825429981539,
+      "review_type": 0.44021739130434784,
+      "type_action": 0.7136143070772424,
+      "urgency": 0.34102650494159925,
+      "ece_urgency": 0.042316267243419754,
+      "review_urgency": 0.7717391304347826,
+      "urgency_2": 0.6065408805031447,
+      "sentiment": 0.28242785380913327,
+      "ece_sentiment": 0.05267730677693201,
+      "review_sentiment": 0.43478260869565216,
+      "sentiment_2": 0.5559373338241911,
+      "review_any": 0.842391304347826
+    },
+    "no_temperature": {
+      "seconds": 0.0,
+      "type": 0.5663734686137406,
+      "ece_type": 0.09131999714033863,
+      "review_type": 0.2717391304347826,
+      "type_action": 0.7248451185644094,
+      "urgency": 0.34362119967757143,
+      "ece_urgency": 0.14688058337946347,
+      "review_urgency": 0.4891304347826087,
+      "urgency_2": 0.6065408805031447,
+      "sentiment": 0.2987246175560007,
+      "ece_sentiment": 0.06199873122983564,
+      "review_sentiment": 0.5,
+      "sentiment_2": 0.5728614602952127,
+      "review_any": 0.7010869565217391
+    }
+  }
+}

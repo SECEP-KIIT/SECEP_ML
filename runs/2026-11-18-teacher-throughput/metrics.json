@@ -1,0 +1,23 @@
+{
+  "engine_load_s": 114,
+  "cold": {
+    "n_emails": 30,
+    "seconds": 29.8,
+    "emails_per_s": 1.005,
+    "json_valid_rate": 1.0,
+    "type_unanimous_rate": 0.7,
+    "prompt_tokens_per_email": 2873,
+    "gen_tokens_per_email": 76
+  },
+  "warm": {
+    "n_emails": 30,
+    "seconds": 26.4,
+    "emails_per_s": 1.135,
+    "json_valid_rate": 1.0,
+    "type_unanimous_rate": 0.867,
+    "prompt_tokens_per_email": 2940,
+    "gen_tokens_per_email": 76
+  },
+  "verdict": "GO (keep 14B)",
+  "projected_hours_10k": 2.45
+}

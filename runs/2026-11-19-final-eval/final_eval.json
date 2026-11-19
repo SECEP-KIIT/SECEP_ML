@@ -1,0 +1,951 @@
+{
+  "created": "2026-11-19T21:36:42",
+  "mode": "mixed",
+  "rerun_reason": null,
+  "gold_test": {
+    "path": "Data\\sealed\\gold_test.csv",
+    "sha256": "a5b24fa8edce43f721ee461c0c9d20a7f948e0c2bc4f100d7aab829c66421a52",
+    "rows": 426
+  },
+  "exclude": {
+    "labeller": "Akashdeep",
+    "single_rows": 51,
+    "double_rows": 140
+  },
+  "model": {
+    "path": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\model_v1",
+    "manifest_sha256": "09646396d00bf19e5c0cdf09116dce28fb3fd9cf89a2ff1f26ff05b246fa1aed"
+  },
+  "teacher_predictions": {
+    "path": "runs\\2026-11-19-teacher-gold-test\\predictions.csv",
+    "sha256": "6e6f6f5811535868b72596a5f1e8f35082a14ce42bda7590e002b91c84f38f46"
+  },
+  "hybrid_adjudication": {
+    "type": {
+      "flagged": 0.39906103286384975,
+      "changed": 0.19014084507042253
+    },
+    "urgency": {
+      "flagged": 0.704225352112676,
+      "changed": 0.3380281690140845
+    },
+    "sentiment": {
+      "flagged": 0.3755868544600939,
+      "changed": 0.18779342723004694
+    }
+  },
+  "hybrid_note": "hybrid = student label where top prob >= threshold, teacher label where below; the teacher (Qwen2.5-14B, 3 votes) stands in for the live decoder (Qwen2.5-7B, 1 call), so the hybrid figure is an optimistic proxy",
+  "results": {
+    "all": {
+      "student": {
+        "n_rows": 426,
+        "n_excluded": 0,
+        "views": {
+          "type": {
+            "n": 397,
+            "macro_f1": 0.5006594477788886,
+            "ci": [
+              0.412334886863113,
+              0.5757358099391279
+            ],
+            "accuracy": 0.6649874055415617,
+            "lenient_macro_f1": 0.5361590745421603,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": false
+          },
+          "urgency": {
+            "n": 376,
+            "macro_f1": 0.2855215528001997,
+            "ci": [
+              0.24926970456005926,
+              0.3262483562382421
+            ],
+            "accuracy": 0.5585106382978723,
+            "lenient_macro_f1": 0.30070476141146263,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": false
+          },
+          "sentiment": {
+            "n": 400,
+            "macro_f1": 0.3716995813115246,
+            "ci": [
+              0.31689480868770353,
+              0.43027760955588173
+            ],
+            "accuracy": 0.705,
+            "lenient_macro_f1": 0.41536560167839953,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": false
+          },
+          "type_action": {
+            "n": 397,
+            "macro_f1": 0.6901773849950433,
+            "ci": [
+              0.6403395513072012,
+              0.7351903017859246
+            ],
+            "accuracy": 0.7204030226700252,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": false
+          },
+          "urgency_2": {
+            "n": 376,
+            "macro_f1": 0.5166357991066565,
+            "ci": [
+              0.4644197654126184,
+              0.5780052039799585
+            ],
+            "accuracy": 0.8430851063829787,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 400,
+            "macro_f1": 0.6221628478125928,
+            "ci": [
+              0.5662264700200332,
+              0.6748437443549261
+            ],
+            "accuracy": 0.7375,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": false
+          }
+        },
+        "calibration": {
+          "type": {
+            "ece_width10": 0.05060576403198144,
+            "ece_count10": 0.06561673197135086,
+            "review_rate": 0.39906103286384975,
+            "n_ece": 397
+          },
+          "urgency": {
+            "ece_width10": 0.06110143595625389,
+            "ece_count10": 0.09900947043928321,
+            "review_rate": 0.704225352112676,
+            "n_ece": 376
+          },
+          "sentiment": {
+            "ece_width10": 0.04340770781785199,
+            "ece_count10": 0.03273286890745209,
+            "review_rate": 0.3755868544600939,
+            "n_ece": 400
+          }
+        },
+        "review_rate_any_head": 0.7887323943661971
+      },
+      "teacher": {
+        "n_rows": 426,
+        "n_excluded": 0,
+        "views": {
+          "type": {
+            "n": 397,
+            "macro_f1": 0.5991907846680562,
+            "ci": [
+              0.5135850520988324,
+              0.6654137828207827
+            ],
+            "accuracy": 0.6952141057934509,
+            "lenient_macro_f1": 0.6339378094568111,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": true
+          },
+          "urgency": {
+            "n": 376,
+            "macro_f1": 0.40220674367804626,
+            "ci": [
+              0.35602983794268145,
+              0.4487151349165096
+            ],
+            "accuracy": 0.6143617021276596,
+            "lenient_macro_f1": 0.43251923089625965,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": true
+          },
+          "sentiment": {
+            "n": 400,
+            "macro_f1": 0.4073496470986011,
+            "ci": [
+              0.31408900342680524,
+              0.5079697839540972
+            ],
+            "accuracy": 0.8725,
+            "lenient_macro_f1": 0.41304314676303977,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": false
+          },
+          "type_action": {
+            "n": 397,
+            "macro_f1": 0.7536382744470023,
+            "ci": [
+              0.7076230368440601,
+              0.7960327666694897
+            ],
+            "accuracy": 0.7657430730478589,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": true
+          },
+          "urgency_2": {
+            "n": 376,
+            "macro_f1": 0.6782584884994524,
+            "ci": [
+              0.6035606257021865,
+              0.7468979388439881
+            ],
+            "accuracy": 0.8670212765957447,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": true
+          },
+          "sentiment_2": {
+            "n": 400,
+            "macro_f1": 0.6840920166019727,
+            "ci": [
+              0.6091325985634776,
+              0.7543865595543895
+            ],
+            "accuracy": 0.8825,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {
+          "type": {
+            "ece_width10": 0.2795970025188917,
+            "ece_count10": 0.2795970025188917,
+            "review_rate": 0.0,
+            "n_ece": 397
+          },
+          "urgency": {
+            "ece_width10": 0.30939723581560286,
+            "ece_count10": 0.30939723581560286,
+            "review_rate": 0.004694835680751174,
+            "n_ece": 376
+          },
+          "sentiment": {
+            "ece_width10": 0.10833335250000004,
+            "ece_count10": 0.10833335250000001,
+            "review_rate": 0.0,
+            "n_ece": 400
+          }
+        },
+        "review_rate_any_head": 0.004694835680751174
+      },
+      "hybrid": {
+        "n_rows": 426,
+        "n_excluded": 0,
+        "views": {
+          "type": {
+            "n": 397,
+            "macro_f1": 0.5765466611191572,
+            "ci": [
+              0.48857515827661,
+              0.6443765610784553
+            ],
+            "accuracy": 0.6851385390428212,
+            "lenient_macro_f1": 0.6157984181545026,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": true
+          },
+          "urgency": {
+            "n": 376,
+            "macro_f1": 0.3932665597624665,
+            "ci": [
+              0.3433776490174254,
+              0.44074299921872845
+            ],
+            "accuracy": 0.6063829787234043,
+            "lenient_macro_f1": 0.42534228358657694,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": true
+          },
+          "sentiment": {
+            "n": 400,
+            "macro_f1": 0.41861844137504967,
+            "ci": [
+              0.3434628298242668,
+              0.49563565025205386
+            ],
+            "accuracy": 0.835,
+            "lenient_macro_f1": 0.45682113938692887,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": true
+          },
+          "type_action": {
+            "n": 397,
+            "macro_f1": 0.7360658851622708,
+            "ci": [
+              0.6892509109677178,
+              0.7766817450178344
+            ],
+            "accuracy": 0.7531486146095718,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": true
+          },
+          "urgency_2": {
+            "n": 376,
+            "macro_f1": 0.6649558026803536,
+            "ci": [
+              0.5863540833502237,
+              0.7364356396971979
+            ],
+            "accuracy": 0.8670212765957447,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 400,
+            "macro_f1": 0.6989202657807309,
+            "ci": [
+              0.6324238682278549,
+              0.7610164765862532
+            ],
+            "accuracy": 0.855,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {},
+        "review_rate_any_head": null
+      }
+    },
+    "without_akashdeep_single": {
+      "student": {
+        "n_rows": 375,
+        "n_excluded": 51,
+        "views": {
+          "type": {
+            "n": 346,
+            "macro_f1": 0.4977171567376296,
+            "ci": [
+              0.39302809902394975,
+              0.5821119753230726
+            ],
+            "accuracy": 0.6647398843930635,
+            "lenient_macro_f1": 0.5359677471504425,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": false
+          },
+          "urgency": {
+            "n": 325,
+            "macro_f1": 0.2934760048597752,
+            "ci": [
+              0.25375735147382994,
+              0.39497198281124224
+            ],
+            "accuracy": 0.5723076923076923,
+            "lenient_macro_f1": 0.3101234383660939,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": false
+          },
+          "sentiment": {
+            "n": 349,
+            "macro_f1": 0.3790640534162314,
+            "ci": [
+              0.31817276236954706,
+              0.44183494788670385
+            ],
+            "accuracy": 0.7134670487106017,
+            "lenient_macro_f1": 0.42757661533676683,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": false
+          },
+          "type_action": {
+            "n": 346,
+            "macro_f1": 0.6946549606514124,
+            "ci": [
+              0.6404056638142632,
+              0.7448956442831216
+            ],
+            "accuracy": 0.7196531791907514,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": false
+          },
+          "urgency_2": {
+            "n": 325,
+            "macro_f1": 0.5246494020476641,
+            "ci": [
+              0.4651086240947992,
+              0.5899166118060127
+            ],
+            "accuracy": 0.8430769230769231,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 349,
+            "macro_f1": 0.6425232819619247,
+            "ci": [
+              0.5797756260753502,
+              0.6971316342376908
+            ],
+            "accuracy": 0.7507163323782235,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {
+          "type": {
+            "ece_width10": 0.049663500142047574,
+            "ece_count10": 0.07247724474566737,
+            "review_rate": 0.4106666666666667,
+            "n_ece": 346
+          },
+          "urgency": {
+            "ece_width10": 0.0723055482147327,
+            "ece_count10": 0.11106083901412679,
+            "review_rate": 0.7093333333333334,
+            "n_ece": 325
+          },
+          "sentiment": {
+            "ece_width10": 0.050859638058679234,
+            "ece_count10": 0.04220533170361774,
+            "review_rate": 0.37066666666666664,
+            "n_ece": 349
+          }
+        },
+        "review_rate_any_head": 0.7893333333333333
+      },
+      "teacher": {
+        "n_rows": 375,
+        "n_excluded": 51,
+        "views": {
+          "type": {
+            "n": 346,
+            "macro_f1": 0.6137572020277212,
+            "ci": [
+              0.52079422329964,
+              0.6862106843823634
+            ],
+            "accuracy": 0.708092485549133,
+            "lenient_macro_f1": 0.6511750968329917,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": true
+          },
+          "urgency": {
+            "n": 325,
+            "macro_f1": 0.41320601202845486,
+            "ci": [
+              0.36270110605848616,
+              0.5544014500620793
+            ],
+            "accuracy": 0.6246153846153846,
+            "lenient_macro_f1": 0.44581875058596787,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": true
+          },
+          "sentiment": {
+            "n": 349,
+            "macro_f1": 0.4136200716845878,
+            "ci": [
+              0.3211147870164961,
+              0.5119842738594776
+            ],
+            "accuracy": 0.8681948424068768,
+            "lenient_macro_f1": 0.4195135433941404,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": true
+          },
+          "type_action": {
+            "n": 346,
+            "macro_f1": 0.7682397459875604,
+            "ci": [
+              0.7227560982334987,
+              0.8124732115141103
+            ],
+            "accuracy": 0.7774566473988439,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": true
+          },
+          "urgency_2": {
+            "n": 325,
+            "macro_f1": 0.679757882882883,
+            "ci": [
+              0.5982905982905983,
+              0.7531949055089067
+            ],
+            "accuracy": 0.8707692307692307,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": true
+          },
+          "sentiment_2": {
+            "n": 349,
+            "macro_f1": 0.6968982630272953,
+            "ci": [
+              0.618797940875096,
+              0.770209003517881
+            ],
+            "accuracy": 0.8796561604584527,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {
+          "type": {
+            "ece_width10": 0.2668593699421966,
+            "ece_count10": 0.26685936994219656,
+            "review_rate": 0.0,
+            "n_ece": 346
+          },
+          "urgency": {
+            "ece_width10": 0.2984616133333333,
+            "ece_count10": 0.2984616133333333,
+            "review_rate": 0.0026666666666666666,
+            "n_ece": 325
+          },
+          "sentiment": {
+            "ece_width10": 0.11365808882521493,
+            "ece_count10": 0.1136580888252149,
+            "review_rate": 0.0,
+            "n_ece": 349
+          }
+        },
+        "review_rate_any_head": 0.0026666666666666666
+      },
+      "hybrid": {
+        "n_rows": 375,
+        "n_excluded": 51,
+        "views": {
+          "type": {
+            "n": 346,
+            "macro_f1": 0.58363216585501,
+            "ci": [
+              0.486986257601829,
+              0.6594856285151245
+            ],
+            "accuracy": 0.6907514450867052,
+            "lenient_macro_f1": 0.6269342739377459,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": true
+          },
+          "urgency": {
+            "n": 325,
+            "macro_f1": 0.402474230799039,
+            "ci": [
+              0.352207129109401,
+              0.5364702139604515
+            ],
+            "accuracy": 0.6153846153846154,
+            "lenient_macro_f1": 0.43699832171250164,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": true
+          },
+          "sentiment": {
+            "n": 349,
+            "macro_f1": 0.425741773789312,
+            "ci": [
+              0.34472643158892874,
+              0.5084346993175384
+            ],
+            "accuracy": 0.830945558739255,
+            "lenient_macro_f1": 0.46655129647255633,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": true
+          },
+          "type_action": {
+            "n": 346,
+            "macro_f1": 0.7469222295659836,
+            "ci": [
+              0.6967857559223762,
+              0.7922862112923706
+            ],
+            "accuracy": 0.7601156069364162,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": true
+          },
+          "urgency_2": {
+            "n": 325,
+            "macro_f1": 0.6720011534025375,
+            "ci": [
+              0.5910305296680285,
+              0.7486870148628165
+            ],
+            "accuracy": 0.8707692307692307,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 349,
+            "macro_f1": 0.7095700416088766,
+            "ci": [
+              0.6403553867850826,
+              0.774022274022274
+            ],
+            "accuracy": 0.8538681948424068,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {},
+        "review_rate_any_head": null
+      }
+    },
+    "single_labelled_only": {
+      "student": {
+        "n_rows": 286,
+        "n_excluded": 140,
+        "views": {
+          "type": {
+            "n": 286,
+            "macro_f1": 0.4906449689345413,
+            "ci": [
+              0.38101235661550953,
+              0.5807420090208323
+            ],
+            "accuracy": 0.6293706293706294,
+            "lenient_macro_f1": 0.4906449689345413,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": false
+          },
+          "urgency": {
+            "n": 286,
+            "macro_f1": 0.2466572424789695,
+            "ci": [
+              0.21156624171758653,
+              0.28919567900272714
+            ],
+            "accuracy": 0.48951048951048953,
+            "lenient_macro_f1": 0.2466572424789695,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": false
+          },
+          "sentiment": {
+            "n": 286,
+            "macro_f1": 0.3592577006423651,
+            "ci": [
+              0.2975806833681052,
+              0.4216426488363417
+            ],
+            "accuracy": 0.6888111888111889,
+            "lenient_macro_f1": 0.3592577006423651,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": false
+          },
+          "type_action": {
+            "n": 286,
+            "macro_f1": 0.6463440860215054,
+            "ci": [
+              0.5879875886524822,
+              0.7036973259588513
+            ],
+            "accuracy": 0.6783216783216783,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": false
+          },
+          "urgency_2": {
+            "n": 286,
+            "macro_f1": 0.4991905375491459,
+            "ci": [
+              0.44998074229691876,
+              0.5629775158262388
+            ],
+            "accuracy": 0.8146853146853147,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 286,
+            "macro_f1": 0.6199141279901861,
+            "ci": [
+              0.5546845637583893,
+              0.6816806275323043
+            ],
+            "accuracy": 0.7272727272727273,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": false
+          }
+        },
+        "calibration": {
+          "type": {
+            "ece_width10": 0.07115634721141399,
+            "ece_count10": 0.0796865502268171,
+            "review_rate": 0.3951048951048951,
+            "n_ece": 286
+          },
+          "urgency": {
+            "ece_width10": 0.07245489837844198,
+            "ece_count10": 0.08051838680280438,
+            "review_rate": 0.7097902097902098,
+            "n_ece": 286
+          },
+          "sentiment": {
+            "ece_width10": 0.040984498624812536,
+            "ece_count10": 0.028637348820836427,
+            "review_rate": 0.3916083916083916,
+            "n_ece": 286
+          }
+        },
+        "review_rate_any_head": 0.7972027972027972
+      },
+      "teacher": {
+        "n_rows": 286,
+        "n_excluded": 140,
+        "views": {
+          "type": {
+            "n": 286,
+            "macro_f1": 0.5668948605045874,
+            "ci": [
+              0.4672874436580669,
+              0.6510093508623125
+            ],
+            "accuracy": 0.6678321678321678,
+            "lenient_macro_f1": 0.5668948605045874,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": false
+          },
+          "urgency": {
+            "n": 286,
+            "macro_f1": 0.38443100358422944,
+            "ci": [
+              0.33149144649465107,
+              0.4337888412353
+            ],
+            "accuracy": 0.5804195804195804,
+            "lenient_macro_f1": 0.38443100358422944,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": false
+          },
+          "sentiment": {
+            "n": 286,
+            "macro_f1": 0.3906419873885627,
+            "ci": [
+              0.2852960678395017,
+              0.5018015048807559
+            ],
+            "accuracy": 0.8531468531468531,
+            "lenient_macro_f1": 0.3906419873885627,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": false
+          },
+          "type_action": {
+            "n": 286,
+            "macro_f1": 0.7220318174842704,
+            "ci": [
+              0.6652619630248281,
+              0.7710286840175953
+            ],
+            "accuracy": 0.7342657342657343,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": false
+          },
+          "urgency_2": {
+            "n": 286,
+            "macro_f1": 0.6703494419611481,
+            "ci": [
+              0.5839342188488299,
+              0.7467425679949399
+            ],
+            "accuracy": 0.8566433566433567,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 286,
+            "macro_f1": 0.64216739918514,
+            "ci": [
+              0.5558830304520537,
+              0.7252226166195258
+            ],
+            "accuracy": 0.8636363636363636,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {
+          "type": {
+            "ece_width10": 0.30419583216783214,
+            "ece_count10": 0.3041958321678321,
+            "review_rate": 0.0,
+            "n_ece": 286
+          },
+          "urgency": {
+            "ece_width10": 0.3403264149184149,
+            "ece_count10": 0.3403264149184149,
+            "review_rate": 0.006993006993006993,
+            "n_ece": 286
+          },
+          "sentiment": {
+            "ece_width10": 0.12820514685314682,
+            "ece_count10": 0.12820514685314688,
+            "review_rate": 0.0,
+            "n_ece": 286
+          }
+        },
+        "review_rate_any_head": 0.006993006993006993
+      },
+      "hybrid": {
+        "n_rows": 286,
+        "n_excluded": 140,
+        "views": {
+          "type": {
+            "n": 286,
+            "macro_f1": 0.5389773529615829,
+            "ci": [
+              0.4369236285899242,
+              0.6214227968017153
+            ],
+            "accuracy": 0.6398601398601399,
+            "lenient_macro_f1": 0.5389773529615829,
+            "gate": 0.575,
+            "human": 0.6254929405017366,
+            "pass": false
+          },
+          "urgency": {
+            "n": 286,
+            "macro_f1": 0.3726068376068376,
+            "ci": [
+              0.31759958539493843,
+              0.4219932808386198
+            ],
+            "accuracy": 0.5699300699300699,
+            "lenient_macro_f1": 0.3726068376068376,
+            "gate": 0.39,
+            "human": 0.4395575797007157,
+            "pass": false
+          },
+          "sentiment": {
+            "n": 286,
+            "macro_f1": 0.37548509303917355,
+            "ci": [
+              0.3069089486493648,
+              0.4399715425943105
+            ],
+            "accuracy": 0.8111888111888111,
+            "lenient_macro_f1": 0.37548509303917355,
+            "gate": 0.412,
+            "human": 0.46221532091097306,
+            "pass": false
+          },
+          "type_action": {
+            "n": 286,
+            "macro_f1": 0.684429155578633,
+            "ci": [
+              0.6280249704058084,
+              0.7382415614647685
+            ],
+            "accuracy": 0.7027972027972028,
+            "lenient_macro_f1": null,
+            "gate": 0.731,
+            "human": 0.780670952406677,
+            "pass": false
+          },
+          "urgency_2": {
+            "n": 286,
+            "macro_f1": 0.6534357913403281,
+            "ci": [
+              0.567504835589942,
+              0.7314553990610329
+            ],
+            "accuracy": 0.8566433566433567,
+            "lenient_macro_f1": null,
+            "gate": 0.678,
+            "human": 0.7279440342013215,
+            "pass": false
+          },
+          "sentiment_2": {
+            "n": 286,
+            "macro_f1": 0.6752747916415026,
+            "ci": [
+              0.5952859520511045,
+              0.7458242914979756
+            ],
+            "accuracy": 0.8356643356643356,
+            "lenient_macro_f1": null,
+            "gate": 0.633,
+            "human": 0.6834782608695652,
+            "pass": true
+          }
+        },
+        "calibration": {},
+        "review_rate_any_head": null
+      }
+    }
+  },
+  "score_dirs": {
+    "all": {
+      "student": "runs\\2026-11-19-final-eval\\student\\all",
+      "teacher": "runs\\2026-11-19-final-eval\\teacher\\all",
+      "hybrid": "runs\\2026-11-19-final-eval\\hybrid\\all"
+    },
+    "without_akashdeep_single": {
+      "student": "runs\\2026-11-19-final-eval\\student\\without_akashdeep_single",
+      "teacher": "runs\\2026-11-19-final-eval\\teacher\\without_akashdeep_single",
+      "hybrid": "runs\\2026-11-19-final-eval\\hybrid\\without_akashdeep_single"
+    },
+    "single_labelled_only": {
+      "student": "runs\\2026-11-19-final-eval\\student\\single_labelled_only",
+      "teacher": "runs\\2026-11-19-final-eval\\teacher\\single_labelled_only",
+      "hybrid": "runs\\2026-11-19-final-eval\\hybrid\\single_labelled_only"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "round": 2,
+  "n_emails": 271,
+  "seconds": 102,
+  "emails_per_s": 2.659,
+  "projected_hours_10k": 1.04,
+  "type_yield": 0.996,
+  "heads": {
+    "type": {
+      "n": 271,
+      "macro_f1": 0.602,
+      "gate": 0.575,
+      "gap": 0.026,
+      "passed": true,
+      "unanimous": 0.923
+    },
+    "urgency": {
+      "n": 271,
+      "macro_f1": 0.474,
+      "gate": 0.39,
+      "gap": 0.084,
+      "passed": true,
+      "unanimous": 0.764
+    },
+    "sentiment": {
+      "n": 271,
+      "macro_f1": 0.415,
+      "gate": 0.412,
+      "gap": 0.003,
+      "passed": true,
+      "unanimous": 0.93
+    }
+  }
+}

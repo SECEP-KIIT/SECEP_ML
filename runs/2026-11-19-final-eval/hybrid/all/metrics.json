@@ -1,0 +1,501 @@
+{
+  "config": {
+    "created": "2026-11-19T21:36:38",
+    "n_boot": 2000,
+    "seed": 42,
+    "prob_tolerance": 0.001,
+    "argv": [
+      "--gold",
+      "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\sealed\\gold_test.csv",
+      "--pred",
+      "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\runs\\2026-11-19-final-eval\\hybrid\\predictions.csv",
+      "--out",
+      "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\runs\\2026-11-19-final-eval\\hybrid\\all",
+      "--baseline",
+      "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\gold_final\\human_baseline.json"
+    ]
+  },
+  "inputs": {
+    "gold": {
+      "path": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\sealed\\gold_test.csv",
+      "sha256": "a5b24fa8edce43f721ee461c0c9d20a7f948e0c2bc4f100d7aab829c66421a52"
+    },
+    "pred": {
+      "path": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\runs\\2026-11-19-final-eval\\hybrid\\predictions.csv",
+      "sha256": "a0e7e77c4abffdd38c3631c847e7c9e0cd721bad1f7f88952d30fddd02905612"
+    },
+    "baseline": {
+      "path": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\gold_final\\human_baseline.json",
+      "sha256": "c874f74f51f4bf3f59b89757cd22ff272a5724856a82a9ad966a59acfc1ac422"
+    }
+  },
+  "n_rows": 426,
+  "n_excluded": 0,
+  "n_pred_extra": 0,
+  "heads": {
+    "type": {
+      "rows": {
+        "total": 426,
+        "blank_label": 0,
+        "strict": 397,
+        "non_strict_labelled": 29,
+        "with_alt": 39
+      },
+      "strict": {
+        "n": 397,
+        "macro_f1": 0.5765466611191572,
+        "macro_f1_ci": [
+          0.48857515827661,
+          0.6443765610784553
+        ],
+        "accuracy": 0.6851385390428212,
+        "per_class": {
+          "Task": {
+            "precision": 0.45263157894736844,
+            "recall": 0.5,
+            "f1": 0.47513812154696133,
+            "support": 86,
+            "predicted": 95
+          },
+          "Info": {
+            "precision": 0.7874015748031497,
+            "recall": 0.819672131147541,
+            "f1": 0.8032128514056225,
+            "support": 244,
+            "predicted": 254
+          },
+          "Credentials": {
+            "precision": 0.8,
+            "recall": 0.6153846153846154,
+            "f1": 0.6956521739130435,
+            "support": 13,
+            "predicted": 10
+          },
+          "Meeting": {
+            "precision": 0.6666666666666666,
+            "recall": 0.3333333333333333,
+            "f1": 0.4444444444444444,
+            "support": 24,
+            "predicted": 12
+          },
+          "Approval": {
+            "precision": 0.5,
+            "recall": 0.43333333333333335,
+            "f1": 0.4642857142857143,
+            "support": 30,
+            "predicted": 26
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Task",
+            "Info",
+            "Credentials",
+            "Meeting",
+            "Approval"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              43,
+              36,
+              2,
+              0,
+              5
+            ],
+            [
+              35,
+              200,
+              0,
+              1,
+              8
+            ],
+            [
+              0,
+              4,
+              8,
+              1,
+              0
+            ],
+            [
+              8,
+              8,
+              0,
+              8,
+              0
+            ],
+            [
+              9,
+              6,
+              0,
+              2,
+              13
+            ]
+          ]
+        }
+      },
+      "lenient": {
+        "n": 426,
+        "macro_f1": 0.6157984181545026,
+        "macro_f1_ci": [
+          0.5329066492681775,
+          0.6853316636216211
+        ],
+        "accuracy": 0.7183098591549296
+      }
+    },
+    "urgency": {
+      "rows": {
+        "total": 426,
+        "blank_label": 0,
+        "strict": 376,
+        "non_strict_labelled": 50,
+        "with_alt": 50
+      },
+      "strict": {
+        "n": 376,
+        "macro_f1": 0.3932665597624665,
+        "macro_f1_ci": [
+          0.3433776490174254,
+          0.44074299921872845
+        ],
+        "accuracy": 0.6063829787234043,
+        "per_class": {
+          "Critical": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 7,
+            "predicted": 0
+          },
+          "High": {
+            "precision": 0.45454545454545453,
+            "recall": 0.3409090909090909,
+            "f1": 0.38961038961038963,
+            "support": 44,
+            "predicted": 33
+          },
+          "Medium": {
+            "precision": 0.4214876033057851,
+            "recall": 0.4722222222222222,
+            "f1": 0.44541484716157204,
+            "support": 108,
+            "predicted": 121
+          },
+          "Low": {
+            "precision": 0.7297297297297297,
+            "recall": 0.7465437788018433,
+            "f1": 0.7380410022779044,
+            "support": 217,
+            "predicted": 222
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Critical",
+            "High",
+            "Medium",
+            "Low"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              0,
+              2,
+              1,
+              4
+            ],
+            [
+              0,
+              15,
+              19,
+              10
+            ],
+            [
+              0,
+              11,
+              51,
+              46
+            ],
+            [
+              0,
+              5,
+              50,
+              162
+            ]
+          ]
+        }
+      },
+      "lenient": {
+        "n": 426,
+        "macro_f1": 0.42534228358657694,
+        "macro_f1_ci": [
+          0.38095113929599234,
+          0.4671946264368113
+        ],
+        "accuracy": 0.6431924882629108
+      }
+    },
+    "sentiment": {
+      "rows": {
+        "total": 426,
+        "blank_label": 0,
+        "strict": 400,
+        "non_strict_labelled": 26,
+        "with_alt": 26
+      },
+      "strict": {
+        "n": 400,
+        "macro_f1": 0.41861844137504967,
+        "macro_f1_ci": [
+          0.3434628298242668,
+          0.49563565025205386
+        ],
+        "accuracy": 0.835,
+        "per_class": {
+          "Positive": {
+            "precision": 0.6153846153846154,
+            "recall": 0.4444444444444444,
+            "f1": 0.5161290322580645,
+            "support": 36,
+            "predicted": 26
+          },
+          "Neutral": {
+            "precision": 0.9183673469387755,
+            "recall": 0.9130434782608695,
+            "f1": 0.9156976744186046,
+            "support": 345,
+            "predicted": 343
+          },
+          "Negative": {
+            "precision": 0.08695652173913043,
+            "recall": 0.18181818181818182,
+            "f1": 0.11764705882352941,
+            "support": 11,
+            "predicted": 23
+          },
+          "Frustrated": {
+            "precision": 0.125,
+            "recall": 0.125,
+            "f1": 0.125,
+            "support": 8,
+            "predicted": 8
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Positive",
+            "Neutral",
+            "Negative",
+            "Frustrated"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              16,
+              17,
+              2,
+              1
+            ],
+            [
+              10,
+              315,
+              15,
+              5
+            ],
+            [
+              0,
+              8,
+              2,
+              1
+            ],
+            [
+              0,
+              3,
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      "lenient": {
+        "n": 426,
+        "macro_f1": 0.45682113938692887,
+        "macro_f1_ci": [
+          0.38177483271983714,
+          0.5387526926898405
+        ],
+        "accuracy": 0.8450704225352113
+      }
+    }
+  },
+  "views": {
+    "type_action": {
+      "head": "type",
+      "strict": {
+        "n": 397,
+        "macro_f1": 0.7360658851622708,
+        "macro_f1_ci": [
+          0.6892509109677178,
+          0.7766817450178344
+        ],
+        "accuracy": 0.7531486146095718,
+        "per_class": {
+          "Needs something": {
+            "precision": 0.6923076923076923,
+            "recall": 0.6470588235294118,
+            "f1": 0.668918918918919,
+            "support": 153,
+            "predicted": 143
+          },
+          "Info": {
+            "precision": 0.7874015748031497,
+            "recall": 0.819672131147541,
+            "f1": 0.8032128514056225,
+            "support": 244,
+            "predicted": 254
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Needs something",
+            "Info"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              99,
+              54
+            ],
+            [
+              44,
+              200
+            ]
+          ]
+        }
+      }
+    },
+    "urgency_2": {
+      "head": "urgency",
+      "strict": {
+        "n": 376,
+        "macro_f1": 0.6649558026803536,
+        "macro_f1_ci": [
+          0.5863540833502237,
+          0.7364356396971979
+        ],
+        "accuracy": 0.8670212765957447,
+        "per_class": {
+          "Act soon": {
+            "precision": 0.5151515151515151,
+            "recall": 0.3333333333333333,
+            "f1": 0.40476190476190477,
+            "support": 51,
+            "predicted": 33
+          },
+          "Can wait": {
+            "precision": 0.9008746355685131,
+            "recall": 0.9507692307692308,
+            "f1": 0.9251497005988024,
+            "support": 325,
+            "predicted": 343
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Act soon",
+            "Can wait"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              17,
+              34
+            ],
+            [
+              16,
+              309
+            ]
+          ]
+        }
+      }
+    },
+    "sentiment_2": {
+      "head": "sentiment",
+      "strict": {
+        "n": 400,
+        "macro_f1": 0.6989202657807309,
+        "macro_f1_ci": [
+          0.6324238682278549,
+          0.7610164765862532
+        ],
+        "accuracy": 0.855,
+        "per_class": {
+          "Neutral": {
+            "precision": 0.9183673469387755,
+            "recall": 0.9130434782608695,
+            "f1": 0.9156976744186046,
+            "support": 345,
+            "predicted": 343
+          },
+          "Not neutral": {
+            "precision": 0.47368421052631576,
+            "recall": 0.4909090909090909,
+            "f1": 0.48214285714285715,
+            "support": 55,
+            "predicted": 57
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Neutral",
+            "Not neutral"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              315,
+              30
+            ],
+            [
+              28,
+              27
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "gate": {
+    "type": {
+      "gate": 0.575,
+      "human_macro_f1": 0.6254929405017366,
+      "model": 0.5765466611191572,
+      "pass": true
+    },
+    "urgency": {
+      "gate": 0.39,
+      "human_macro_f1": 0.4395575797007157,
+      "model": 0.3932665597624665,
+      "pass": true
+    },
+    "sentiment": {
+      "gate": 0.412,
+      "human_macro_f1": 0.46221532091097306,
+      "model": 0.41861844137504967,
+      "pass": true
+    },
+    "type_action": {
+      "gate": 0.731,
+      "human_macro_f1": 0.780670952406677,
+      "model": 0.7360658851622708,
+      "pass": true
+    },
+    "urgency_2": {
+      "gate": 0.678,
+      "human_macro_f1": 0.7279440342013215,
+      "model": 0.6649558026803536,
+      "pass": false
+    },
+    "sentiment_2": {
+      "gate": 0.633,
+      "human_macro_f1": 0.6834782608695652,
+      "model": 0.6989202657807309,
+      "pass": true
+    }
+  }
+}
