@@ -1,0 +1,18 @@
+{
+  "train": {
+    "path": "Data\\pseudo\\pseudo_train.csv",
+    "sha256": "75ee0555adc5b013014ee1d3f16f1185feffe9da19bc70548a1da905780dfa19"
+  },
+  "train_emb": {
+    "path": "Data\\emb\\pool_emb.npy",
+    "sha256": "b9b104897c01ae9c74cff65397927e3f35857de13b8cefc98d59f6ebcfbed276"
+  },
+  "calib": {
+    "path": "Data\\gold_final\\gold_calib.csv",
+    "sha256": "71c32204d4ff918684e7cb33de48037266d609bbd8941040bfd179e6ae5acdff"
+  },
+  "calib_emb": {
+    "path": "Data\\emb\\gold_calib_emb.npy",
+    "sha256": "66ed5fa53ce9af7fca32e2f1c62501fc5f4097b288fa4817a8582b82c57d28d2"
+  }
+}

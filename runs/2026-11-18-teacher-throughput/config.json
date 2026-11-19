@@ -1,0 +1,28 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "model_path": "/tmp/models/Qwen2.5-7B-Instruct-AWQ",
+  "quantization": "awq (auto)",
+  "dtype": "float16",
+  "tensor_parallel_size": 2,
+  "max_model_len": 8192,
+  "prefix_caching": true,
+  "max_email_tokens": 1500,
+  "rationale": false,
+  "n": 3,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "seed": 42,
+  "n_throughput": 60,
+  "columns": {
+    "uid": "email_uid",
+    "text": "input_text",
+    "role": "recipient_role",
+    "position": "recipient_position",
+    "date": "date"
+  },
+  "versions": {
+    "vllm": "0.34.0",
+    "torch": "2.14.0+cu130",
+    "python": "3.13.16"
+  }
+}

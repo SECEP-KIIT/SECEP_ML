@@ -1,0 +1,22 @@
+{
+  "input_file": "gold_test.csv",
+  "input_sha256": "fc09afc5dba76f230a94f266dba06ff11cedffe4f25edd78dd27f64f894ae4a8",
+  "rows": 426,
+  "dim": 768,
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "max_seq_length": 384,
+  "normalised": true,
+  "dtype": "float32",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "truncated_rows": 113,
+  "token_len_median": 165.5,
+  "token_len_p95": 1391.25,
+  "seconds": 6.3,
+  "versions": {
+    "sentence_transformers": "5.7.0",
+    "transformers": "5.20.2",
+    "torch": "2.11.0+cu130"
+  },
+  "created": "2026-11-18T22:18:48"
+}

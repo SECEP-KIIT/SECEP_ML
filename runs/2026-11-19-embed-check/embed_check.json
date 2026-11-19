@@ -1,0 +1,75 @@
+{
+  "files": {
+    "gold_calib": {
+      "rows": 92,
+      "shape": [
+        92,
+        768
+      ],
+      "dtype": "float32",
+      "same_input": true,
+      "uid_order_ok": true,
+      "finite": true,
+      "max_norm_err": 1.1920928955078125e-07,
+      "model_ok": true,
+      "truncated_rows": 20,
+      "device": "Tesla T4",
+      "pass": true
+    },
+    "gold_dev": {
+      "rows": 184,
+      "shape": [
+        184,
+        768
+      ],
+      "dtype": "float32",
+      "same_input": true,
+      "uid_order_ok": true,
+      "finite": true,
+      "max_norm_err": 1.1920928955078125e-07,
+      "model_ok": true,
+      "truncated_rows": 48,
+      "device": "Tesla T4",
+      "pass": true
+    },
+    "gold_test": {
+      "rows": 426,
+      "shape": [
+        426,
+        768
+      ],
+      "dtype": "float32",
+      "same_input": true,
+      "uid_order_ok": true,
+      "finite": true,
+      "max_norm_err": 1.1920928955078125e-07,
+      "model_ok": true,
+      "truncated_rows": 113,
+      "device": "Tesla T4",
+      "pass": true
+    },
+    "pool": {
+      "rows": 10000,
+      "shape": [
+        10000,
+        768
+      ],
+      "dtype": "float32",
+      "same_input": true,
+      "uid_order_ok": true,
+      "finite": true,
+      "max_norm_err": 1.1920928955078125e-07,
+      "model_ok": true,
+      "truncated_rows": 2798,
+      "device": "Tesla T4",
+      "pass": true
+    }
+  },
+  "cpu_parity": {
+    "n": 20,
+    "min_cos": 0.9999999403953552,
+    "mean_cos": 1.0,
+    "pass": true
+  },
+  "all_pass": true
+}

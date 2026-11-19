@@ -1,0 +1,27 @@
+{
+  "maildir": "C:\\Users\\amita\\Downloads\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\raw\\maildir",
+  "manifest": "C:\\Users\\amita\\Downloads\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\labelling\\manifest.csv",
+  "gold_dir": "C:\\Users\\amita\\Downloads\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\gold_final",
+  "out_dir": "C:\\Users\\amita\\Downloads\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\pool",
+  "runs_dir": "C:\\Users\\amita\\Downloads\\SECEP_ML\\SECEP_ML\\ML_Training\\runs",
+  "uniform": 6000,
+  "enriched": 4000,
+  "max_per_thread": 2,
+  "enriched_cust_cap": 0.04,
+  "seed": 42,
+  "workers": 11,
+  "rescan": false,
+  "force": false,
+  "enrich_quotas": {
+    "credentials": 700,
+    "approval": 700,
+    "meeting": 600,
+    "tension": 1200,
+    "q4": 1200
+  },
+  "text_version": "1.0",
+  "roles_version": "1.0",
+  "scan_version": "2",
+  "min_body_raw": 25,
+  "min_body_clean": 20
+}

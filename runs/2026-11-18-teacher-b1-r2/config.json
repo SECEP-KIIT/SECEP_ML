@@ -1,0 +1,50 @@
+{
+  "round": 2,
+  "model_id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "system_rules": "You label corporate emails for a triage system. Follow the labelling guide exactly.\nType precedence when several apply: Credentials > Approval/Meeting > Task > Info.\nJudge urgency as if today is the email's date.\n- Task only if the email asks THIS recipient to do something (send, review, provide, fix, answer a question that needs work). 'For your review' counts as Task. Status updates, reports, numbers, recommendations and forwards with no ask are Info.\n- Approval only if the recipient is asked to make a yes/no decision. A reply that agrees ('sounds good') or an announcement of a decision is Info.\n- Meeting only if the recipient is invited to, or asked to attend, move or confirm a meeting. Merely mentioning a meeting is not Meeting.\n- Credentials only if the email contains or asks for passwords, logins or account access details.\n- Urgency, strictly: Critical = deadline within 24 hours, or an outage/loss under way. High = deadline within 3 days, or a same-day reply expected. Medium = deadline within 2 weeks, or a reply expected without a date. Low = no deadline and no reply expected (FYIs, reports, newsletters).\nAnswer with JSON only.\n\n# Labelling guide\n",
+  "extra_rules": "- Task only if the email asks THIS recipient to do something (send, review, provide, fix, answer a question that needs work). 'For your review' counts as Task. Status updates, reports, numbers, recommendations and forwards with no ask are Info.\n- Approval only if the recipient is asked to make a yes/no decision. A reply that agrees ('sounds good') or an announcement of a decision is Info.\n- Meeting only if the recipient is invited to, or asked to attend, move or confirm a meeting. Merely mentioning a meeting is not Meeting.\n- Credentials only if the email contains or asks for passwords, logins or account access details.\n- Urgency, strictly: Critical = deadline within 24 hours, or an outage/loss under way. High = deadline within 3 days, or a same-day reply expected. Medium = deadline within 2 weeks, or a reply expected without a date. Low = no deadline and no reply expected (FYIs, reports, newsletters).\n",
+  "few_shot_uids": [
+    "751c26384d9e7035",
+    "05ab2f3ad2cadc9a",
+    "ef6b52092133ce3d",
+    "7cda178b40aa57db",
+    "caa597eb749f060a"
+  ],
+  "few_shots": [
+    [
+      "Recipient role: ClientFacing\nRecipient position: List/Unknown\nEmail date (treat as today): 2000-09-19 01:37\n\n--- EMAIL ---\nSubject: Welcome to The EnronOnline Games!\n\nWelcome to The EnronOnline Games!\n\nThis message contains information about your registration; please keep it\nhandy in the event that you forget some of the relevant information.\n\nFirst Name: Eric\nLast Name: Bass\nUsername: Dominator128\nPassword Hint: Favorite Movie\nEmail Address: ebass@enron.com\nMailing Address:\n2302 Travis St. #8225\nHouston, TX 77006\nUsa\n\nTo return to the contest:\nhttp://app.sportsrocket.com/enron/highfive00/\n\nEnjoy the game!\n\n-- The EnronOnline Games Commissioner",
+      "{\"type\": \"Credentials\", \"urgency\": \"Low\", \"sentiment\": \"Neutral\"}"
+    ],
+    [
+      "Recipient role: Executive\nRecipient position: To\nEmail date (treat as today): 2002-02-06 13:31\n\n--- EMAIL ---\nSubject: Direct Mail Pack Letter\n\nLouise -- Could you review and approve the attached draft of the cover letter for the direct mail pack? The letter will be sent under your name. I will come by tomorrow to get your signature on a piece of paper. We will scan it and print on the letter electronically.\n\nThanks\n\nKal",
+      "{\"type\": \"Approval\", \"urgency\": \"High\", \"sentiment\": \"Neutral\"}"
+    ],
+    [
+      "Recipient role: Executive\nRecipient position: To\nEmail date (treat as today): 2000-12-13 09:43\n\n--- EMAIL ---\nSubject: Risk Systems Enhancements Meeting 12/14/2000 - 9:00 a.m. - 10:00 EB2868\n\nThis memo will confirm the above referenced meeting will be held in Room\nEB2868 tomorrow morning, 12/14/2000 at 9:00 a.m. Houston Time and 3:00 p.m.\nLondon Time. Next Thursday, December 21, it will be held in Room 50M03.\n\nClaire/Lauren\n\nFor everyone calling in from the London office, please advise them to dial\nthe following number: 713-345-3324. Also, since I was unable to find James\nNu on the email address, will you make sure he is aware of the room change?\n\nThank you in advance.\n\nDorothy",
+      "{\"type\": \"Meeting\", \"urgency\": \"High\", \"sentiment\": \"Neutral\"}"
+    ],
+    [
+      "Recipient role: Executive\nRecipient position: List/Unknown\nEmail date (treat as today): 2001-12-19 15:17\n\n--- EMAIL ---\nSubject: FW: EES contracts\n\nHave we forwarded this on to anyone yet to make sure that corp. is requiring us to take this action?",
+      "{\"type\": \"Task\", \"urgency\": \"Medium\", \"sentiment\": \"Neutral\"}"
+    ],
+    [
+      "Recipient role: Consultant\nRecipient position: To\nEmail date (treat as today): 2001-06-01 18:07\n\n--- EMAIL ---\nSubject: (01-186) Implementation of Amendments on Use of Letters of Credit...\n\nNotice # 01-186\nJune 1, 2001\n\nTO:\nAll NYMEX Division and COMEX Division Clearing Members\n\nFROM:\nNeal L. Wolkoff, Executive Vice President\n\nRE:\nImplementation of Amendments on Use of Letters of Credit, Certain Securities and Deliverable Warehouse Receipts as Margin for NYMEX and COMEX Transactions\n\nDATE:\nJune 1, 2001\n===========================================================\n\n1. Implementation of Rule Amendments. As previously announced in Notice to Members #01-147 (May 4, 2001), this Notice is to remind NYMEX and COMEX Clearing Members of rule amendments that become effective today, June 1, 2001, that expand the types of non-cash assets that customers may deposit with their Clearing Members for margin purposes.\n\n2. Exchange Form for Pass-[MASKED:password] Letters of Credit. Clearing Members are further advised that a form has been prepared by the Exchange that will serve as the authorized uniform form for irrevocable letters of credit for use on a pass-[MASKED:password] basis at the Exchange. This form may be obtained from the Exchange's Clearing Department.\n\n3. Exchange Form for Pass-[MASKED:password] Letters of Credit: Specification of Joint Beneficiary. The Pass-[MASKED:password] Letter of Credit differs from the Standard Letter of Credit in that the Pass-[MASKED:password] Letter of Credit provides for Joint Beneficiaries. In this regard, a Pass-[MASKED:password] Letter of Credit to be used as margin on the NYMEX Division should specify NYMEX as one of the Joint Beneficiaries. By comparison, a Pass-[MASKED:password] Letter of Credit to be used as margin on the COMEX Division\n[...truncated]",
+      "{\"type\": \"Info\", \"urgency\": \"Low\", \"sentiment\": \"Neutral\"}"
+    ]
+  ],
+  "n_shot_tokens": 400,
+  "max_email_tokens": 1500,
+  "n": 3,
+  "temperature": 0.7,
+  "seed": 42,
+  "gold_columns": {
+    "type": "type",
+    "urgency": "urgency",
+    "sentiment": "sentiment"
+  },
+  "human_f1": {
+    "type": 0.6254929405017366,
+    "urgency": 0.4395575797007157,
+    "sentiment": 0.46221532091097306
+  }
+}

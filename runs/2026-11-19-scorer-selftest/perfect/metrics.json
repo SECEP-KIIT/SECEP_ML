@@ -1,0 +1,963 @@
+{
+  "config": {
+    "created": "2026-11-19T02:49:04",
+    "n_boot": 2000,
+    "seed": 42,
+    "prob_tolerance": 0.001,
+    "argv": [
+      "--gold",
+      "Data\\gold_final\\gold_dev.csv",
+      "--pred",
+      "runs\\2026-11-19-scorer-selftest\\fake\\perfect.csv",
+      "--out",
+      "runs\\2026-11-19-scorer-selftest\\perfect",
+      "--baseline",
+      "Data\\gold_final\\human_baseline.json"
+    ]
+  },
+  "inputs": {
+    "gold": {
+      "path": "Data\\gold_final\\gold_dev.csv",
+      "sha256": "8377a7ac48bec3805cd33a04929cad98d294d1950cbaf6a93667953463d7f360"
+    },
+    "pred": {
+      "path": "runs\\2026-11-19-scorer-selftest\\fake\\perfect.csv",
+      "sha256": "0d2d72cefc6563adc7d17ee2663280240e40baefb70862bc34c5dddd099e69d9"
+    },
+    "baseline": {
+      "path": "Data\\gold_final\\human_baseline.json",
+      "sha256": "c874f74f51f4bf3f59b89757cd22ff272a5724856a82a9ad966a59acfc1ac422"
+    }
+  },
+  "n_rows": 184,
+  "n_excluded": 0,
+  "n_pred_extra": 0,
+  "heads": {
+    "type": {
+      "rows": {
+        "total": 184,
+        "blank_label": 0,
+        "strict": 184,
+        "non_strict_labelled": 0,
+        "with_alt": 0
+      },
+      "strict": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0,
+        "per_class": {
+          "Task": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 53,
+            "predicted": 53
+          },
+          "Info": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100,
+            "predicted": 100
+          },
+          "Credentials": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2,
+            "predicted": 2
+          },
+          "Meeting": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 13,
+            "predicted": 13
+          },
+          "Approval": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 16,
+            "predicted": 16
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Task",
+            "Info",
+            "Credentials",
+            "Meeting",
+            "Approval"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              53,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              100,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              13,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              16
+            ]
+          ]
+        }
+      },
+      "lenient": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0
+      }
+    },
+    "urgency": {
+      "rows": {
+        "total": 184,
+        "blank_label": 0,
+        "strict": 184,
+        "non_strict_labelled": 0,
+        "with_alt": 0
+      },
+      "strict": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0,
+        "per_class": {
+          "Critical": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7,
+            "predicted": 7
+          },
+          "High": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 28,
+            "predicted": 28
+          },
+          "Medium": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 56,
+            "predicted": 56
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 93,
+            "predicted": 93
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Critical",
+            "High",
+            "Medium",
+            "Low"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              28,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              56,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              93
+            ]
+          ]
+        }
+      },
+      "lenient": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0
+      }
+    },
+    "sentiment": {
+      "rows": {
+        "total": 184,
+        "blank_label": 0,
+        "strict": 184,
+        "non_strict_labelled": 0,
+        "with_alt": 0
+      },
+      "strict": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0,
+        "per_class": {
+          "Positive": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 16,
+            "predicted": 16
+          },
+          "Neutral": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 155,
+            "predicted": 155
+          },
+          "Negative": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10,
+            "predicted": 10
+          },
+          "Frustrated": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3,
+            "predicted": 3
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Positive",
+            "Neutral",
+            "Negative",
+            "Frustrated"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              16,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              155,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              10,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        }
+      },
+      "lenient": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0
+      }
+    }
+  },
+  "views": {
+    "type_action": {
+      "head": "type",
+      "strict": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0,
+        "per_class": {
+          "Needs something": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 84,
+            "predicted": 84
+          },
+          "Info": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100,
+            "predicted": 100
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Needs something",
+            "Info"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              84,
+              0
+            ],
+            [
+              0,
+              100
+            ]
+          ]
+        }
+      }
+    },
+    "urgency_2": {
+      "head": "urgency",
+      "strict": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0,
+        "per_class": {
+          "Act soon": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 35,
+            "predicted": 35
+          },
+          "Can wait": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 149,
+            "predicted": 149
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Act soon",
+            "Can wait"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              35,
+              0
+            ],
+            [
+              0,
+              149
+            ]
+          ]
+        }
+      }
+    },
+    "sentiment_2": {
+      "head": "sentiment",
+      "strict": {
+        "n": 184,
+        "macro_f1": 1.0,
+        "macro_f1_ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy": 1.0,
+        "per_class": {
+          "Neutral": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 155,
+            "predicted": 155
+          },
+          "Not neutral": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 29,
+            "predicted": 29
+          }
+        },
+        "confusion": {
+          "classes": [
+            "Neutral",
+            "Not neutral"
+          ],
+          "rows_truth_cols_pred": [
+            [
+              155,
+              0
+            ],
+            [
+              0,
+              29
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "calibration": {
+    "type": {
+      "n_ece": 184,
+      "ece_width10": 0.0,
+      "ece_count10": 0.0,
+      "bins_width10": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 184,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        }
+      ],
+      "bins_count10": [
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        }
+      ],
+      "review_rate": 0.0,
+      "review_threshold": 0.6,
+      "n_review_rows": 184,
+      "pred_differs_from_argmax": 0
+    },
+    "urgency": {
+      "n_ece": 184,
+      "ece_width10": 0.0,
+      "ece_count10": 0.0,
+      "bins_width10": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 184,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        }
+      ],
+      "bins_count10": [
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        }
+      ],
+      "review_rate": 0.0,
+      "review_threshold": 0.6,
+      "n_review_rows": 184,
+      "pred_differs_from_argmax": 0
+    },
+    "sentiment": {
+      "n_ece": 184,
+      "ece_width10": 0.0,
+      "ece_count10": 0.0,
+      "bins_width10": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 0,
+          "mean_conf": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 184,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        }
+      ],
+      "bins_count10": [
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 19,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 18,
+          "mean_conf": 1.0,
+          "accuracy": 1.0
+        }
+      ],
+      "review_rate": 0.0,
+      "review_threshold": 0.6,
+      "n_review_rows": 184,
+      "pred_differs_from_argmax": 0
+    }
+  },
+  "review_rate_any_head": 0.0,
+  "gate": {
+    "type": {
+      "gate": 0.575,
+      "human_macro_f1": 0.6254929405017366,
+      "model": 1.0,
+      "pass": true
+    },
+    "urgency": {
+      "gate": 0.39,
+      "human_macro_f1": 0.4395575797007157,
+      "model": 1.0,
+      "pass": true
+    },
+    "sentiment": {
+      "gate": 0.412,
+      "human_macro_f1": 0.46221532091097306,
+      "model": 1.0,
+      "pass": true
+    },
+    "type_action": {
+      "gate": 0.731,
+      "human_macro_f1": 0.780670952406677,
+      "model": 1.0,
+      "pass": true
+    },
+    "urgency_2": {
+      "gate": 0.678,
+      "human_macro_f1": 0.7279440342013215,
+      "model": 1.0,
+      "pass": true
+    },
+    "sentiment_2": {
+      "gate": 0.633,
+      "human_macro_f1": 0.6834782608695652,
+      "model": 1.0,
+      "pass": true
+    }
+  }
+}

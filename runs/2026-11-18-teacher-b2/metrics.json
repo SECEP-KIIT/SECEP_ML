@@ -1,0 +1,79 @@
+{
+  "n": 10000,
+  "type_yield": 0.999,
+  "type_yield_ok": true,
+  "yield": {
+    "type": 0.999,
+    "urgency": 0.997,
+    "sentiment": 0.999
+  },
+  "row_weight_counts": {
+    "1.0": 7582,
+    "0.67": 2418
+  },
+  "mix_vs_gold_dev": {
+    "type": {
+      "gold_dev": {
+        "Credentials": 0.011,
+        "Approval": 0.087,
+        "Meeting": 0.071,
+        "Task": 0.288,
+        "Info": 0.543
+      },
+      "pool_uniform": {
+        "Credentials": 0.014,
+        "Approval": 0.036,
+        "Meeting": 0.047,
+        "Task": 0.207,
+        "Info": 0.696
+      },
+      "diff": {
+        "Credentials": 0.003,
+        "Approval": -0.051,
+        "Meeting": -0.024,
+        "Task": -0.081,
+        "Info": 0.153
+      }
+    },
+    "urgency": {
+      "gold_dev": {
+        "Critical": 0.038,
+        "High": 0.152,
+        "Medium": 0.304,
+        "Low": 0.505
+      },
+      "pool_uniform": {
+        "Critical": 0.002,
+        "High": 0.093,
+        "Medium": 0.249,
+        "Low": 0.656
+      },
+      "diff": {
+        "Critical": -0.036,
+        "High": -0.059,
+        "Medium": -0.055,
+        "Low": 0.151
+      }
+    },
+    "sentiment": {
+      "gold_dev": {
+        "Positive": 0.087,
+        "Neutral": 0.842,
+        "Negative": 0.054,
+        "Frustrated": 0.016
+      },
+      "pool_uniform": {
+        "Positive": 0.05,
+        "Neutral": 0.918,
+        "Negative": 0.029,
+        "Frustrated": 0.003
+      },
+      "diff": {
+        "Positive": -0.037,
+        "Neutral": 0.076,
+        "Negative": -0.025,
+        "Frustrated": -0.013
+      }
+    }
+  }
+}

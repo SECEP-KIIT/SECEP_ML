@@ -1,0 +1,9 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "frozen_from": "/kaggle/working/runs/2026-11-18-teacher-b1-r2",
+  "shard": 500,
+  "n": 3,
+  "temperature": 0.7,
+  "seed": 42,
+  "max_email_tokens": 1500
+}

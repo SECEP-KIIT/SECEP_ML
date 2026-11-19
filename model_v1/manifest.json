@@ -1,0 +1,155 @@
+{
+  "model": "model_v1",
+  "created": "2026-11-19T13:50:55",
+  "encoder": "sentence-transformers/all-mpnet-base-v2",
+  "max_seq_length": 384,
+  "emb_dim": 768,
+  "normalised": true,
+  "feature_order": [
+    "embedding",
+    "recipient_role",
+    "recipient_position"
+  ],
+  "roles": [
+    "Executive",
+    "Manager",
+    "Analyst",
+    "Consultant",
+    "ClientFacing",
+    "Other"
+  ],
+  "positions": [
+    "To",
+    "Cc",
+    "List/Unknown"
+  ],
+  "role_fallback": "Other",
+  "position_fallback": "List/Unknown",
+  "classes": {
+    "type": [
+      "Task",
+      "Info",
+      "Credentials",
+      "Meeting",
+      "Approval"
+    ],
+    "urgency": [
+      "Critical",
+      "High",
+      "Medium",
+      "Low"
+    ],
+    "sentiment": [
+      "Positive",
+      "Neutral",
+      "Negative",
+      "Frustrated"
+    ]
+  },
+  "temperatures": {
+    "type": 1.5680166697123104,
+    "urgency": 1.7825512293886208,
+    "sentiment": 0.8585053047338235
+  },
+  "C": {
+    "type": 1.0,
+    "urgency": 0.3,
+    "sentiment": 0.3
+  },
+  "class_prior": {
+    "type": [
+      0.1925087554279555,
+      0.6826293129063923,
+      0.028122905920902986,
+      0.04927220825315637,
+      0.047466817491592955
+    ],
+    "urgency": [
+      0.0040715800107387,
+      0.10107641667002693,
+      0.2209413127953938,
+      0.6739106905238406
+    ],
+    "sentiment": [
+      0.04335906926689277,
+      0.9203595828985129,
+      0.032162103769893036,
+      0.004119244064701278
+    ]
+  },
+  "temperatures_prior": {
+    "type": 1.3319079493476855,
+    "urgency": 1.9143934113002,
+    "sentiment": 1.8352387202717593
+  },
+  "default_mode": "mixed",
+  "class_weighting": "balanced n/(k*n_c) x teacher weight_<head>, mean 1",
+  "training_file_sha256": "75ee0555adc5b013014ee1d3f16f1185feffe9da19bc70548a1da905780dfa19",
+  "inputs": {
+    "train": {
+      "path": "Data\\pseudo\\pseudo_train.csv",
+      "sha256": "75ee0555adc5b013014ee1d3f16f1185feffe9da19bc70548a1da905780dfa19"
+    },
+    "train_emb": {
+      "path": "Data\\emb\\pool_emb.npy",
+      "sha256": "b9b104897c01ae9c74cff65397927e3f35857de13b8cefc98d59f6ebcfbed276"
+    },
+    "calib": {
+      "path": "Data\\gold_final\\gold_calib.csv",
+      "sha256": "71c32204d4ff918684e7cb33de48037266d609bbd8941040bfd179e6ae5acdff"
+    },
+    "calib_emb": {
+      "path": "Data\\emb\\gold_calib_emb.npy",
+      "sha256": "66ed5fa53ce9af7fca32e2f1c62501fc5f4097b288fa4817a8582b82c57d28d2"
+    }
+  },
+  "review_threshold": 0.6,
+  "seed": 42,
+  "versions": {
+    "python": "3.15.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1"
+  },
+  "head_mode": {
+    "type": "prior",
+    "urgency": "prior",
+    "sentiment": "balanced"
+  },
+  "head_mode_note": {
+    "set": "2026-11-19T20:59:28",
+    "reason": "gold-dev strict macro-F1: prior better for type/urgency, balanced for sentiment",
+    "gold_dev_indicative": {
+      "balanced": {
+        "type": {
+          "macro_f1": 0.4492026364440157,
+          "review_rate": 0.7445652173913043
+        },
+        "urgency": {
+          "macro_f1": 0.3230924889211061,
+          "review_rate": 0.8858695652173914
+        },
+        "sentiment": {
+          "macro_f1": 0.2987246175560007,
+          "review_rate": 0.40217391304347827
+        },
+        "review_rate_any_head": 0.9184782608695652
+      },
+      "prior": {
+        "type": {
+          "macro_f1": 0.5663734686137406,
+          "review_rate": 0.43478260869565216
+        },
+        "urgency": {
+          "macro_f1": 0.34362119967757143,
+          "review_rate": 0.7554347826086957
+        },
+        "sentiment": {
+          "macro_f1": 0.25774810418727334,
+          "review_rate": 0.02717391304347826
+        },
+        "review_rate_any_head": 0.7663043478260869
+      }
+    }
+  }
+}

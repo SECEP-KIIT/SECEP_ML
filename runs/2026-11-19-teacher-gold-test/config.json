@@ -1,0 +1,46 @@
+{
+  "purpose": "C5 teacher run on gold-test, once, frozen prompt, no labels seen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "frozen_prompt_round": 2,
+  "n_samples": 3,
+  "temperature": 0.7,
+  "seed": 42,
+  "max_email_tokens": 1500,
+  "few_shots": 5,
+  "vllm": "0.34.0",
+  "emails": 426,
+  "seconds": 450.4,
+  "emails_per_s": 0.946,
+  "retried_emails": 0,
+  "tie_rule": "most common vote; if all differ, sample 1",
+  "unanimous": {
+    "type": 0.9272300469483568,
+    "urgency": 0.7629107981220657,
+    "sentiment": 0.9436619718309859
+  },
+  "no_majority": {
+    "type": 0,
+    "urgency": 2,
+    "sentiment": 0
+  },
+  "pred_counts": {
+    "type": {
+      "Info": 257,
+      "Task": 115,
+      "Approval": 27,
+      "Meeting": 15,
+      "Credentials": 12
+    },
+    "urgency": {
+      "Low": 239,
+      "Medium": 144,
+      "High": 43
+    },
+    "sentiment": {
+      "Neutral": 397,
+      "Positive": 20,
+      "Negative": 8,
+      "Frustrated": 1
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "n": 50,
+  "median_ms": 117.37200000789016,
+  "p95_ms": 312.5734950066544,
+  "max_ms": 327.0267000189051,
+  "model_load_s": 23.7,
+  "target_ms": 350,
+  "cpu": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "threads": 12,
+  "example": {
+    "mode": "balanced",
+    "unseen": {},
+    "type": {
+      "label": "Task",
+      "confidence": 0.48451325976617926,
+      "probs": {
+        "Task": 0.48451325976617926,
+        "Info": 0.3301549838674384,
+        "Credentials": 0.0803141339001108,
+        "Meeting": 0.04354461221953039,
+        "Approval": 0.06147301024674107
+      }
+    },
+    "urgency": {
+      "label": "Medium",
+      "confidence": 0.3988215017793887,
+      "probs": {
+        "Critical": 0.01796060054591688,
+        "High": 0.21866707250013634,
+        "Medium": 0.3988215017793887,
+        "Low": 0.36455082517455806
+      }
+    },
+    "sentiment": {
+      "label": "Neutral",
+      "confidence": 0.7442782751925646,
+      "probs": {
+        "Positive": 0.21346872265924124,
+        "Neutral": 0.7442782751925646,
+        "Negative": 0.008508129655511402,
+        "Frustrated": 0.03374487249268273
+      }
+    },
+    "needs_review": true
+  }
+}

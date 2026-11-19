@@ -1,0 +1,45 @@
+{
+  "created": "2026-11-19T03:31:00",
+  "files": {
+    "pool": {
+      "source": "Data\\pool\\pool.parquet",
+      "source_sha256": "8f0b45608a9f2857f8136cdf6bc9624f91191c35b328a5c9c6f18d4f399495f3",
+      "uid_column": "pool_uid",
+      "rows": 10000,
+      "text_version": [
+        "1.0"
+      ],
+      "csv_sha256": "dca91e849c12fdc572c6b31400644c5ce6a595bc5590dd20f11ffe1545f42e8f"
+    },
+    "gold_dev": {
+      "source": "Data\\gold_final\\gold_dev.csv",
+      "source_sha256": "8377a7ac48bec3805cd33a04929cad98d294d1950cbaf6a93667953463d7f360",
+      "uid_column": "email_uid",
+      "rows": 184,
+      "text_version": [
+        "1.0"
+      ],
+      "csv_sha256": "3cf36c2b204dc27bc5da43d9ae46fe71fcc88854b4951e4f5a417982e72cd610"
+    },
+    "gold_calib": {
+      "source": "Data\\gold_final\\gold_calib.csv",
+      "source_sha256": "71c32204d4ff918684e7cb33de48037266d609bbd8941040bfd179e6ae5acdff",
+      "uid_column": "email_uid",
+      "rows": 92,
+      "text_version": [
+        "1.0"
+      ],
+      "csv_sha256": "f056bae1134b8f6cc3f51ceb4e6fcd6cbc2a0582a66b996e3a5a68e831eca18c"
+    },
+    "gold_test": {
+      "source": "Data\\gold_final\\gold_test.csv",
+      "source_sha256": "a5b24fa8edce43f721ee461c0c9d20a7f948e0c2bc4f100d7aab829c66421a52",
+      "uid_column": "email_uid",
+      "rows": 426,
+      "text_version": [
+        "1.0"
+      ],
+      "csv_sha256": "fc09afc5dba76f230a94f266dba06ff11cedffe4f25edd78dd27f64f894ae4a8"
+    }
+  }
+}
