@@ -1,0 +1,22 @@
+{
+  "input_file": "pool.csv",
+  "input_sha256": "dca91e849c12fdc572c6b31400644c5ce6a595bc5590dd20f11ffe1545f42e8f",
+  "rows": 10000,
+  "dim": 768,
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "max_seq_length": 384,
+  "normalised": true,
+  "dtype": "float32",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "truncated_rows": 2798,
+  "token_len_median": 173.0,
+  "token_len_p95": 2392.0999999999985,
+  "seconds": 162.1,
+  "versions": {
+    "sentence_transformers": "5.7.0",
+    "transformers": "5.20.2",
+    "torch": "2.11.0+cu130"
+  },
+  "created": "2026-11-18T22:21:37"
+}

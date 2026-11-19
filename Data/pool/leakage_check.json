@@ -1,0 +1,12 @@
+{
+  "gold_message_id_overlap": 0,
+  "gold_uid_overlap": 0,
+  "gold_thread_overlap": 0,
+  "gold_text_overlap": 0,
+  "dup_message_id": 0,
+  "dup_uid": 0,
+  "dup_text": 0,
+  "max_per_thread": 2,
+  "passed": true,
+  "gold_files_missing": 0
+}

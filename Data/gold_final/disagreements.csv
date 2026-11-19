@@ -1,0 +1,127 @@
+email_uid,split,head,labeller_a,label_a,labeller_b,label_b,resolution,final,subject,notes
+00054eaa45f925f6,test,type,Amitava,Task,Ampa,Info,unresolved,,Floor Space on 30,
+00054eaa45f925f6,test,urgency,Amitava,Medium,Ampa,Low,unresolved,,Floor Space on 30,
+06333d4da2fa1c75,test,type,Akashdeep,Info,Sumana,Task,unresolved,,rebook deal 450052,
+06333d4da2fa1c75,test,urgency,Akashdeep,Low,Sumana,Medium,unresolved,,rebook deal 450052,
+111ac1f864e2deb3,test,type,Milan,Task,Sumana,Approval,precedence,Approval,\\spr1inf1\sapfiles\ifout\04000\20020115-DENWE.XLS,
+12e536ee383c858d,test,urgency,Ampa,Low,Sumana,Medium,unresolved,,"Thanks for January 1, 2000",
+1781c18d406cebc3,test,urgency,Ampa,High,Milan,Medium,unresolved,,Change Control Request - TW Group,
+1bdb7ca3ae8b5dbd,test,sentiment,Areeb,Negative,Milan,Neutral,unresolved,,Your approval is requested,Areeb: Could be frustrated instead of negative
+1db83ad06d539cb1,test,urgency,Amitava,Medium,Areeb,Low,unresolved,,The List,Amitava: Urgency medium based on the fact that manager may need to address staff asap.
+1db83ad06d539cb1,test,sentiment,Amitava,Neutral,Areeb,Positive,unresolved,,The List,Amitava: Urgency medium based on the fact that manager may need to address staff asap.
+23eded1c4b51b2b5,test,sentiment,Areeb,Frustrated,Sumana,Neutral,unresolved,,,Areeb: Sentiment could be neutral
+2b83c23290292d9b,test,urgency,Amitava,Low,Milan,Medium,unresolved,,Outstanding Expense Reports,
+2ed2af1f6a7f7f84,test,sentiment,Areeb,Neutral,Sumana,Positive,unresolved,,AOL Instant Messenger Confirmation,
+31030b839372581d,test,sentiment,Amitava,Neutral,Milan,Positive,unresolved,,Manager promotion,
+31dd03f52bf42986,test,urgency,Akashdeep,High,Ampa,Medium,unresolved,,Energy & Power Risk Management Glossary,
+31dd03f52bf42986,test,sentiment,Akashdeep,Neutral,Ampa,Positive,unresolved,,Energy & Power Risk Management Glossary,
+33b21544bba139d7,test,urgency,Ampa,Low,Areeb,Medium,unresolved,,Enterprise risk,
+34775ac2825d6311,test,urgency,Areeb,Medium,Milan,Low,unresolved,,"Infrastructure projects in Asia: risky landmine or lucrative
+ goldmine?",Areeb: Sentiment could be positive or neutral
+34775ac2825d6311,test,sentiment,Areeb,Positive,Milan,Neutral,unresolved,,"Infrastructure projects in Asia: risky landmine or lucrative
+ goldmine?",Areeb: Sentiment could be positive or neutral
+3886858f2c2f77fb,test,urgency,Ampa,Low,Sumana,High,unresolved,,PIN Request for Gold Passport,
+38b1dffc58489ece,test,urgency,Amitava,Low,Milan,Medium,unresolved,,"Re: BMC Update, clarification",
+3aeedfa4e539b14b,test,type,Akashdeep,Approval,Amitava,Task,precedence,Approval,Enron Credit Inc. Deutsche Bank Credit Derivative Transaction,Amitava: Urgency can be low in case any deadline is not mentioned but then financial liability needs to be handled asap.
+40c1a674fd4df11d,test,type,Amitava,Task,Ampa,Info,unresolved,,FW: FW: Fedex and other cross sells UPDATE,
+4261d7212733fadb,test,type,Areeb,Approval,Milan,Task,precedence,Approval,RE: Enron Net Works 2002 Budget Process,Areeb: Could even be frustrated
+4261d7212733fadb,test,urgency,Areeb,High,Milan,Medium,unresolved,,RE: Enron Net Works 2002 Budget Process,Areeb: Could even be frustrated
+4261d7212733fadb,test,sentiment,Areeb,Negative,Milan,Neutral,unresolved,,RE: Enron Net Works 2002 Budget Process,Areeb: Could even be frustrated
+45b1deb970b7ca30,test,type,Ampa,Task,Areeb,Approval,precedence,Approval,EBS,
+47b679b875af9b9d,test,type,Ampa,Task,Milan,Info,unresolved,,Re: British Airways vs Continental,
+47b679b875af9b9d,test,urgency,Ampa,Medium,Milan,Low,unresolved,,Re: British Airways vs Continental,
+48c48d967e04f540,test,type,Akashdeep,Info,Areeb,Task,unresolved,,FW: OTC for 10/29/01,Areeb: Urgency could be high or medium
+48c48d967e04f540,test,urgency,Akashdeep,Medium,Areeb,High,unresolved,,FW: OTC for 10/29/01,Areeb: Urgency could be high or medium
+4e7f8299fdfcaf08,test,type,Ampa,Task,Areeb,Info,unresolved,,PEBBLE BEACH,
+4f8db1d939b7c645,test,type,Amitava,Meeting,Areeb,Info,unresolved,,FW: A.98-07-003 - Meet and Confer Conference Call,
+4f8db1d939b7c645,test,urgency,Amitava,Medium,Areeb,Low,unresolved,,FW: A.98-07-003 - Meet and Confer Conference Call,
+51257a050337d164,test,type,Akashdeep,Approval,Areeb,Info,unresolved,,ClickAtHome Order Verification,
+51257a050337d164,test,urgency,Akashdeep,Medium,Areeb,Low,unresolved,,ClickAtHome Order Verification,
+5ff6d80f56a5507c,test,type,Akashdeep,Info,Areeb,Meeting,unresolved,,"FW: happy hour this Friday (Feb 1,2002)",
+5ff6d80f56a5507c,test,urgency,Akashdeep,Low,Areeb,Medium,unresolved,,"FW: happy hour this Friday (Feb 1,2002)",
+5ff6d80f56a5507c,test,sentiment,Akashdeep,Neutral,Areeb,Positive,unresolved,,"FW: happy hour this Friday (Feb 1,2002)",
+61d00314670dd95e,test,sentiment,Ampa,Neutral,Areeb,Positive,unresolved,,Feb 2000,Areeb: Unsure if positive sentiment is accurate
+620f1d7a54ed2fba,test,sentiment,Ampa,Negative,Sumana,Neutral,unresolved,,RE: Peace Letter to CalPERS,
+6701a35f3a23d008,test,type,Akashdeep,Info,Sumana,Approval,unresolved,,RE: Re-Allocaton of $'s,
+690d6dafcd1912d7,test,type,Amitava,Info,Milan,Task,unresolved,,Re: Enron Credit Inc. - request for urgent information,
+690d6dafcd1912d7,test,urgency,Amitava,Low,Milan,High,unresolved,,Re: Enron Credit Inc. - request for urgent information,
+6b2ac885083cfb1e,test,sentiment,Akashdeep,Neutral,Milan,Frustrated,unresolved,,"Cargill, Incorporated - WE NEED TO EXECUTE AN ISDA MASTER AGREEMENT",
+6c200cd0eb6f8c7e,test,type,Akashdeep,Info,Ampa,Meeting,unresolved,,OU Logistics,
+6c200cd0eb6f8c7e,test,urgency,Akashdeep,Low,Ampa,High,unresolved,,OU Logistics,
+6d7baa2cbda72e05,test,urgency,Milan,Low,Sumana,Medium,unresolved,,Orbitz Travel Purchase Confirmation,
+6e31e64f4847eae7,test,sentiment,Amitava,Positive,Areeb,Neutral,unresolved,,RE: TGT for October,
+7185b2402f5928e9,test,urgency,Ampa,Low,Sumana,Medium,unresolved,,Quotes for the CD's.,
+721fc96952edb583,test,urgency,Akashdeep,Low,Milan,Medium,unresolved,,Supplemental Notice -- Request for Comments on WESM Proposal,"Milan: Could be a ""task"", as there was comment request with deadline Jan 8."
+77b4dac33a422a65,test,type,Akashdeep,Info,Ampa,Task,unresolved,,Salmon Closing Checklist,
+77b4dac33a422a65,test,urgency,Akashdeep,Low,Ampa,Medium,unresolved,,Salmon Closing Checklist,
+7ec65330cb3adef5,test,type,Akashdeep,Approval,Sumana,Info,unresolved,,San Diego Gas & Electric-EOL,
+7ec65330cb3adef5,test,sentiment,Akashdeep,Negative,Sumana,Neutral,unresolved,,San Diego Gas & Electric-EOL,
+7f18a5937b21d131,test,sentiment,Akashdeep,Neutral,Areeb,Positive,unresolved,,ClickPaper Approval List for 11/01/00,
+817edb33a3c5c765,test,type,Akashdeep,Info,Areeb,Task,unresolved,,Latest Variances,
+817edb33a3c5c765,test,urgency,Akashdeep,Low,Areeb,High,unresolved,,Latest Variances,
+887b933adc5b82ad,test,urgency,Akashdeep,Medium,Sumana,Low,unresolved,,"NESA's ""Explaining Storage Economics"" Brown Bag",
+8b4c6a25916749d1,test,urgency,Ampa,Low,Sumana,Medium,unresolved,,Email/Voice Mail Retention Policy Change,
+8b9c8ecc768de7f4,test,type,Ampa,Task,Milan,Info,unresolved,,David Woodstrom,
+8c2a3cb926842a78,test,sentiment,Ampa,Neutral,Milan,Positive,unresolved,,Tavel advisory:  France - I thought you and Jim might like this,
+8ce3ad555e427e60,test,sentiment,Areeb,Frustrated,Milan,Neutral,unresolved,,Consolidated positions: Issues & To Do list,"Areeb: Could be frustrated, or could be not"
+8d9a6f3013c673ac,test,urgency,Akashdeep,Medium,Areeb,Low,unresolved,,"Utilities, Electric: Deregulation: Temecula, Calif., Forms
+ Committee to Study Electric ...",
+8d9a6f3013c673ac,test,sentiment,Akashdeep,Neutral,Areeb,Negative,unresolved,,"Utilities, Electric: Deregulation: Temecula, Calif., Forms
+ Committee to Study Electric ...",
+9235eb40b739b2da,test,urgency,Akashdeep,Low,Milan,Medium,unresolved,,RE: City of Tallahassee Payment for May 2002,
+9324c2e4afb2659c,test,urgency,Akashdeep,Critical,Amitava,Low,unresolved,,Critical Issues List,
+98b763dd4a0edd83,test,type,Areeb,Info,Sumana,Task,unresolved,,RE: Proposed Retention Bonuses for Netco,
+98b763dd4a0edd83,test,urgency,Areeb,Low,Sumana,Medium,unresolved,,RE: Proposed Retention Bonuses for Netco,
+98b763dd4a0edd83,test,sentiment,Areeb,Positive,Sumana,Neutral,unresolved,,RE: Proposed Retention Bonuses for Netco,
+98cc46b2f36341fa,test,urgency,Areeb,Low,Milan,Medium,unresolved,,Re: Draft Letter,
+9ce5b526257f3100,test,type,Amitava,Task,Areeb,Info,unresolved,,Pacific Gas & Electric Company,
+9ce5b526257f3100,test,urgency,Amitava,Medium,Areeb,Low,unresolved,,Pacific Gas & Electric Company,
+a30fc15622ecb386,test,type,Akashdeep,Approval,Milan,Task,precedence,Approval,RE:,
+a30fc15622ecb386,test,urgency,Akashdeep,Low,Milan,Medium,unresolved,,RE:,
+a30fc15622ecb386,test,sentiment,Akashdeep,Neutral,Milan,Positive,unresolved,,RE:,
+a34c9d0c3f99a6fc,test,type,Amitava,Info,Sumana,Task,unresolved,,Re: Allegheny - Patty Clark's Fax for bcc on Westinghouse letter,
+a34c9d0c3f99a6fc,test,urgency,Amitava,Low,Sumana,Medium,unresolved,,Re: Allegheny - Patty Clark's Fax for bcc on Westinghouse letter,
+a4e98c730882fb13,test,urgency,Akashdeep,Low,Milan,Medium,unresolved,,RE: Ancillary Services - ERCOT,
+a5b67408bc12bec3,test,type,Akashdeep,Approval,Ampa,Info,unresolved,,Fred,
+a5b67408bc12bec3,test,urgency,Akashdeep,Medium,Ampa,Low,unresolved,,Fred,
+adece81b958098be,test,urgency,Ampa,High,Areeb,Medium,unresolved,,Fedex,
+adece81b958098be,test,sentiment,Ampa,Neutral,Areeb,Positive,unresolved,,Fedex,
+aeb56d9fedd3d10c,test,type,Akashdeep,Approval,Milan,Meeting,unresolved,,Meeting to Review New Cash Approval Tool & Processes,
+b369724ee2d92226,test,sentiment,Amitava,Negative,Ampa,Neutral,unresolved,,Re: EOL Credit Responses 12/01/00,
+b49f2ccde91922a4,test,sentiment,Amitava,Neutral,Areeb,Positive,unresolved,,We want to check your pulse,
+b71a0bbecad688b5,test,urgency,Akashdeep,Medium,Amitava,Low,unresolved,,RTO Status 12.8.00,
+b71b1f95d2556637,test,type,Akashdeep,Approval,Sumana,Task,precedence,Approval,Phillip's New Well,
+b7ab1e769b333f14,test,type,Amitava,Task,Milan,Approval,precedence,Approval,RE: Refund report at FERC,
+ba67f8507617121e,test,type,Akashdeep,Approval,Ampa,Task,precedence,Approval,Energy Business Watch -- News and Analysis at Digital Speed,
+ba67f8507617121e,test,urgency,Akashdeep,Low,Ampa,Medium,unresolved,,Energy Business Watch -- News and Analysis at Digital Speed,
+ba67f8507617121e,test,sentiment,Akashdeep,Neutral,Ampa,Positive,unresolved,,Energy Business Watch -- News and Analysis at Digital Speed,
+bcf0c66ea6a1ced5,test,type,Akashdeep,Approval,Sumana,Task,precedence,Approval,Mapping Equipment,
+bcf0c66ea6a1ced5,test,urgency,Akashdeep,Medium,Sumana,Low,unresolved,,Mapping Equipment,
+bd32afc7780c1b0b,test,urgency,Amitava,Medium,Milan,Low,unresolved,,Alliance Info Alert,"Amitava: Urgency can be ""Low"" if we only consider deadlines and not industry timelines."
+c69d3968367bf9aa,test,type,Amitava,Info,Sumana,Task,unresolved,,RE:,
+c69d3968367bf9aa,test,urgency,Amitava,Low,Sumana,Medium,unresolved,,RE:,
+ce3b076d8bf7df82,test,type,Ampa,Task,Milan,Info,unresolved,,Revised GTCs,
+ce3b076d8bf7df82,test,urgency,Ampa,Medium,Milan,Low,unresolved,,Revised GTCs,
+cee709cd2d1148b3,test,urgency,Amitava,Medium,Ampa,High,unresolved,,Details of Thursday Afternoon OpRisk Meeting,
+d08ecdc5a2794485,test,type,Ampa,Info,Sumana,Meeting,unresolved,,Pipeline Safety activities week of 6/12,
+d08ecdc5a2794485,test,urgency,Ampa,Low,Sumana,High,unresolved,,Pipeline Safety activities week of 6/12,
+d0930b7726948add,test,sentiment,Areeb,Neutral,Milan,Negative,unresolved,,Re: Organizational Changes,"Milan: The sender is requesting a discussion, but no specific meeting is scheduled."
+d2d3828f50580b62,test,type,Akashdeep,Info,Milan,Task,unresolved,,Trading Track,"Milan: Marked as ""task"" since John needs to reply with his thoughts, but it also works as a general update ""info"" and informal ""approval"" request."
+da4dc35a66118fd0,test,urgency,Milan,High,Sumana,Critical,unresolved,,NIMO,
+da4dc35a66118fd0,test,sentiment,Milan,Neutral,Sumana,Frustrated,unresolved,,NIMO,
+db3f539d42aea149,test,type,Amitava,Task,Milan,Info,unresolved,,New Version 8 of the IntercontinentalExchange Is Now Available !,
+ddb9a2fac4f83d97,test,type,Amitava,Task,Sumana,Info,unresolved,,"(01-190) Changes to Audit Trail Summary Fine Structure-NYMEX &
+ COMEX Divisions",
+ddb9a2fac4f83d97,test,urgency,Amitava,High,Sumana,Low,unresolved,,"(01-190) Changes to Audit Trail Summary Fine Structure-NYMEX &
+ COMEX Divisions",
+e46b4e53c4cd4704,test,urgency,Ampa,Low,Sumana,Medium,unresolved,,(01-347) Aluminum Options Expiration Operational Procedures,
+e777ec5a00f01c8c,test,urgency,Akashdeep,High,Sumana,Medium,unresolved,,NDA for Potential Opportunity with the California ISO,
+e8d196cb7e459637,test,sentiment,Akashdeep,Neutral,Areeb,Negative,unresolved,,"NYTimes.com Article: Trying to Restore Confidence in Enron to
+ Salvage a Merger",
+ec509df062a592db,test,sentiment,Amitava,Negative,Areeb,Neutral,unresolved,,California Power Issue,
+f6784793335e727e,test,type,Akashdeep,Info,Areeb,Task,unresolved,,Re: Pew Center ad - Ken Lay Quote,
+f6784793335e727e,test,urgency,Akashdeep,Medium,Areeb,High,unresolved,,Re: Pew Center ad - Ken Lay Quote,
+fb977accd0256d63,test,urgency,Akashdeep,Low,Sumana,Medium,unresolved,,Re: EOL / Credit / GCP Responses 5/26/00,
+fc9a5f78720ffa7f,test,type,Ampa,Info,Areeb,Task,unresolved,,New Hire Associate/Analyst Orientation,
+fc9a5f78720ffa7f,test,urgency,Ampa,Low,Areeb,Medium,unresolved,,New Hire Associate/Analyst Orientation,
+ff1f185064e6c662,test,type,Amitava,Credentials,Sumana,Info,precedence,Credentials,Contact information for John Sheriff,

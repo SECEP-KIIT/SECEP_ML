@@ -1,0 +1,22 @@
+{
+  "input_file": "gold_calib.csv",
+  "input_sha256": "f056bae1134b8f6cc3f51ceb4e6fcd6cbc2a0582a66b996e3a5a68e831eca18c",
+  "rows": 92,
+  "dim": 768,
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "max_seq_length": 384,
+  "normalised": true,
+  "dtype": "float32",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "truncated_rows": 20,
+  "token_len_median": 136.5,
+  "token_len_p95": 1434.5500000000002,
+  "seconds": 2.6,
+  "versions": {
+    "sentence_transformers": "5.7.0",
+    "transformers": "5.20.2",
+    "torch": "2.11.0+cu130"
+  },
+  "created": "2026-11-18T22:18:38"
+}
