@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.log
+
+# raw Enron mail (public dataset, huge; never commit)
+Data/raw/maildir/
+
+# caches & backups
+Data/pool/_scan_cache.pkl
+Data/gold_final/_backup_*/
+_backup_pre_c5/
+
+# accidental duplicates (verify first)
+runs_throughput/
+Data/emb/emb/

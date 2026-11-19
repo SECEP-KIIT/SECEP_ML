@@ -1,0 +1,9 @@
+*.csv     -text
+*.parquet binary
+*.npy     binary
+*.npz     binary
+*.xlsx    binary
+*.pkl     binary
+*.sha256  -text
+Data/**/*.json -text
+runs/**/*.json -text
