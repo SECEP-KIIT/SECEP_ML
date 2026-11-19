@@ -1,0 +1,111 @@
+# Labelling guide v2
+
+_Stage 0, 16 Nov 2026. Definitions from SRS §5.2, precedence and Approval clarification from the decision log, rules agreed in the disagreement review (115 disagreements, 79 emails). This file is the core of the Stage 2 teacher prompt. It never changes a gold label._
+
+## How to read an email
+
+- Label from the mailbox owner's seat: you get the recipient's role and position (To / Cc / List). See R9.
+- "Today" is the email's date. All deadlines are counted from it.
+- Judge the latest message. Quoted thread text is context only (R8).
+
+## 1. Label definitions
+
+| Head | Class | Assign when |
+| --- | --- | --- |
+| Type | Task | The sender asks the recipient to produce or do something: send, prepare, fix, update, investigate. |
+| Type | Info | The email informs and requires no action: announcements, FYI, reports, newsletters, status updates. |
+| Type | Credentials | The email contains or concerns an access secret: password, code, key, account setup or reset. Wins over every other type. |
+| Type | Meeting | The main ask is to schedule, reschedule, confirm, cancel or attend a meeting or call. Wins over Task. |
+| Type | Approval | The main ask is a yes/no decision: approve, reject, sign off a document, expense, deal or request. Wins over Task. |
+| Urgency | Critical | Deadline within 24 hours, or an outage or loss is under way. |
+| Urgency | High | Deadline within 3 days, or a same-day reply is expected. |
+| Urgency | Medium | Deadline within 2 weeks, or a reply is expected without a date. |
+| Urgency | Low | No deadline and no reply expected. |
+| Sentiment | Positive | Thanks, praise, good news. |
+| Sentiment | Neutral | Factual, no emotional tone. |
+| Sentiment | Negative | Complaint, disappointment, bad news. |
+| Sentiment | Frustrated | Repeated follow-ups, escalation, or a sharp tone aimed at the recipient. |
+
+## 2. Type precedence
+
+When several types genuinely apply to the same email: **Credentials > Approval / Meeting > Task > Info.** Use it only when both types really fit; when only one fits, that one wins (see R13, R14, R2).
+
+## 3. Approval clarification
+
+- Approval = the recipient is asked to decide yes/no.
+- Told it was approved → Info (Task if told to act on it).
+- Asked to prepare something for someone else's approval → Task.
+
+## 4. Agreed rules
+
+### Type
+
+**R0** · (any)  
+Precedence when several types genuinely apply: Credentials > Approval / Meeting > Task > Info.
+_Linked disagreements: 0_
+
+**R1** · Info ↔ Task  
+Task only if the email asks THIS recipient to produce or do something (reply with content, send, prepare, review, fix). Newsletters, announcements, FYI forwards, confirmations and status reports are Info, even when they end with a generic 'let me know if…' or 'click here'. A direct question asking the recipient for information, opinions or ideas ('Comments?', 'Let me know your thoughts', 'Any way to…?', 'Would you be the person to…?') is Task. Unsolicited vendor marketing, product announcements and surveys that ask for feedback or a sign-up are Info. A reply that only reports something is done ('Consider it done', 'I've set it up') is Info.
+_Linked disagreements: 17_
+
+**R2** · Approval ↔ Info / Approval ↔ Task  
+Approval only when THIS recipient is asked for a yes/no decision on a specific, already-formed proposal: approve, reject, sign off, authorise or consent to a named document, expense, deal, request or change. vs Info: being told something WAS approved or rejected, approval lists or logs sent for reference, notices that approval is pending with someone else, and confirmations or receipts (order verification, booking confirmation) are Info, because no decision is asked of the recipient. An approval request where the recipient is only on Cc is Info for them (see R9). A reply that hands the decision to someone else ('Louise and Greg are in charge') is Info. vs Task: if the recipient must produce, investigate, arrange, fix or advise on something, it is Task, even when money, contracts or authority are involved. Open-ended asks (“please advise”, “what should we do”, “your thoughts?”, “can you look into this”) are Task. Review AND sign is Approval; review and comment is Task; review and forward to your approver is Task. Executing or arranging a deal that is already approved is Task. Asking permission on a specific proposal ('Is it OK to call…?', 'Should I go?', 'Can this be pursued?', 'here is the offer, let me know') is Approval. Choosing among several options (dates, packages) is Task, not Approval.
+_Linked disagreements: 10_
+
+**R3** · Info ↔ Meeting  
+Meeting when the recipient is asked to attend, schedule, confirm or move a work meeting or call, or is sent the itinerary/logistics (times, places) for one they are attending. A broad event announcement (happy hour, brown bag, orientation) with no RSVP asked of the recipient is Info. Social gatherings (farewells, happy hours, parties) are Info even when the recipient is personally invited, because attendance is optional. An FYI forward of a call 'in case you'd like to listen in' is Info.
+_Linked disagreements: 3_
+
+**R13** · Credentials ↔ Info  
+Credentials only when the email contains or concerns an access secret or account access: password, PIN, one-time code, API key, login, account setup or reset. Contact details (phone numbers, email or postal addresses), order, account and deal numbers are not credentials. A [MASKED:...] tag alone does not decide it: check what was masked, because the masker can misfire on phone numbers.
+_Linked disagreements: 1_
+
+**R14** · Approval ↔ Meeting  
+When the ask is to attend or schedule a meeting, it is Meeting, even if the meeting is about an approval process or tool. Approval only if the recipient is asked to decide something in the email itself.
+_Linked disagreements: 1_
+
+### Urgency
+
+**R4** · Low ↔ Medium  
+Medium if a reply or action is expected from the recipient, with no date or a date more than 3 days after the email's date. Low if nothing is expected (FYI, newsletters, confirmations, articles), however important the topic is to the business.
+_Linked disagreements: 18_
+
+**R5** · High ↔ Medium / Critical ↔ High  
+High only for a deadline within 3 days of the email's date, or an explicit same-day / ASAP request. An ask about an event happening today (a same-day margin call, cut-off or outage) counts as same-day even if 'today' isn't written. Critical only for a deadline within 24 hours or an outage/loss under way. A subject or file name saying 'critical' or 'urgent' does not count without a real deadline. A deadline more than 3 days out is Medium, however serious the topic.
+_Linked disagreements: 8_
+
+**R8** · High ↔ Low / thread replies  
+Urgency follows the latest message, not the thread. A reply that closes the loop (done, confirmed, answered, information received) is Low, even if the thread was marked urgent. A reply that opens a new ask takes the urgency of that ask. A wide split (High vs Low, Critical vs Low) usually means one labeller rated the topic and the other the ask: rate the ask.
+_Linked disagreements: 4_
+
+**R10** · (any) meetings & events  
+For a Meeting, the meeting's start time is the deadline: within 3 days of the email's date is High, later is Medium. Meetings cap at High; Critical is kept for deliverables due within 24 hours and outages or losses under way.
+_Linked disagreements: 2_
+
+**R11** · Low ↔ Medium / High ↔ Low (bulk & automated)  
+Bulk and automated mail is Low even when it contains dates: newsletters, exchange or regulatory notices, company-wide policy notices, vendor marketing, receipts, order and booking confirmations, and credential or PIN deliveries the recipient requested. Raise it only when this recipient personally must act (e.g. 'reply within 48 hours to activate your account'), then apply R4/R5.
+_Linked disagreements: 9_
+
+### Sentiment
+
+**R6** · Neutral ↔ Positive  
+Positive only when thanks, praise or good news is the point of the email. Routine courtesy ('Thanks', 'Regards', 'Hope you are well', 'Appreciate it', 'look forward to working with you') and marketing or corporate enthusiasm stay Neutral; so do exclamation marks on routine content. Positive also covers specific, sincere thanks or praise aimed at the recipient ('I appreciate you taking this on') when it is a main part of a short email, and warm personal messages (farewells, invitations to celebrate, congratulations). Praise of a thing (a booklet, a tool) inside a request stays Neutral. Mixed emails are judged by their main content.
+_Linked disagreements: 13_
+
+**R7** · Negative ↔ Neutral  
+Judge the sender’s tone, not the topic. Negative when the sender expresses a complaint, disagreement, disappointment, concern or objection, or delivers bad news that affects the recipient or the sender’s side (a loss, a rejection, a problem, a mistake, a liability, a missed target). Neutral when the content is factual and the sender takes no stance: news articles, reports, market or regulatory updates and status notices stay Neutral even when the events they describe are bad (bankruptcy, outages, lawsuits, price spikes). Phrases like “issue”, “problem”, “concern” or “risk” alone don’t make an email Negative; the sender has to be unhappy, objecting or delivering bad news. Polite, measured wording does not cancel Negative: a calm complaint is still Negative. If the irritation is aimed at the recipient (chasing, sharp tone), see R12.
+_Linked disagreements: 8_
+
+**R12** · Frustrated ↔ Neutral / Frustrated ↔ Negative  
+Frustrated only when irritation is aimed at the recipient: chasing after silence with an edge ('second reminder', 'as I already said', 'still waiting'), curt or sharp wording, or capitals and exclamations aimed at them. A terse deadline ('need X before Friday'), a single polite nudge, wry humour and automated reminders are Neutral. Irritation at a third party (a slow counterparty, a regulator) is Negative, not Frustrated. A polite chase that also voices concern is Negative (R7).
+_Linked disagreements: 5_
+
+### All heads
+
+**R9** · (any) recipient on Cc  
+Label from the mailbox owner's seat (recipient_position). If the owner is only on Cc and every ask is addressed by name to someone else, type is Info and urgency is Low, whatever the email asks of the To recipients. Sentiment is unaffected. If the email also asks the Cc'd owner something by name, label it as if they were To. List/Unknown: label as if To.
+_Linked disagreements: 16_
+
+---
+
+Disagreements judged genuinely ambiguous: 0. Still undecided: 0.
