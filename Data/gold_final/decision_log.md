@@ -162,3 +162,103 @@
 - SRS NFR-ML-001–003 (0.75 / 0.60 / 0.60) exceed human agreement (0.625 / 0.440 / 0.462). Human-relative gates remain the operative targets; revise in SRS v1.3.
 - Known text error: final_summary.md calls the hybrid's teacher "14B"; it is 7B. Not re-run.
 - Model card: model_card.md (project copy: claude/model-card-v1.md).
+
+## D3 · 2026-11-20 · Live hybrid evaluation on gold-test: second planned use (option a)
+
+**Decision:** option (a). Run the live hybrid once on gold-test, pre-declared here before any decoder output on gold-test exists. Decided by Akashdeep (Sky).
+
+**Why:** the model card's hybrid figures (§6) used the 3-vote Qwen 7B teacher as a stand-in for the live decoder. The decoder that actually ships (one Gemini Flash-Lite call adjudicating every flagged head) has never been measured. Critical recall is the main open risk: the teacher predicted 0 Critical in 426 test emails. Only a gold-test run replaces the optimistic proxy with a real figure. Dev-only results (option b) would remain indicative.
+
+**What runs:** `model_v1` student (unchanged, `manifest_sha256` 09646396d00b…) + `secep_ml.decoder` with the Gemini backend, on all 426 gold-test emails, one call per email (plus at most one validation retry). Same backend, model, prompt and schema as the demo.
+
+**Conditions, fixed now:**
+1. **Prompt development uses gold-dev + gold-calib only.** Gold-test labels are not opened, and no gold-test email is sent to the decoder, until the lock below exists.
+2. **Freeze before the run.** The lock records:
+   - backend, model ID, decoder prompt version (hash of the prompt files) and `enrich.v1.1` schema SHA-256;
+   - `model_v1` manifest SHA-256, temperature 0.2, review threshold 0.60;
+   - the gold-test SHA-256, which must equal the sealed hash `a5b24fa8…`.
+
+   It is written by a script to `runs/live_eval.lock.json` with status `declared`. The evaluation script refuses to start without the lock, if any frozen value differs, or if the status is `spent`.
+3. **Label-free inputs.** Decoder inputs are built without label columns. Labels are loaded only by `score.py` at scoring time.
+4. **One run.**
+   - Emails left `enrich_pending` (quota or endpoint errors) are completed later with the identical frozen configuration. The response cache makes this a continuation, not a re-run.
+   - `enrich_failed` emails stay failed: the hybrid keeps the student's labels for them, and they are counted and reported.
+   - The run may span days and Google Cloud projects, but never more than one model.
+5. **No tuning on test.** No prompt, threshold or code change after any gold-test output has been seen.
+   - If a bug is found in the scoring or post-check code, the fix and the re-score are logged; LLM outputs are not regenerated.
+   - A bug in the prompt or decoder call is reported as a limitation, not fixed and re-run.
+6. **Pre-declared metrics** (reported whatever the result, next to the proxy hybrid and the student):
+   1. Hybrid classification with `score.py`: strict and lenient macro-F1 for the 3 heads and 3 merged views, gates, 95% bootstrap CIs (2,000 resamples, seed 42), and both robustness views.
+   2. Urgency: Critical recall and High recall against gold, and how many flagged urgency heads the decoder moved to Critical.
+   3. Actions: accuracy against the type-derived expectation:
+      - Task → `create_jira_issue` or `add_board_card`;
+      - Meeting → `add_calendar_event`;
+      - Info, Credentials → none;
+      - Approval → board card or none.
+
+      Also the share of emails with any action, and post-check violation counts.
+   4. Summary faithfulness: a second model call on a random sample of 100 test emails (seed 42), reporting the share of summaries with at least one unsupported claim. Plus a human spot-check of 20 by one person.
+   5. Schema validity: first attempt, after retry, and the `enrich_failed` count (NFR-ML-006 asks ≥ 99%).
+   6. Latency: decoder median and p95 including network; requests per email.
+7. **Data caveat:** content sent on the Gemini free tier may be used by Google to improve its products. That is acceptable for the public Enron corpus, not for real employee mail, and it is stated in the model card.
+8. **After this run gold-test is fully spent.** No further evaluation of any model or prompt may use it. Future models are gated on new data or held-out corrections (D5).
+
+**Lock files:** `runs/final_eval.lock.json` (C5, first use) stays as it is. `runs/live_eval.lock.json` will be created at prompt freeze, before the run, and set to `spent` when it completes.
+
+
+---
+
+## Phase D decisions · 2026-11-20
+
+**D1 (inference package)**
+- `triage.v1.1` (ML side) = SRS triage.v1 + per-head `needs_review`, `probs`, `source`; `review_heads`; manifest,
+  text-recipe and input hashes. `to_triage_v1()` gives the exact SRS row, so the DB contract is unchanged.
+- Sentiment score = P(Positive) − P(Negative) − P(Frustrated), clipped to [−1, 1] (SRS §6.7 M3 formula).
+- DB spellings (`to/cc/bcc`, `Client-facing`) are mapped to the ML names; unseen values → fallback, reported.
+- Acceptance: gold-dev parity max diff 0 (vs code), 20/20 pool emails valid, deterministic, train/serve text parity
+  0 mismatches, p95 318 ms (target 350; thin margin, re-measure on the demo machine).
+
+**D2 (decoder)**
+- Decoder = Gemini 3.5 Flash-Lite (free tier) via google-genai `response_json_schema`; temperature 0.2. Groq was
+  briefly selected and withdrawn the same night before any output (see D3 amendments).
+- Prompt = SRS §6.7 system prompt + anti-injection rules + labelling-guide v2 copied verbatim (definitions,
+  precedence, Approval clarification, R1–R14) for the flagged heads only + recipient role AND position (R9).
+  Prompt version = hash of the prompt files.
+- Unknown action types and invalid attendee addresses are removed before validation (no retry spent); other
+  business-rule failures null the field or drop the action and are counted as violations.
+- **Prompt revision after the dev run (20 Nov 03:40, before any gold-test output)** — dev+calib (276, prompt
+  `enrich-1.1-c10dd7fa`): schema-valid 100%, but actions on only 4% of emails (Task 12%, Meeting 0%) and Critical
+  recall 0/9 (0 of 210 flagged urgency heads moved to Critical). Changes: the system prompt now says when to propose
+  each action type, sets Jira priority from urgency (FR-ORC-004 mapping) and states that Critical is rare but real
+  (deadline within 24 h or outage/loss under way). Post-checks now REPAIR instead of drop where intent is clear:
+  Jira priority from the final urgency; calendar end = start + 30 min when missing or not after start; calendar
+  events without attendees are kept and M6 adds the mailbox owner (SRS v1.3 change to the per-type rule).
+  New prompt version recorded in the lock. Dev figures for both versions are kept in their run folders.
+- Email text sent to the LLM ≈ 3,000 tokens, approximated as 12,000 characters (no tokenizer for hosted models).
+- Quota handling: on the daily limit the evaluation pauses and accepts another Google account's key; same model
+  and prompt; key fingerprints (never keys) are logged in the run's config.json.
+
+**D3 (evaluation)**
+- Injection suite: 20 synthetic emails, every head forced to flagged (worst case).
+- Faithfulness: a second call to the same model lists unsupported claims; test sample n = 100, seed 42 (fixed
+  in the lock); a 20-email human spot-check sheet is written alongside.
+- "Expected action" for the action metric: Task → Jira or board card (≥ 1 required); Meeting → calendar event
+  (required); Info, Credentials → none; Approval → board card or none. Both an empty action list and a `none`
+  action mean "no action".
+
+**D5 (retraining)**
+- `scripts/retrain.py` re-implements the Phase C head training from the model card (C from manifest, balanced ×
+  teacher weight, mean 1; temperatures on gold-calib; prior from the pool). `--reproduce` (no corrections)
+  measures agreement with model_v1 on gold-dev; result recorded in the retrain run.
+- **Deviation:** gold-dev is used for the gate ONLY, not as training data (the handover listed it as an input;
+  training on it would make the gate measure training data). Gold-test is not used (spent) — deviation from
+  FR-ML-012.
+- User cap (25%) applies only with ≥ 4 distinct users; with fewer it is recorded as "not applied".
+- Promotion writes `model_vN/` + `promoted.json` (with the previous model's name); old versions are not deleted.
+- The demo uses 140 template-written SaaS notification emails (not Enron); its candidate model is kept in the run
+  folder and never promoted.
+
+
+### D3 · 2026-11-20 04:42 · Go/no-go override before the freeze
+Dev re-check (d3-dev-recheck-n120, prompt in the lock): failed ['Meeting action accuracy >= 50%']. Proceeding to the freeze anyway. Reason: Meeting action accuracy 3/8 (38 pct): n=8 is too small to tell from 50 pct (95 pct CI about 9-76 pct). All other checks passed with large gains (actions 4 to 33 pct of emails, Task 12 to 72 pct, hybrid macro-F1 +0.03 to +0.10 on every head). Tuning on 8 examples would overfit dev; Meeting actions and Critical recall are reported as limitations.
+All other checks passed: ['schema-valid >= 99%', 'Task action accuracy >= 50%', 'hybrid macro-F1 >= student - 0.02 on every head']. The failed check is reported as a limitation in the model card; the gold-test metrics are unchanged and pre-declared.

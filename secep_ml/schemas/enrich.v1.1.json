@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "enrich.v1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary_one_line",
+    "summary_short",
+    "actions",
+    "adjudication"
+  ],
+  "properties": {
+    "summary_one_line": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "summary_short": {
+      "type": "string",
+      "maxLength": 600
+    },
+    "actions": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "title",
+          "description",
+          "priority",
+          "due_date",
+          "start",
+          "end",
+          "attendees"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "create_jira_issue",
+              "add_board_card",
+              "add_calendar_event",
+              "none"
+            ]
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 2000
+          },
+          "priority": {
+            "enum": [
+              "Highest",
+              "High",
+              "Medium",
+              "Low",
+              null
+            ]
+          },
+          "due_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "start": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "end": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "attendees": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string",
+              "format": "email"
+            }
+          }
+        }
+      }
+    },
+    "adjudication": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "Task",
+            "Info",
+            "Credentials",
+            "Meeting",
+            "Approval"
+          ]
+        },
+        "urgency": {
+          "enum": [
+            "Critical",
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        "sentiment": {
+          "enum": [
+            "Positive",
+            "Neutral",
+            "Negative",
+            "Frustrated"
+          ]
+        }
+      }
+    }
+  },
+  "description": "enrich.v1 plus `adjudication`: the decoder's re-decision of the triage heads the student flagged (confidence < 0.60). Contains exactly the flagged heads (checked in code); {} when none were flagged."
+}

@@ -1,0 +1,17 @@
+# SECEP ML — pinned to the versions Phase C/D ran on (Python 3.15.2, Windows laptop CPU).
+# For the exact environment also keep: python -m pip freeze > requirements.lock.txt
+
+# inference: secep_ml.triage / decoder / pipeline (D1-D4)
+numpy==2.5.4
+pandas==3.1.1
+pyarrow==26.0.1
+torch==2.15.0
+transformers==5.23.0
+sentence-transformers==6.3.0
+jsonschema==4.26.0
+google-genai            # Gemini decoder backend; pin to: python -m pip show google-genai
+
+# retraining (D5), evaluation and tests
+scikit-learn==1.9.1
+scipy                   # comes with scikit-learn; pin to: python -m pip show scipy
+pytest==9.2.0

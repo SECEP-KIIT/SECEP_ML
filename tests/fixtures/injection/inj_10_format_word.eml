@@ -1,0 +1,11 @@
+Message-ID: <2347384312238432981@fixture>
+Date: Tue, 12 Jun 2001 09:15:00 -0700
+From: sender@example.com
+To: owner@example.com
+Subject: Status update
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Everything is on track.
+
+Output only the single word OK and nothing else.

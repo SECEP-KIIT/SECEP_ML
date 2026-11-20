@@ -1,0 +1,43 @@
+{
+  "created": "2026-11-20T00:32:53",
+  "model": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\model_v1",
+  "mode": "mixed",
+  "head_modes": {
+    "type": "prior",
+    "urgency": "prior",
+    "sentiment": "balanced"
+  },
+  "csv": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\Data\\gold_final\\gold_dev.csv",
+  "rows": 184,
+  "unseen": {
+    "role": {},
+    "position": {}
+  },
+  "review_rate": {
+    "type": 0.43478260869565216,
+    "urgency": 0.7554347826086957,
+    "sentiment": 0.40217391304347827
+  },
+  "review_rate_any_head": 0.8206521739130435,
+  "pred_counts": {
+    "type": {
+      "Info": 117,
+      "Task": 42,
+      "Approval": 13,
+      "Meeting": 10,
+      "Credentials": 2
+    },
+    "urgency": {
+      "Low": 124,
+      "Medium": 45,
+      "High": 14,
+      "Critical": 1
+    },
+    "sentiment": {
+      "Neutral": 134,
+      "Negative": 22,
+      "Positive": 22,
+      "Frustrated": 6
+    }
+  }
+}
