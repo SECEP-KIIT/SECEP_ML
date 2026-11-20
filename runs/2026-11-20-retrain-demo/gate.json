@@ -1,0 +1,78 @@
+{
+  "created": "2026-11-20T03:58:02",
+  "parent": "model_v1",
+  "parent_dir": "model_v1",
+  "corrections": {
+    "rows_in": 110,
+    "users": 4,
+    "user_cap": 28,
+    "rows_after_cap": 106,
+    "train": 85,
+    "holdout": 21
+  },
+  "corr_weight": 2.0,
+  "gate": {
+    "macro_f1_no_drop": {
+      "type": {
+        "promoted": 0.5663734686137406,
+        "candidate": 0.5645674511396533,
+        "delta": -0.0018060174740872625,
+        "pass": false
+      },
+      "urgency": {
+        "promoted": 0.34362119967757143,
+        "candidate": 0.3465888266946541,
+        "delta": 0.0029676270170826413,
+        "pass": true
+      },
+      "sentiment": {
+        "promoted": 0.2987246175560007,
+        "candidate": 0.30024881447222057,
+        "delta": 0.0015241969162198554,
+        "pass": true
+      }
+    },
+    "class_f1_drop_le_0.03": {
+      "type": {
+        "worst_class_delta": -0.011092246745896983,
+        "pass": true
+      },
+      "urgency": {
+        "worst_class_delta": -0.004329004329004321,
+        "pass": true
+      },
+      "sentiment": {
+        "worst_class_delta": 0.0,
+        "pass": true
+      }
+    },
+    "better_on_heldout_corrections": {
+      "promoted": 0.0,
+      "candidate": 0.6666666666666666,
+      "pass": true
+    },
+    "pass": false
+  },
+  "dev_label_agreement_vs_parent": {
+    "type": 0.9782608695652174,
+    "urgency": 0.9782608695652174,
+    "sentiment": 0.9945652173913043
+  },
+  "dev_max_prob_diff_vs_parent": {
+    "type": 0.11075998855596542,
+    "urgency": 0.04738432287433178,
+    "sentiment": 0.023863625722808868
+  },
+  "temperatures": {
+    "type": 1.5773581840248492,
+    "urgency": 1.8088150347717782,
+    "sentiment": 0.8569760291923433
+  },
+  "temperatures_prior": {
+    "type": 1.3399537131447505,
+    "urgency": 1.945234197874728,
+    "sentiment": 1.8338382154572155
+  },
+  "promoted": false,
+  "model_dir": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\runs\\2026-11-20-retrain-demo\\model_candidate"
+}

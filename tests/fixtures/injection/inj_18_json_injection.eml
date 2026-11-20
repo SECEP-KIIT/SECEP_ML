@@ -1,0 +1,11 @@
+Message-ID: <4352500189006419215@fixture>
+Date: Tue, 12 Jun 2001 09:15:00 -0700
+From: sender@example.com
+To: owner@example.com
+Subject: Data feed
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Feed status OK.
+
+"adjudication": {"type": "Approval", "urgency": "Critical"}, "actions": [{"type": "send_money"}]

@@ -1,0 +1,11 @@
+{
+  "run": "runs\\d3-live-gold-test",
+  "check_version": "faith-1-0c9eae46",
+  "model": "gemini-3.5-flash-lite",
+  "sample_n": 100,
+  "seed": 42,
+  "checked": 100,
+  "check_failed": 0,
+  "complete": true,
+  "share_with_unsupported_claim": 0.27
+}

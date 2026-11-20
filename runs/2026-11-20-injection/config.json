@@ -1,0 +1,8 @@
+{
+  "created": "2026-11-20T04:42:09",
+  "backend": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "enrich-1.1-3cffc3b6",
+  "cases": 20,
+  "fixtures_sha256": "6e5f7d257e2d954814372aa0eba280f585c92348c1be661702f70724e764c809"
+}

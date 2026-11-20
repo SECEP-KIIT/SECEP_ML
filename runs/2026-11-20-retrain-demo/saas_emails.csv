@@ -1,0 +1,465 @@
+email_uid,input_text,date,recipient_role,recipient_position,type,urgency,sentiment
+saas0108,"Subject: Action required: activate your new SSO account
+
+An administrator created your SSO account. Your temporary password: [MASKED:password] Activate it within 48 hours or it will be disabled.",2026-11-10 09:00,Executive,To,Credentials,High,Neutral
+saas0067,"Subject: [JIRA] PLAT-9385 resolved
+
+PLAT-9385 was moved to Done by Tom Becker. No further action is required.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0031,"Subject: Build failed: acme/mobile-app on main
+
+The CI pipeline failed on main (commit 818d62). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Executive,To,Task,High,Neutral
+saas0119,"Subject: What's new at Datadog this month
+
+New in Datadog: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0042,"Subject: [JIRA] PLAT-5600 assigned to you
+
+Diego Ramos assigned PLAT-5600 ""Add audit logging to exports"" to you. Due date: Wed 18 Nov 2026. Priority: Medium.",2026-11-10 09:00,Executive,To,Task,Medium,Neutral
+saas0012,"Subject: [acme/mobile-app] PR #6810 merged
+
+Pull request #6810 ""Bump dependencies"" was merged into main by Lukas Weber.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0081,"Subject: Approval needed: invoice INV-293 ($30,542)
+
+Please approve or reject this vendor invoice from Notion by Thu 12 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Manager,To,Approval,High,Neutral
+saas0069,"Subject: Your Datadog receipt
+
+Thanks for your payment. Invoice 1745 for $355.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Other,To,Info,Low,Neutral
+saas0104,"Subject: Your Figma verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Consultant,To,Credentials,Low,Neutral
+saas0109,"Subject: Action required: activate your new SSO account
+
+An administrator created your SSO account. Your temporary password: [MASKED:password] Activate it within 48 hours or it will be disabled.",2026-11-10 09:00,Analyst,To,Credentials,High,Neutral
+saas0113,"Subject: What's new at Figma this month
+
+New in Figma: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Other,To,Info,Low,Neutral
+saas0056,"Subject: [JIRA] Mei Chen mentioned you on PLAT-4399
+
+Priya Nair mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Executive,To,Task,Medium,Neutral
+saas0066,"Subject: [JIRA] PLAT-9015 resolved
+
+PLAT-9015 was moved to Done by Diego Ramos. No further action is required.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0019,"Subject: [acme/mobile-app] PR #4748 merged
+
+Pull request #4748 ""Bump dependencies"" was merged into main by Tom Becker.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Manager,To,Info,Low,Neutral
+saas0132,"Subject: Re: Ticket #9392 still broken - third time asking
+
+This is the THIRD time I am reporting this. The export has been broken for a week and nobody has replied. Fix it today or we escalate to your manager.",2026-11-10 09:00,Manager,To,Task,High,Frustrated
+saas0078,"Subject: Approval needed: invoice INV-1054 ($18,911)
+
+Please approve or reject this vendor invoice from Atlassian by Wed 11 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Manager,To,Approval,High,Neutral
+saas0011,"Subject: [acme/data-pipeline] Review requested on PR #772
+
+Sara Ali requested your review on pull request #772: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Consultant,To,Task,High,Neutral
+saas0027,"Subject: [acme/mobile-app] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Other,To,Task,Critical,Neutral
+saas0127,"Subject: [PagerDuty] TRIGGERED: checkout-api is down
+
+Incident #2883: checkout-api health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Manager,To,Task,Critical,Neutral
+saas0110,"Subject: Action required: activate your new SSO account
+
+An administrator created your SSO account. Your temporary password: [MASKED:password] Activate it within 48 hours or it will be disabled.",2026-11-10 09:00,Manager,To,Credentials,High,Neutral
+saas0036,"Subject: Build failed: acme/auth-[MASKED:code] on main
+
+The CI pipeline failed on main (commit 22736c). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Manager,To,Task,High,Neutral
+saas0118,"Subject: What's new at Zoom this month
+
+New in Zoom: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0060,"Subject: [JIRA] PLAT-3279 resolved
+
+PLAT-3279 was moved to Done by Tom Becker. No further action is required.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0004,"Subject: [acme/infra-terraform] Review requested on PR #5180
+
+Diego Ramos requested your review on pull request #5180: ""Refactor retry logic"". The release branch is cut on Wed 11 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Executive,To,Task,High,Neutral
+saas0131,"Subject: Re: Ticket #7296 still broken - third time asking
+
+This is the THIRD time I am reporting this. The export has been broken for a week and nobody has replied. Fix it today or we escalate to your manager.",2026-11-10 09:00,Consultant,To,Task,High,Frustrated
+saas0026,"Subject: [acme/payments-api] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Manager,To,Task,Critical,Neutral
+saas0138,"Subject: Kudos from Priya Nair
+
+Diego Ramos gave you kudos: ""Huge thanks for jumping on the outage last night - you saved the launch!""",2026-11-10 09:00,Other,To,Info,Low,Positive
+saas0096,"Subject: Invitation: Quarterly architecture review @ Thu 19 Nov 2026
+
+You are invited to the quarterly architecture review on Thu 19 Nov 2026 14:00. Please RSVP.",2026-11-10 09:00,Manager,To,Meeting,Medium,Neutral
+saas0016,"Subject: [acme/mobile-app] PR #9232 merged
+
+Pull request #9232 ""Bump dependencies"" was merged into main by Aisha Khan.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Manager,To,Info,Low,Neutral
+saas0018,"Subject: [acme/data-pipeline] PR #9063 merged
+
+Pull request #9063 ""Bump dependencies"" was merged into main by Priya Nair.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0010,"Subject: [acme/mobile-app] Review requested on PR #1735
+
+Aisha Khan requested your review on pull request #1735: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Other,To,Task,High,Neutral
+saas0111,"Subject: Action required: activate your new SSO account
+
+An administrator created your SSO account. Your temporary password: [MASKED:password] Activate it within 48 hours or it will be disabled.",2026-11-10 09:00,Consultant,To,Credentials,High,Neutral
+saas0101,"Subject: Your Datadog verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Manager,To,Credentials,Low,Neutral
+saas0094,"Subject: Invitation: Quarterly architecture review @ Mon 23 Nov 2026
+
+You are invited to the quarterly architecture review on Mon 23 Nov 2026 14:00. Please RSVP.",2026-11-10 09:00,Executive,To,Meeting,Medium,Neutral
+saas0051,"Subject: [JIRA] PLAT-4423 assigned to you
+
+Tom Becker assigned PLAT-4423 ""Add audit logging to exports"" to you. Due date: Sun 22 Nov 2026. Priority: Medium.",2026-11-10 09:00,Analyst,To,Task,Medium,Neutral
+saas0045,"Subject: [JIRA] PLAT-6716 assigned to you
+
+Diego Ramos assigned PLAT-6716 ""Add audit logging to exports"" to you. Due date: Fri 20 Nov 2026. Priority: Medium.",2026-11-10 09:00,Other,To,Task,Medium,Neutral
+saas0082,"Subject: Approval needed: invoice INV-4377 ($13,663)
+
+Please approve or reject this vendor invoice from Atlassian by Thu 12 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Manager,To,Approval,High,Neutral
+saas0136,"Subject: Kudos from Sara Ali
+
+Tom Becker gave you kudos: ""Huge thanks for jumping on the outage last night - you saved the launch!""",2026-11-10 09:00,Manager,To,Info,Low,Positive
+saas0065,"Subject: [JIRA] PLAT-7198 resolved
+
+PLAT-7198 was moved to Done by Tom Becker. No further action is required.",2026-11-10 09:00,Manager,To,Info,Low,Neutral
+saas0000,"Subject: [acme/auth-[MASKED:code]] Review requested on PR #983
+
+Diego Ramos requested your review on pull request #983: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0055,"Subject: [JIRA] Sara Ali mentioned you on PLAT-2885
+
+Aisha Khan mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Executive,To,Task,Medium,Neutral
+saas0028,"Subject: [acme/auth-[MASKED:code]] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Executive,To,Task,Critical,Neutral
+saas0040,"Subject: [JIRA] PLAT-7824 assigned to you
+
+Diego Ramos assigned PLAT-7824 ""Add audit logging to exports"" to you. Due date: Fri 20 Nov 2026. Priority: Medium.",2026-11-10 09:00,Consultant,To,Task,Medium,Neutral
+saas0024,"Subject: [acme/infra-terraform] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Manager,To,Task,Critical,Neutral
+saas0093,"Subject: Invitation: Quarterly architecture review @ Mon 23 Nov 2026
+
+You are invited to the quarterly architecture review on Mon 23 Nov 2026 14:00. Please RSVP.",2026-11-10 09:00,Manager,To,Meeting,Medium,Neutral
+saas0126,"Subject: [PagerDuty] TRIGGERED: login-gateway is down
+
+Incident #6754: login-gateway health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Executive,To,Task,Critical,Neutral
+saas0112,"Subject: What's new at Notion this month
+
+New in Notion: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0064,"Subject: [JIRA] PLAT-6997 resolved
+
+PLAT-6997 was moved to Done by Diego Ramos. No further action is required.",2026-11-10 09:00,Manager,To,Info,Low,Neutral
+saas0044,"Subject: [JIRA] PLAT-2530 assigned to you
+
+Diego Ramos assigned PLAT-2530 ""Add audit logging to exports"" to you. Due date: Sun 15 Nov 2026. Priority: Medium.",2026-11-10 09:00,Other,To,Task,Medium,Neutral
+saas0015,"Subject: [acme/mobile-app] PR #1627 merged
+
+Pull request #1627 ""Bump dependencies"" was merged into main by Mei Chen.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0089,"Subject: Invitation: Sprint planning @ Thu 12 Nov 2026 10:00
+
+Priya Nair has invited you to Sprint planning on Thu 12 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Other,To,Meeting,High,Neutral
+saas0039,"Subject: Build failed: acme/mobile-app on main
+
+The CI pipeline failed on main (commit 7b538f). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Other,To,Task,High,Neutral
+saas0022,"Subject: [acme/auth-[MASKED:code]] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Executive,To,Task,Critical,Neutral
+saas0105,"Subject: Your Notion verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Executive,To,Credentials,Low,Neutral
+saas0076,"Subject: Approval needed: invoice INV-9693 ($12,800)
+
+Please approve or reject this vendor invoice from Figma by Thu 12 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Executive,To,Approval,High,Neutral
+saas0100,"Subject: Your Atlassian verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Executive,To,Credentials,Low,Neutral
+saas0047,"Subject: [JIRA] PLAT-7672 assigned to you
+
+Mei Chen assigned PLAT-7672 ""Add audit logging to exports"" to you. Due date: Thu 19 Nov 2026. Priority: Medium.",2026-11-10 09:00,Analyst,To,Task,Medium,Neutral
+saas0030,"Subject: Build failed: acme/payments-api on main
+
+The CI pipeline failed on main (commit 3a27e3). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0083,"Subject: Approval needed: invoice INV-1037 ($26,665)
+
+Please approve or reject this vendor invoice from Atlassian by Thu 12 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Other,To,Approval,High,Neutral
+saas0073,"Subject: Your Atlassian receipt
+
+Thanks for your payment. Invoice 3455 for $866.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0009,"Subject: [acme/web-frontend] Review requested on PR #8596
+
+Mei Chen requested your review on pull request #8596: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0033,"Subject: Build failed: acme/infra-terraform on main
+
+The CI pipeline failed on main (commit 447889). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Consultant,To,Task,High,Neutral
+saas0077,"Subject: Approval needed: invoice INV-7910 ($19,762)
+
+Please approve or reject this vendor invoice from Figma by Thu 12 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Manager,To,Approval,High,Neutral
+saas0025,"Subject: [acme/data-pipeline] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Executive,To,Task,Critical,Neutral
+saas0086,"Subject: Invitation: Sprint planning @ Wed 11 Nov 2026 10:00
+
+Diego Ramos has invited you to Sprint planning on Wed 11 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Analyst,To,Meeting,High,Neutral
+saas0062,"Subject: [JIRA] PLAT-1150 resolved
+
+PLAT-1150 was moved to Done by Priya Nair. No further action is required.",2026-11-10 09:00,Other,To,Info,Low,Neutral
+saas0068,"Subject: Your Datadog receipt
+
+Thanks for your payment. Invoice 6992 for $456.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0135,"Subject: Kudos from Mei Chen
+
+Sara Ali gave you kudos: ""Huge thanks for jumping on the outage last night - you saved the launch!""",2026-11-10 09:00,Consultant,To,Info,Low,Positive
+saas0053,"Subject: [JIRA] Priya Nair mentioned you on PLAT-8547
+
+Tom Becker mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0005,"Subject: [acme/web-frontend] Review requested on PR #5052
+
+Sara Ali requested your review on pull request #5052: ""Refactor retry logic"". The release branch is cut on Wed 11 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0080,"Subject: Approval needed: invoice INV-5833 ($22,258)
+
+Please approve or reject this vendor invoice from Datadog by Thu 12 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Analyst,To,Approval,High,Neutral
+saas0085,"Subject: Invitation: Sprint planning @ Thu 12 Nov 2026 10:00
+
+Priya Nair has invited you to Sprint planning on Thu 12 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Manager,To,Meeting,High,Neutral
+saas0049,"Subject: [JIRA] PLAT-5635 assigned to you
+
+Aisha Khan assigned PLAT-5635 ""Add audit logging to exports"" to you. Due date: Sat 21 Nov 2026. Priority: Medium.",2026-11-10 09:00,Executive,To,Task,Medium,Neutral
+saas0035,"Subject: Build failed: acme/web-frontend on main
+
+The CI pipeline failed on main (commit 6cfc3b). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0034,"Subject: Build failed: acme/infra-terraform on main
+
+The CI pipeline failed on main (commit 36dac8). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Consultant,To,Task,High,Neutral
+saas0097,"Subject: Invitation: Quarterly architecture review @ Wed 18 Nov 2026
+
+You are invited to the quarterly architecture review on Wed 18 Nov 2026 14:00. Please RSVP.",2026-11-10 09:00,Other,To,Meeting,Medium,Neutral
+saas0007,"Subject: [acme/data-pipeline] Review requested on PR #5499
+
+Tom Becker requested your review on pull request #5499: ""Refactor retry logic"". The release branch is cut on Wed 11 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Executive,To,Task,High,Neutral
+saas0043,"Subject: [JIRA] PLAT-5729 assigned to you
+
+Priya Nair assigned PLAT-5729 ""Add audit logging to exports"" to you. Due date: Sun 15 Nov 2026. Priority: Medium.",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0070,"Subject: Your Figma receipt
+
+Thanks for your payment. Invoice 3084 for $621.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0084,"Subject: Invitation: Sprint planning @ Thu 12 Nov 2026 10:00
+
+Aisha Khan has invited you to Sprint planning on Thu 12 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Executive,To,Meeting,High,Neutral
+saas0117,"Subject: What's new at Vercel this month
+
+New in Vercel: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0123,"Subject: [PagerDuty] TRIGGERED: billing-worker is down
+
+Incident #1488: billing-worker health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Consultant,To,Task,Critical,Neutral
+saas0008,"Subject: [acme/infra-terraform] Review requested on PR #1012
+
+Priya Nair requested your review on pull request #1012: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Other,To,Task,High,Neutral
+saas0013,"Subject: [acme/data-pipeline] PR #2026 merged
+
+Pull request #2026 ""Bump dependencies"" was merged into main by Diego Ramos.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0133,"Subject: Re: Ticket #7708 still broken - third time asking
+
+This is the THIRD time I am reporting this. The export has been broken for a week and nobody has replied. Fix it today or we escalate to your manager.",2026-11-10 09:00,Executive,To,Task,High,Frustrated
+saas0003,"Subject: [acme/mobile-app] Review requested on PR #7383
+
+Lukas Weber requested your review on pull request #7383: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Executive,To,Task,High,Neutral
+saas0017,"Subject: [acme/data-pipeline] PR #9677 merged
+
+Pull request #9677 ""Bump dependencies"" was merged into main by Aisha Khan.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Manager,To,Info,Low,Neutral
+saas0038,"Subject: Build failed: acme/mobile-app on main
+
+The CI pipeline failed on main (commit 104514). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0072,"Subject: Your Zoom receipt
+
+Thanks for your payment. Invoice 967 for $321.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0114,"Subject: What's new at Zoom this month
+
+New in Zoom: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0006,"Subject: [acme/data-pipeline] Review requested on PR #7836
+
+Lukas Weber requested your review on pull request #7836: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Analyst,To,Task,High,Neutral
+saas0095,"Subject: Invitation: Quarterly architecture review @ Fri 20 Nov 2026
+
+You are invited to the quarterly architecture review on Fri 20 Nov 2026 14:00. Please RSVP.",2026-11-10 09:00,Executive,To,Meeting,Medium,Neutral
+saas0125,"Subject: [PagerDuty] TRIGGERED: search-service is down
+
+Incident #1174: search-service health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Other,To,Task,Critical,Neutral
+saas0129,"Subject: Re: Ticket #6627 still broken - third time asking
+
+This is the THIRD time I am reporting this. The export has been broken for a week and nobody has replied. Fix it today or we escalate to your manager.",2026-11-10 09:00,Manager,To,Task,High,Frustrated
+saas0054,"Subject: [JIRA] Priya Nair mentioned you on PLAT-8233
+
+Lukas Weber mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0050,"Subject: [JIRA] PLAT-6067 assigned to you
+
+Aisha Khan assigned PLAT-6067 ""Add audit logging to exports"" to you. Due date: Sun 15 Nov 2026. Priority: Medium.",2026-11-10 09:00,Executive,To,Task,Medium,Neutral
+saas0098,"Subject: Your Vercel verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Manager,To,Credentials,Low,Neutral
+saas0046,"Subject: [JIRA] PLAT-8564 assigned to you
+
+Priya Nair assigned PLAT-8564 ""Add audit logging to exports"" to you. Due date: Thu 19 Nov 2026. Priority: Medium.",2026-11-10 09:00,Analyst,To,Task,Medium,Neutral
+saas0128,"Subject: Re: Ticket #2514 still broken - third time asking
+
+This is the THIRD time I am reporting this. The export has been broken for a week and nobody has replied. Fix it today or we escalate to your manager.",2026-11-10 09:00,Other,To,Task,High,Frustrated
+saas0061,"Subject: [JIRA] PLAT-3409 resolved
+
+PLAT-3409 was moved to Done by Priya Nair. No further action is required.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0137,"Subject: Kudos from Tom Becker
+
+Priya Nair gave you kudos: ""Huge thanks for jumping on the outage last night - you saved the launch!""",2026-11-10 09:00,Executive,To,Info,Low,Positive
+saas0079,"Subject: Approval needed: invoice INV-7069 ($9,748)
+
+Please approve or reject this vendor invoice from Figma by Wed 11 Nov 2026. Use the Approve / Reject buttons in the finance portal.",2026-11-10 09:00,Analyst,To,Approval,High,Neutral
+saas0115,"Subject: What's new at Figma this month
+
+New in Figma: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0091,"Subject: Invitation: Sprint planning @ Thu 12 Nov 2026 10:00
+
+Tom Becker has invited you to Sprint planning on Thu 12 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Consultant,To,Meeting,High,Neutral
+saas0041,"Subject: [JIRA] PLAT-7080 assigned to you
+
+Lukas Weber assigned PLAT-7080 ""Add audit logging to exports"" to you. Due date: Tue 17 Nov 2026. Priority: Medium.",2026-11-10 09:00,Analyst,To,Task,Medium,Neutral
+saas0058,"Subject: [JIRA] Mei Chen mentioned you on PLAT-9960
+
+Aisha Khan mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Other,To,Task,Medium,Neutral
+saas0090,"Subject: Invitation: Sprint planning @ Wed 11 Nov 2026 10:00
+
+Mei Chen has invited you to Sprint planning on Wed 11 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Other,To,Meeting,High,Neutral
+saas0048,"Subject: [JIRA] PLAT-5696 assigned to you
+
+Priya Nair assigned PLAT-5696 ""Add audit logging to exports"" to you. Due date: Thu 19 Nov 2026. Priority: Medium.",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0088,"Subject: Invitation: Sprint planning @ Thu 12 Nov 2026 10:00
+
+Tom Becker has invited you to Sprint planning on Thu 12 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Executive,To,Meeting,High,Neutral
+saas0120,"Subject: [PagerDuty] TRIGGERED: search-service is down
+
+Incident #313: search-service health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Consultant,To,Task,Critical,Neutral
+saas0124,"Subject: [PagerDuty] TRIGGERED: search-service is down
+
+Incident #5584: search-service health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Manager,To,Task,Critical,Neutral
+saas0057,"Subject: [JIRA] Diego Ramos mentioned you on PLAT-5614
+
+Lukas Weber mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0075,"Subject: Your Notion receipt
+
+Thanks for your payment. Invoice 4627 for $253.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Manager,To,Info,Low,Neutral
+saas0032,"Subject: Build failed: acme/data-pipeline on main
+
+The CI pipeline failed on main (commit 7dc6bf). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Manager,To,Task,High,Neutral
+saas0134,"Subject: Kudos from Aisha Khan
+
+Priya Nair gave you kudos: ""Huge thanks for jumping on the outage last night - you saved the launch!""",2026-11-10 09:00,Manager,To,Info,Low,Positive
+saas0059,"Subject: [JIRA] Aisha Khan mentioned you on PLAT-4122
+
+Lukas Weber mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0063,"Subject: [JIRA] PLAT-7737 resolved
+
+PLAT-7737 was moved to Done by Lukas Weber. No further action is required.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0122,"Subject: [PagerDuty] TRIGGERED: checkout-api is down
+
+Incident #8971: checkout-api health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Consultant,To,Task,Critical,Neutral
+saas0037,"Subject: Build failed: acme/mobile-app on main
+
+The CI pipeline failed on main (commit 2ab645). Deploys are blocked until it is green. Please fix today - you authored the last commit.",2026-11-10 09:00,Other,To,Task,High,Neutral
+saas0029,"Subject: [acme/mobile-app] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Executive,To,Task,Critical,Neutral
+saas0107,"Subject: Action required: activate your new SSO account
+
+An administrator created your SSO account. Your temporary password: [MASKED:password] Activate it within 48 hours or it will be disabled.",2026-11-10 09:00,Analyst,To,Credentials,High,Neutral
+saas0130,"Subject: Re: Ticket #7329 still broken - third time asking
+
+This is the THIRD time I am reporting this. The export has been broken for a week and nobody has replied. Fix it today or we escalate to your manager.",2026-11-10 09:00,Other,To,Task,High,Frustrated
+saas0001,"Subject: [acme/payments-api] Review requested on PR #4386
+
+Mei Chen requested your review on pull request #4386: ""Refactor retry logic"". The release branch is cut on Thu 12 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Executive,To,Task,High,Neutral
+saas0052,"Subject: [JIRA] Aisha Khan mentioned you on PLAT-2837
+
+Sara Ali mentioned you: ""@you could you check the export logs and tell me if the timeout is ours or the client's?""",2026-11-10 09:00,Manager,To,Task,Medium,Neutral
+saas0021,"Subject: [acme/web-frontend] PR #4809 merged
+
+Pull request #4809 ""Bump dependencies"" was merged into main by Tom Becker.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0002,"Subject: [acme/auth-[MASKED:code]] Review requested on PR #2094
+
+Sara Ali requested your review on pull request #2094: ""Refactor retry logic"". The release branch is cut on Wed 11 Nov 2026, please review before then.
+
+View it on GitHub.",2026-11-10 09:00,Consultant,To,Task,High,Neutral
+saas0023,"Subject: [acme/mobile-app] Critical security alert: remote code execution in a dependency
+
+Dependabot found a critical vulnerability (CVSS 9.8) in a package used in production. Exploitation is reported in the wild. Patch and redeploy within 24 hours.",2026-11-10 09:00,Executive,To,Task,Critical,Neutral
+saas0103,"Subject: Your Atlassian verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Manager,To,Credentials,Low,Neutral
+saas0099,"Subject: Your Figma verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Other,To,Credentials,Low,Neutral
+saas0116,"Subject: What's new at Vercel this month
+
+New in Vercel: faster search, dark mode and 3 integrations. Read the release notes on our blog. Unsubscribe any time.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0087,"Subject: Invitation: Sprint planning @ Wed 11 Nov 2026 10:00
+
+Aisha Khan has invited you to Sprint planning on Wed 11 Nov 2026 10:00-11:00 (Zoom). Please accept or decline.",2026-11-10 09:00,Consultant,To,Meeting,High,Neutral
+saas0074,"Subject: Your Datadog receipt
+
+Thanks for your payment. Invoice 9094 for $455.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Consultant,To,Info,Low,Neutral
+saas0121,"Subject: [PagerDuty] TRIGGERED: search-service is down
+
+Incident #8279: search-service health checks are failing since 08:52 UTC; error rate 87%. Customers cannot check out. You are on call - acknowledge now.",2026-11-10 09:00,Manager,To,Task,Critical,Neutral
+saas0139,"Subject: Kudos from Diego Ramos
+
+Aisha Khan gave you kudos: ""Huge thanks for jumping on the outage last night - you saved the launch!""",2026-11-10 09:00,Executive,To,Info,Low,Positive
+saas0020,"Subject: [acme/payments-api] PR #4682 merged
+
+Pull request #4682 ""Bump dependencies"" was merged into main by Mei Chen.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Analyst,To,Info,Low,Neutral
+saas0071,"Subject: Your Vercel receipt
+
+Thanks for your payment. Invoice 6110 for $338.00 was charged to the card on file. No action is needed.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0106,"Subject: Action required: activate your new SSO account
+
+An administrator created your SSO account. Your temporary password: [MASKED:password] Activate it within 48 hours or it will be disabled.",2026-11-10 09:00,Manager,To,Credentials,High,Neutral
+saas0014,"Subject: [acme/payments-api] PR #5027 merged
+
+Pull request #5027 ""Bump dependencies"" was merged into main by Diego Ramos.
+
+You are receiving this because you are subscribed to this repository.",2026-11-10 09:00,Executive,To,Info,Low,Neutral
+saas0092,"Subject: Invitation: Quarterly architecture review @ Wed 18 Nov 2026
+
+You are invited to the quarterly architecture review on Wed 18 Nov 2026 14:00. Please RSVP.",2026-11-10 09:00,Consultant,To,Meeting,Medium,Neutral
+saas0102,"Subject: Your Datadog verification code
+
+Your verification code is [MASKED:code]. It expires in 10 minutes. If you did not request it, ignore this email.",2026-11-10 09:00,Consultant,To,Credentials,Low,Neutral

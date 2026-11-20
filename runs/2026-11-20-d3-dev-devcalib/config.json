@@ -1,0 +1,31 @@
+{
+  "created": "2026-11-20T03:06:36",
+  "script": "scripts/decoder_eval.py",
+  "split": "devcalib",
+  "limit": null,
+  "rows": 276,
+  "backend": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "enrich-1.1-c10dd7fa",
+  "temperature": 0.2,
+  "rpm": 10.0,
+  "triage_model": "model_v1",
+  "manifest_sha256": "09646396d00bf19e5c0cdf09116dce28fb3fd9cf89a2ff1f26ff05b246fa1aed",
+  "review_threshold": 0.6,
+  "seed": 42,
+  "mock_llm": false,
+  "stub_encoder": false,
+  "inputs_sha256": {
+    "gold_dev.csv": "8377a7ac48bec3805cd33a04929cad98d294d1950cbaf6a93667953463d7f360",
+    "gold_calib.csv": "71c32204d4ff918684e7cb33de48037266d609bbd8941040bfd179e6ae5acdff"
+  },
+  "schema_sha256": "c3f32ab1ca84a917c7731e1713f60c0ac2f12c6cf48049114242cbbda6117ffc",
+  "api_keys": [
+    {
+      "key": 1,
+      "fingerprint": "b8256102",
+      "from_email": 1,
+      "reason": "start"
+    }
+  ]
+}

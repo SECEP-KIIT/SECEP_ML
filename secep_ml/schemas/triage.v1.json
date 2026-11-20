@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "triage.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "email_id",
+    "email_type",
+    "urgency",
+    "sentiment",
+    "needs_review",
+    "model_version",
+    "processed_at"
+  ],
+  "properties": {
+    "schema": {
+      "const": "triage.v1"
+    },
+    "email_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "email_type": {
+      "type": "object",
+      "required": [
+        "label",
+        "confidence",
+        "source"
+      ],
+      "properties": {
+        "label": {
+          "enum": [
+            "Task",
+            "Info",
+            "Credentials",
+            "Meeting",
+            "Approval"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "source": {
+          "enum": [
+            "encoder",
+            "llm",
+            "user",
+            "rule"
+          ]
+        }
+      }
+    },
+    "urgency": {
+      "type": "object",
+      "required": [
+        "label",
+        "confidence"
+      ],
+      "properties": {
+        "label": {
+          "enum": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "sentiment": {
+      "type": "object",
+      "required": [
+        "label",
+        "score",
+        "confidence"
+      ],
+      "properties": {
+        "label": {
+          "enum": [
+            "Positive",
+            "Neutral",
+            "Negative",
+            "Frustrated"
+          ]
+        },
+        "score": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "needs_review": {
+      "type": "boolean"
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "processed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

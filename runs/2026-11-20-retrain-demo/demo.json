@@ -1,0 +1,24 @@
+{
+  "emails": 140,
+  "feedback": 84,
+  "eval_slice": 56,
+  "corrections": 110,
+  "corr_weight": 2.0,
+  "parent": "model_v1",
+  "eval_slice_accuracy": {
+    "type": {
+      "before": 0.5535714285714286,
+      "after": 0.8571428571428571
+    },
+    "urgency": {
+      "before": 0.375,
+      "after": 0.6785714285714286
+    },
+    "sentiment": {
+      "before": 0.8214285714285714,
+      "after": 0.875
+    }
+  },
+  "gate_pass": false,
+  "stub_encoder": false
+}

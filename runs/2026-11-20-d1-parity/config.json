@@ -1,0 +1,16 @@
+{
+  "created": "2026-11-20T00:34:06",
+  "script": "scripts/check_triage_parity.py",
+  "tolerance": 1e-06,
+  "model": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\model_v1",
+  "model_version": "model_v1",
+  "manifest_sha256": "09646396d00bf19e5c0cdf09116dce28fb3fd9cf89a2ff1f26ff05b246fa1aed",
+  "text_version": "1.0",
+  "seed": 42,
+  "stub_encoder": false,
+  "inputs_sha256": {
+    "csv": "8377a7ac48bec3805cd33a04929cad98d294d1950cbaf6a93667953463d7f360",
+    "emb_npy": "1fa774d77728751f24f662c1d6858e0e96d6d80bd980ddcd6f3f012c049bdb80",
+    "emb_uids": "d0e454b828d51303e6a4d50a8d2950529cf9eb4163d4bc9bb4f01b29781c92da"
+  }
+}

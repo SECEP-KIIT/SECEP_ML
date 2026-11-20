@@ -1,0 +1,21 @@
+{
+  "emails": 5,
+  "errors": 0,
+  "status": {
+    "enriched": 5,
+    "enrich_failed": 0,
+    "enrich_pending": 0
+  },
+  "valid_first_attempt": 5,
+  "requests_total": 5,
+  "latency_ms": {
+    "median": 2231.50970000097,
+    "p95": 3030.9847200005606
+  },
+  "tokens_mean": {
+    "in": 2732.8,
+    "out": 151.8
+  },
+  "flagged_heads": 6,
+  "labels_changed": 1
+}

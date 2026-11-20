@@ -1,0 +1,120 @@
+{
+  "quick_macro_f1": {
+    "type": {
+      "n": 426,
+      "student": 0.485008934303435,
+      "hybrid": 0.5992150674129816
+    },
+    "urgency": {
+      "n": 426,
+      "student": 0.2826728698280748,
+      "hybrid": 0.39105217786457275
+    },
+    "sentiment": {
+      "n": 426,
+      "student": 0.3774076717625105,
+      "hybrid": 0.4382613093503823
+    }
+  },
+  "action_types": {
+    "add_board_card": 77,
+    "create_jira_issue": 51,
+    "none": 234,
+    "add_calendar_event": 31
+  },
+  "emails": 426,
+  "status": {
+    "enriched": 426,
+    "enrich_failed": 0,
+    "enrich_pending": 0
+  },
+  "valid_first_attempt": 425,
+  "valid_after_retry": 426,
+  "schema_valid_share": 1.0,
+  "flagged": {
+    "type": 170,
+    "urgency": 300,
+    "sentiment": 160
+  },
+  "changed_by_decoder": {
+    "type": 86,
+    "urgency": 132,
+    "sentiment": 72
+  },
+  "urgency_recall": {
+    "Critical": {
+      "student": {
+        "n": 8,
+        "hits": 0,
+        "recall": 0.0
+      },
+      "hybrid": {
+        "n": 8,
+        "hits": 0,
+        "recall": 0.0
+      }
+    },
+    "High": {
+      "student": {
+        "n": 51,
+        "hits": 3,
+        "recall": 0.058823529411764705
+      },
+      "hybrid": {
+        "n": 51,
+        "hits": 10,
+        "recall": 0.19607843137254902
+      }
+    }
+  },
+  "flagged_urgency_to_critical": {
+    "flagged": 300,
+    "to_critical": 1
+  },
+  "actions": {
+    "accuracy": 0.7582159624413145,
+    "n": 426,
+    "by_gold_type": {
+      "Task": {
+        "n": 95,
+        "accuracy": 0.6210526315789474
+      },
+      "Approval": {
+        "n": 34,
+        "accuracy": 0.7352941176470589
+      },
+      "Info": {
+        "n": 259,
+        "accuracy": 0.8416988416988417
+      },
+      "Meeting": {
+        "n": 25,
+        "accuracy": 0.36
+      },
+      "Credentials": {
+        "n": 13,
+        "accuracy": 0.9230769230769231
+      }
+    },
+    "share_with_any_action": 0.3474178403755869
+  },
+  "violations": {
+    "attendees_missing_owner_added_by_m6": 26,
+    "attendee_invalid": 3,
+    "end_not_after_start": 1,
+    "end_defaulted_30min": 1
+  },
+  "latency_ms_per_request": {
+    "median": 3344.1369499978464,
+    "p95": 8327.823050000916,
+    "n": 426
+  },
+  "tokens_mean": {
+    "in": 2101.4295774647885,
+    "out": 184.4788732394366
+  },
+  "requests_total": 427,
+  "cache_hits": 61,
+  "requests_this_run": 366,
+  "api_keys_used": 2
+}

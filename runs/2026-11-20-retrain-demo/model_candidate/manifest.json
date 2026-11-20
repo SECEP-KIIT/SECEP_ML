@@ -1,0 +1,214 @@
+{
+  "model": "model_candidate",
+  "created": "2026-11-20T03:58:02",
+  "encoder": "sentence-transformers/all-mpnet-base-v2",
+  "max_seq_length": 384,
+  "emb_dim": 768,
+  "normalised": true,
+  "feature_order": [
+    "embedding",
+    "recipient_role",
+    "recipient_position"
+  ],
+  "roles": [
+    "Executive",
+    "Manager",
+    "Analyst",
+    "Consultant",
+    "ClientFacing",
+    "Other"
+  ],
+  "positions": [
+    "To",
+    "Cc",
+    "List/Unknown"
+  ],
+  "role_fallback": "Other",
+  "position_fallback": "List/Unknown",
+  "classes": {
+    "type": [
+      "Task",
+      "Info",
+      "Credentials",
+      "Meeting",
+      "Approval"
+    ],
+    "urgency": [
+      "Critical",
+      "High",
+      "Medium",
+      "Low"
+    ],
+    "sentiment": [
+      "Positive",
+      "Neutral",
+      "Negative",
+      "Frustrated"
+    ]
+  },
+  "temperatures": {
+    "type": 1.5773581840248492,
+    "urgency": 1.8088150347717782,
+    "sentiment": 0.8569760291923433
+  },
+  "C": {
+    "type": 1.0,
+    "urgency": 0.3,
+    "sentiment": 0.3
+  },
+  "class_prior": {
+    "type": [
+      0.19250875542795548,
+      0.6826293129063922,
+      0.02812290592090298,
+      0.04927220825315636,
+      0.04746681749159294
+    ],
+    "urgency": [
+      0.0040715800107387,
+      0.10107641667002693,
+      0.2209413127953938,
+      0.6739106905238406
+    ],
+    "sentiment": [
+      0.043359069266892765,
+      0.9203595828985128,
+      0.03216210376989303,
+      0.004119244064701278
+    ]
+  },
+  "temperatures_prior": {
+    "type": 1.3399537131447505,
+    "urgency": 1.945234197874728,
+    "sentiment": 1.8338382154572155
+  },
+  "default_mode": "mixed",
+  "class_weighting": "balanced n/(k*n_c) x teacher weight_<head>, mean 1",
+  "training_file_sha256": "75ee0555adc5b013014ee1d3f16f1185feffe9da19bc70548a1da905780dfa19",
+  "inputs": {
+    "train": {
+      "path": "Data\\pseudo\\pseudo_train.csv",
+      "sha256": "75ee0555adc5b013014ee1d3f16f1185feffe9da19bc70548a1da905780dfa19"
+    },
+    "train_emb": {
+      "path": "Data\\emb\\pool_emb.npy",
+      "sha256": "b9b104897c01ae9c74cff65397927e3f35857de13b8cefc98d59f6ebcfbed276"
+    },
+    "calib": {
+      "path": "Data\\gold_final\\gold_calib.csv",
+      "sha256": "71c32204d4ff918684e7cb33de48037266d609bbd8941040bfd179e6ae5acdff"
+    },
+    "calib_emb": {
+      "path": "Data\\emb\\gold_calib_emb.npy",
+      "sha256": "66ed5fa53ce9af7fca32e2f1c62501fc5f4097b288fa4817a8582b82c57d28d2"
+    }
+  },
+  "review_threshold": 0.6,
+  "seed": 42,
+  "versions": {
+    "python": "3.15.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1"
+  },
+  "head_mode": {
+    "type": "prior",
+    "urgency": "prior",
+    "sentiment": "balanced"
+  },
+  "head_mode_note": {
+    "set": "2026-11-19T20:59:28",
+    "reason": "gold-dev strict macro-F1: prior better for type/urgency, balanced for sentiment",
+    "gold_dev_indicative": {
+      "balanced": {
+        "type": {
+          "macro_f1": 0.4492026364440157,
+          "review_rate": 0.7445652173913043
+        },
+        "urgency": {
+          "macro_f1": 0.3230924889211061,
+          "review_rate": 0.8858695652173914
+        },
+        "sentiment": {
+          "macro_f1": 0.2987246175560007,
+          "review_rate": 0.40217391304347827
+        },
+        "review_rate_any_head": 0.9184782608695652
+      },
+      "prior": {
+        "type": {
+          "macro_f1": 0.5663734686137406,
+          "review_rate": 0.43478260869565216
+        },
+        "urgency": {
+          "macro_f1": 0.34362119967757143,
+          "review_rate": 0.7554347826086957
+        },
+        "sentiment": {
+          "macro_f1": 0.25774810418727334,
+          "review_rate": 0.02717391304347826
+        },
+        "review_rate_any_head": 0.7663043478260869
+      }
+    }
+  },
+  "parent": "model_v1",
+  "retrain": {
+    "corrections": {
+      "rows_in": 110,
+      "users": 4,
+      "user_cap": 28,
+      "rows_after_cap": 106,
+      "train": 85,
+      "holdout": 21
+    },
+    "corr_weight": 2.0,
+    "gate": {
+      "macro_f1_no_drop": {
+        "type": {
+          "promoted": 0.5663734686137406,
+          "candidate": 0.5645674511396533,
+          "delta": -0.0018060174740872625,
+          "pass": false
+        },
+        "urgency": {
+          "promoted": 0.34362119967757143,
+          "candidate": 0.3465888266946541,
+          "delta": 0.0029676270170826413,
+          "pass": true
+        },
+        "sentiment": {
+          "promoted": 0.2987246175560007,
+          "candidate": 0.30024881447222057,
+          "delta": 0.0015241969162198554,
+          "pass": true
+        }
+      },
+      "class_f1_drop_le_0.03": {
+        "type": {
+          "worst_class_delta": -0.011092246745896983,
+          "pass": true
+        },
+        "urgency": {
+          "worst_class_delta": -0.004329004329004321,
+          "pass": true
+        },
+        "sentiment": {
+          "worst_class_delta": 0.0,
+          "pass": true
+        }
+      },
+      "better_on_heldout_corrections": {
+        "promoted": 0.0,
+        "candidate": 0.6666666666666666,
+        "pass": true
+      },
+      "pass": false
+    },
+    "data_sha256": {
+      "pool": "75ee0555adc5b013014ee1d3f16f1185feffe9da19bc70548a1da905780dfa19",
+      "calib": "71c32204d4ff918684e7cb33de48037266d609bbd8941040bfd179e6ae5acdff",
+      "dev_gate": "8377a7ac48bec3805cd33a04929cad98d294d1950cbaf6a93667953463d7f360"
+    }
+  }
+}

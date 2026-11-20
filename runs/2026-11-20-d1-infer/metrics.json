@@ -1,0 +1,31 @@
+{
+  "requested": 20,
+  "classified": 20,
+  "invalid": 0,
+  "problems": [],
+  "nondeterministic": [],
+  "text_mismatch": [],
+  "latency": {
+    "n_timings": 60,
+    "median_ms": 172.09919999913836,
+    "p95_ms": 318.14768000094773,
+    "max_ms": 323.0361999994784,
+    "target_p95_ms": 350,
+    "cpu": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "threads": 12
+  },
+  "review_rate": {
+    "type": 0.35,
+    "urgency": 0.65,
+    "sentiment": 0.25
+  },
+  "review_rate_any_head": 0.65,
+  "unseen": [],
+  "gates": {
+    "all_classified_valid": true,
+    "deterministic": true,
+    "text_parity": true,
+    "p95_le_350ms": true
+  },
+  "pass": true
+}

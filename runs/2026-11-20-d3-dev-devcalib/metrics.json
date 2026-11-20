@@ -1,0 +1,95 @@
+{
+  "emails": 276,
+  "status": {
+    "enriched": 276,
+    "enrich_failed": 0,
+    "enrich_pending": 0
+  },
+  "valid_first_attempt": 276,
+  "valid_after_retry": 276,
+  "schema_valid_share": 1.0,
+  "flagged": {
+    "type": 125,
+    "urgency": 210,
+    "sentiment": 104
+  },
+  "changed_by_decoder": {
+    "type": 48,
+    "urgency": 96,
+    "sentiment": 43
+  },
+  "urgency_recall": {
+    "Critical": {
+      "student": {
+        "n": 9,
+        "hits": 1,
+        "recall": 0.1111111111111111
+      },
+      "hybrid": {
+        "n": 9,
+        "hits": 0,
+        "recall": 0.0
+      }
+    },
+    "High": {
+      "student": {
+        "n": 41,
+        "hits": 6,
+        "recall": 0.14634146341463414
+      },
+      "hybrid": {
+        "n": 41,
+        "hits": 14,
+        "recall": 0.34146341463414637
+      }
+    }
+  },
+  "flagged_urgency_to_critical": {
+    "flagged": 210,
+    "to_critical": 0
+  },
+  "actions": {
+    "accuracy": 0.6920289855072463,
+    "n": 276,
+    "by_gold_type": {
+      "Info": {
+        "n": 154,
+        "accuracy": 0.9805194805194806
+      },
+      "Task": {
+        "n": 74,
+        "accuracy": 0.12162162162162163
+      },
+      "Approval": {
+        "n": 27,
+        "accuracy": 1.0
+      },
+      "Meeting": {
+        "n": 17,
+        "accuracy": 0.0
+      },
+      "Credentials": {
+        "n": 4,
+        "accuracy": 1.0
+      }
+    },
+    "share_with_any_action": 0.043478260869565216
+  },
+  "violations": {
+    "attendee_invalid": 4,
+    "missing_required": 19
+  },
+  "latency_ms_per_request": {
+    "median": 1664.366049999444,
+    "p95": 2096.7100500001834,
+    "n": 276
+  },
+  "tokens_mean": {
+    "in": 2012.394927536232,
+    "out": 166.8586956521739
+  },
+  "requests_total": 276,
+  "cache_hits": 20,
+  "requests_this_run": 256,
+  "api_keys_used": 1
+}

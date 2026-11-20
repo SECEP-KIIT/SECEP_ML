@@ -1,0 +1,23 @@
+{
+  "created": "2026-11-20T00:44:13",
+  "script": "scripts/infer.py",
+  "model": "C:\\Dev\\SECEP_ML\\SECEP_ML\\ML_Training\\model_v1",
+  "model_version": "model_v1",
+  "manifest_sha256": "09646396d00bf19e5c0cdf09116dce28fb3fd9cf89a2ff1f26ff05b246fa1aed",
+  "mode": "mixed",
+  "head_modes": {
+    "type": "prior",
+    "urgency": "prior",
+    "sentiment": "balanced"
+  },
+  "threshold": 0.6,
+  "text_version": "1.0",
+  "seed": 42,
+  "pool_sample": 20,
+  "repeats": 3,
+  "model_load_s": 8.4,
+  "stub_encoder": false,
+  "inputs_sha256": {
+    "pool": "8f0b45608a9f2857f8136cdf6bc9624f91191c35b328a5c9c6f18d4f399495f3"
+  }
+}

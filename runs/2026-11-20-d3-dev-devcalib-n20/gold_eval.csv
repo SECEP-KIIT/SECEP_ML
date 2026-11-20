@@ -1,0 +1,2693 @@
+email_uid,split,overlap,labellers,n_labels,excluded,unsure,notes,subject,date,from,to,cc,body,context,owner_custodian,bucket,recipient_custodian,recipient_role,recipient_position,folder_category,folder,q4_2001,tension,hints,broadcast,thread_id,thread_size,message_id,source_path,type,type_alt,type_status,type_strict,urgency,urgency_alt,urgency_status,urgency_strict,sentiment,sentiment_alt,sentiment_status,sentiment_strict,dropped_outlier,body_sheet,quoted,input_text,masked_kinds,body_chars,text_version
+26e6f19a9584bb34,dev,False,Areeb,1,False,type,Areeb: Does not really fit any given type,RE: Big Pig,2001-12-31 10:30,"Muller, Mark S. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MMULLER>",louise.kitchen@enron.com,,you need to work on your code names i suggest either windsor or lord,"-----Original Message-----
+From:         Kitchen, Louise  
+Sent:        Monday, December 31, 2001 12:08 PM
+To:        Webb, Jay; Rub, Jenny; Beck, Sally; Zipper, Andy; Lavorato, John; Oxley, David; Bradford, William S.; Colwell, Wes; Buy, Rick; Port, David; Hall, Bob M
+Cc:        Golden, Jeff; Muller, Mark S.; Lavorato, John; Schoppe, Tammie; Hillis, Kimberly
+Subject:        Big Pig
+
+On Wednesday morning we will be commencing the Due Diligence process with another counterparty.  Andy Zipper has agreed to lead their team through the process.
+
+The Schedule outline is based on initial overview discussions/presentations  and then more detailed discussion can occur in individual groups the outline is as follows:
+
+It may be better to split up earlier but I leave all those decisions to Andy.  
+
+9:00                Introduction                        John Lavorato & Louise Kitchen
+9:45                Financial Overview                Wes Colwell
+10:30                Risk Overview                        Buy / Port
+11:00                Credit                                Bradford
+11:30                Back Office                        Beck/Hall        
+12:30                Systems (EnronOnline)                Jay Webb        
+1pm                Mid/Back Office Systems        Jay Webb
+1:30pm                Infrastructure                        Jenny Rub
+2:00pm                HR                                Oxley
+                
+Please make yourselves available - the meetings will probably take place on 32.
+
+Tammie - please organize lunch and refreshments etc.
+
+Assume Big Pig will bring 8 people.
+
+
+Thanks
+
+
+Louise",kitchen-l,Executive,kitchen-l,Executive,To,inbox,inbox,True,False,,False,490230f37eab,2,<22061366.1075855293290.JavaMail.evans@thyme>,kitchen-l\inbox\113,Info,,single,True,Low,,single,True,Positive,,single,True,False,you need to work on your code names i suggest either windsor or lord,"-----Original Message-----
+From: Kitchen, Louise
+Sent: Monday, December 31, 2001 12:08 PM
+To: Webb, Jay; Rub, Jenny; Beck, Sally; Zipper, Andy; Lavorato, John; Oxley, David; Bradford, William S.; Colwell, Wes; Buy, Rick; Port, David; Hall, Bob M
+Cc: Golden, Jeff; Muller, Mark S.; Lavorato, John; Schoppe, Tammie; Hillis, Kimberly
+Subject: Big Pig
+
+On Wednesday morning we will be commencing the Due Diligence process with another counterparty. Andy Zipper has agreed to lead their team through the process.
+
+The Schedule outline is based on initial overview discussions/presentations and then more detailed discussion can occur in individual groups the outline is as follows:
+
+It may be better to split up earlier but I leave all those decisions to Andy.
+
+9:00 Introduction John Lavorato & Louise Kitchen
+9:45 Financial Overview Wes Colwell
+10:30 Risk Overview Buy / Port
+11:00 Credit Bradford
+11:30 Back Office Beck/Hall
+12:30 Systems (EnronOnline) Jay Webb
+1pm Mid/Back Office Systems Jay Webb
+1:30pm Infrastructure Jenny Rub
+2:00pm HR Oxley
+
+Please make yourselves available - the meetings will probably take place on 32.
+
+Tammie - please organize lunch and refreshments etc.
+
+Assume Big Pig will bring 8 people.
+
+Thanks
+
+Louise","Subject: RE: Big Pig
+
+you need to work on your code names i suggest either windsor or lord",,68,1.0
+b2d3677d3bb4295d,dev,False,Areeb,1,False,,,Gas Marketing and Trading Announcement - DRAFT,2000-12-11 04:09,Barry Tycholiz,david.delainey@enron.com,,"Dave, further to our conversation of last week, please find a draft of the
+org announcement that both Phillip and I believe represents our plan.
+
+You can change in any way you see fit... Give me a call if you want to
+discuss and if there is anything else required from me, please advise.
+
+BT",,delainey-d,Executive,delainey-d,Executive,To,inbox,notes_inbox,False,False,,False,cea629494a7d,1,<11074689.1075854462024.JavaMail.evans@thyme>,delainey-d\notes_inbox\23,Task,,single,True,Medium,,single,True,Neutral,,single,True,False,"Dave, further to our conversation of last week, please find a draft of the 
+org announcement that both Phillip and I believe represents our plan.  
+
+You can change in any way you see fit... Give me a call if you want to 
+discuss and if there is anything else required from me, please advise. 
+
+BT",,"Subject: Gas Marketing and Trading Announcement - DRAFT
+
+Dave, further to our conversation of last week, please find a draft of the
+org announcement that both Phillip and I believe represents our plan.
+
+You can change in any way you see fit... Give me a call if you want to
+discuss and if there is anything else required from me, please advise.
+
+BT",,291,1.0
+1cc202fdeb95224a,calib,False,Sumana,1,False,,,Re: EOL Credit Responses 2/14,2000-02-15 06:10,Leslie Hansen,tana.jones@enron.com,melissa.murphy@enron.com,"Tana:
+
+The following CPs are authorized to trade U.S. power products:
+
+1. Puget Sound Energy, Inc. -- open for West products, but ENRON SALES only
+for East products.
+2. City of Pasadena
+
+The following CPs are NOT authorized to trade U.S. power products:
+
+1. Anderson Exploration -- This CP was restricted by credit.
+2. Shell Chemical Risk Management Company
+************************************************************
+Puget Sound can trade in the West pursuant to the WSPP agreement, but since
+it is a utility, Enron can sell only to the CP in the East pursuant to the
+on-line GTCs.
+
+City of Pasadena is a current trading partner. We have an old 1994
+Interchange Agreement in place, but this CP must trade on EOL via the on-line
+GTCs. Accordingly, I will send this CP an override letter.
+
+Shell Chemical Risk Management Company -- We do not have a trading
+relationship with this CP, and it is not on my FERC list as an approved power
+marketer.",,jones-t,Legal,jones-t,Consultant,To,custom,online_trading,False,False,approval,False,fb3ef9f09c14,1,<9322741.1075847149917.JavaMail.evans@thyme>,jones-t\online_trading\219,Info,,single,True,Medium,,single,True,Neutral,,single,True,False,"Tana:
+
+The following CPs are authorized to trade U.S. power products:
+
+1.  Puget Sound Energy, Inc. -- open for West products, but ENRON SALES only 
+for East products.
+2.  City of Pasadena
+
+The following CPs are NOT authorized to trade U.S. power products:
+
+1.  Anderson Exploration -- This CP was restricted by credit.
+2.  Shell Chemical Risk Management Company 
+************************************************************
+Puget Sound can trade in the West pursuant to the WSPP agreement, but since 
+it is a utility, Enron can sell only to the CP in the East pursuant to the 
+on-line GTCs.
+
+City of Pasadena is a current trading partner.  We have an old 1994 
+Interchange Agreement in place, but this CP must trade on EOL via the on-line 
+GTCs.  Accordingly, I will send this CP an override letter.
+
+Shell Chemical Risk Management Company -- We do not have a trading 
+relationship with this CP, and it is not on my FERC list as an approved power 
+marketer.",,"Subject: Re: EOL Credit Responses 2/14
+
+Tana:
+
+The following CPs are authorized to trade U.S. power products:
+
+1. Puget Sound Energy, Inc. -- open for West products, but ENRON SALES only
+for East products.
+2. City of Pasadena
+
+The following CPs are NOT authorized to trade U.S. power products:
+
+1. Anderson Exploration -- This CP was restricted by credit.
+2. Shell Chemical Risk Management Company
+************************************************************
+Puget Sound can trade in the West pursuant to the WSPP agreement, but since
+it is a utility, Enron can sell only to the CP in the East pursuant to the
+on-line GTCs.
+
+City of Pasadena is a current trading partner. We have an old 1994
+Interchange Agreement in place, but this CP must trade on EOL via the on-line
+GTCs. Accordingly, I will send this CP an override letter.
+
+Shell Chemical Risk Management Company -- We do not have a trading
+relationship with this CP, and it is not on my FERC list as an approved power
+marketer.",,944,1.0
+b59e5491524d78b7,dev,False,Akashdeep,1,False,,,OTC purchases by EPMI for EES during March,2001-02-27 06:34,Neil Bresnan,jeff.richter@enron.com; chris.foster@enron.com; kate.symes@enron.com; phillip.platter@enron.com; chris.mallory@enron.com,jubran.whalan@enron.com,"We agree to pay a premium of $5 per MWH for power purchased by EPMI to cover
+EES's load during March. We will revisit this arrangement during the second
+half of March when it becomes clear what our on going load will be in
+Southern California.
+
+Thank you all again for your help over the last month !
+
+NFB",,symes-k,Analyst,symes-k,Analyst,To,custom,deal_communication\ees,False,False,,False,be00f3b62652,1,<16338923.1075841760794.JavaMail.evans@thyme>,symes-k\deal_communication\ees\8,Info,,single,True,Low,,single,True,Positive,,single,True,False,"We agree to pay a premium of $5 per MWH for power purchased by EPMI to cover 
+EES's load during March. We will revisit this arrangement during the second 
+half of March when it becomes clear what our on going load will be in 
+Southern California. 
+
+Thank you all again for your help over the last month !
+
+NFB",,"Subject: OTC purchases by EPMI for EES during March
+
+We agree to pay a premium of $5 per MWH for power purchased by EPMI to cover
+EES's load during March. We will revisit this arrangement during the second
+half of March when it becomes clear what our on going load will be in
+Southern California.
+
+Thank you all again for your help over the last month !
+
+NFB",,305,1.0
+46d01a734d0b8605,calib,False,Amitava,1,False,,,FW: Notices and Agenda for Dec 21 ServiceCo Board Meeting,2001-12-20 13:22,"Roland, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DROLAND>",vicki.sharp@enron.com; w..delainey@enron.com; s..muller@enron.com; jimmie.williams@enron.com,,"Vicki, Dave, Mark and Jimmie,
+
+We're scheduling a pre-meeting to the ServiceCo Board meeting at 11:30 a.m. tomorrow (Friday) in Dave's office.
+
+Thanks,
+David","[2001-12-20 13:14] david.roland@enron.com: I have attached below a copy of the new Notice and Agenda for the ServiceCo Board meeting to be held tomorrow (Friday) at noon Houston time. The Notice contains the new call-in number for the meeting, which is as follows:
+
+	Call toll-free 1-888-566-5914, and mention the passcode ""ServiceCo"".  If asked, the arranger for
+	the call was David Roland.
+
+I also faxed the Notice and Agenda to Shael and Tracy ( I attempted to fax to Brad but was not successful).
+
+Thanks,
+David",delainey-d,Executive,delainey-d,Executive,List/Unknown,inbox,inbox,True,False,meeting,False,66e52a4b322b,2,<15156489.1075859109691.JavaMail.evans@thyme>,delainey-d\inbox\9,Meeting,,single,True,High,,single,True,Neutral,,single,True,False,"Vicki, Dave, Mark and Jimmie,
+
+We're scheduling a pre-meeting to the ServiceCo Board meeting at 11:30 a.m. tomorrow (Friday) in Dave's office.
+
+Thanks,
+David","-----Original Message-----
+From: Roland, David
+Sent: Thursday, December 20, 2001 3:15 PM
+To: Sharp, Vicki; Muller, Mark S.; Delainey, David W.; 'tprice@fieldcentrix.com'; 'mroppolo@fieldcentrix.com'; 'shael_dolman@otpp.com'; 'bjones@redpoint.com'
+Cc: Williams, Jimmie
+Subject: Notices and Agenda for Dec 21 ServiceCo Board Meeting
+
+I have attached below a copy of the new Notice and Agenda for the ServiceCo Board meeting to be held tomorrow (Friday) at noon Houston time. The Notice contains the new call-in number for the meeting, which is as follows:
+
+Call toll-free 1-888-566-5914, and mention the passcode ""ServiceCo"". If asked, the arranger for
+the call was David Roland.
+
+I also faxed the Notice and Agenda to Shael and Tracy ( I attempted to fax to Brad but was not successful).
+
+Thanks,
+David","Subject: FW: Notices and Agenda for Dec 21 ServiceCo Board Meeting
+
+Vicki, Dave, Mark and Jimmie,
+
+We're scheduling a pre-meeting to the ServiceCo Board meeting at 11:30 a.m. tomorrow (Friday) in Dave's office.
+
+Thanks,
+David",,157,1.0
+7e0a3ee03b859812,calib,False,Sumana,1,False,,,Address Information,2001-09-19 08:55,Evans Automation <info@evans-automation.com>@ENRON <IMCEANOTES-Evans+20Automation+20+3Cinfo+40evans-automation+2Ecom+3E+40ENRON@ENRON.com>,kpresto@enron.com,,"Here is the information that you requested.
+
+Evans Automation
+15200 Middlebrook Dr.
+Suite
+Houston, TX 77058
+
+Phone: 281-488-7474
+Fax: 281-488-7475
+
+Email: Info@evans-automation.com
+
+Wendy Donaldson
+Evans Automation
+Ph 281.488.7474
+Fax 281.488.7475",,presto-k,Manager,presto-k,Manager,List/Unknown,custom,presto_working_files,False,False,,False,62ef8382c758,1,<8394895.1075841437443.JavaMail.evans@thyme>,presto-k\presto_working_files\17,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"Here is the  information that you requested.
+ 
+Evans  Automation
+15200 Middlebrook  Dr.
+Suite  
+Houston, TX   77058
+ 
+Phone:  281-488-7474
+Fax:  281-488-7475
+ 
+Email: Info@evans-automation.com 
+ 
+Wendy Donaldson
+Evans Automation
+Ph 281.488.7474
+Fax 281.488.7475",,"Subject: Address Information
+
+Here is the information that you requested.
+
+Evans Automation
+15200 Middlebrook Dr.
+Suite
+Houston, TX 77058
+
+Phone: 281-488-7474
+Fax: 281-488-7475
+
+Email: Info@evans-automation.com
+
+Wendy Donaldson
+Evans Automation
+Ph 281.488.7474
+Fax 281.488.7475",,247,1.0
+c5f5275234cd5cdc,dev,False,Amitava,1,False,,,[cheatsheets] #150 Week 15 Upgrades - Downgrades (12-4-00),2000-12-04 14:52,"""Joe Bryant"" <bryant@cheatsheets.net>",cheatsheets@egroups.com,,"Hi Folks
+
+It's crunch time so let's jump right into our Upgraded and Downgraded
+Players.? As we head down the home stretch, identifying those players moving
+up or down can be the difference between?dominating the playoffs or watching
+from the sidelines.? As we head into our 15th week of listing these players,
+it,s inevitable that some guys will have made both the upgrade or downgrade
+list.? Make sure you understand, what we,re talking about is players that
+are moving.? In other words, a player like TE Ricky Dudley could appear on
+the downgrade list and still be good enough to be a starter in your league.?
+It just means I,m concerned about the way he seems to be heading.? Likewise,
+a player like WR Willie Jackson may make the upgrade list even though he,s
+still fairly far down the list of WRs.? It,s all about which direction
+players are moving.? Keeping an eye on these trends as they can very often
+make all the difference.
+
+Joe
+
+?
+
+Upgrades and Downgrades.? Some of these players are obvious moves up or
+down and some aren't as clear.? Here's my list of guys I see moving this
+week.
+
+QBs Moving Up?
+
+QB Aaron Brooks (NO)? We keep hyping the kid and he keeps delivering.?
+Another outstanding game Sunday where he rolled up 441 yards and 2 TDs as he
+went 30 for 48.? The Saints rushing game is clearly struggling so it appears
+Brooks will continue to air the ball out.? Yes, he'll make some young QB
+mistakes and I'd be surprised if he didn't throw as many interceptions as he
+does TDs.? I expect him to throw a lot of both.? I almost started him over
+Peyton Manning in my local league but didn't pull the trigger.? Manning was
+solid but Brooks was better.
+
+QB Kordell Stewart (Pit)? Kordell made our upgrade list last week and here
+he sits again.? It took a few years, but he's showing folks that maybe 1997
+was no fluke.? He showed guts coming back in the game after being knocked
+out with a bad knee or calf (depending on whether you listen to coach Bill
+Cowher or Stewart)? The TD rush was highlight material.? His problem all
+along seems to have been confidence and he's surely brimming with it now.?
+Kent Graham was so bad I won't even mention him in the downgrades but he put
+on a horrid display when he was in the game.? He's awful.
+
+QB Jay Fiedler (Mia)? Dan Fouts said on Monday Night Football a few weeks
+ago that a nice pass just thrown by Fiedler ""was as pretty as anything Dan
+Marino ever threw"".? Fiedler has those moments and he was having them fairly
+often against the supposedly tough Bills where they were supposedly going to
+have an advantage in their cold weather.? Didn't play out that way.?
+Fiedler looks pretty darn good.
+
+QB Jeff Garcia (SF)? We had him high in week 14 like we have all year and
+he didn't disappoint.? WR Terrell Owens was a huge help and apparently
+Jerry Rice's wife?harping on the radio had some sort of positive effect.?
+The Chargers had been very tough against the pass and Garcia shredded them.
+
+QB Brett Favre (GB)? I have a hard time putting a finger on it but this guy
+just does what it takes to get the job done.? He'd be much better off if WR
+Antonio Freeman earned 10% of his paycheck but in the meantime, Bill
+Schroeder's doing a great job.?
+
+QB Jeff George (Was)? Lil Danny Snyder removed the primary obstacle to
+keeping his QB Jeff George off the field by firing Norv Turner Monday.?
+George looks to start this week and possibly for the rest of the year.?
+Although tying Snyder to anything past the next series is a stretch.? I'm a
+Jeff George fan though and he does give the team a big arm.? We'll see how
+it goes but at least it looks as if he'll get his shot.
+
+?
+
+RBs Moving Up
+
+RB Mike Anderson (Den)? Like you need me to tell you this.? The fact that
+he ran buck wild on a tough New Orleans defense made the effort all the
+more impressive.? He bruised a knee but seemed to bounce back and looks to
+be good for Sunday.? Clearly, the Denver OL is the star on this team so if
+you own Anderson, it's probably not a bad idea to grab KaRon Coleman for the
+stretch run.?
+
+RB Fred Taylor (Jac)? For all the early?ripping I've done to Taylor, he's
+performed just as we predicted he would lately - like a madman.? You don't
+need me to tell you he's been awesome.
+
+RB Warrick Dunn (TB)? Can the little guy take up the slack for Mike
+Alstott?? I've got a couple hundred reasons that says ""yes"".? Ok, rushing
+for 200+ against Dallas is nothing special (it's happened in 23% of the
+Cowboys games this year) but you have to admit Dunn looked great Sunday.?
+
+RB Corey Dillon (Cin)? One can only salivate about what he might do if he
+played for a team like Denver.? The fact he can continue to roll up huge
+yardage on this team is amazing.? New QB Scott Mitchell is a huge boost as
+he looks like Peyton Manning back there compared to Akili Smith...
+
+RB Ahman Green (GB)? Green's a guy that's finally living up to his
+potential.? You always knew he had the physical skills but now he seems to
+be catching up mentally as well.? He showed a nice nose for the endzone
+Sunday with the 2 TDs.
+
+RB Lamar Smith (Mia)? So much for the cold weather hamstring worries.?
+Smith carried the load Sunday in frigid Buffalo and looked great.? It looks
+to me like he's picking up right where he left off.
+
+RB Terrell Fletcher (SD)? It's not exactly the same as earning the starting
+RB job in Tennessee or Indianapolis, but Fletcher does seem to have nailed
+down the #1 RB slot in San Diego.? And that's worth something.? You have to
+decide how much...
+
+RB Fred Beasley (SF)? We loved Beasley early in the season as he racked up
+TDs.? He got back in the mix Sunday with 5 carries and a TD.? The FB for San
+Francisco has always been a valuable FF slot and Beasley might be worth the
+roll of the dice if you're thin at RB.
+
+RB Shawn Bryson (Buf)? Finally, Bryson does something besides make me look
+bad for hyping him.? He rolled up 88 yards on just 12 attempts Sunday and
+looks to take advantage of Sammy Morris' ankle troubles.?
+
+RB Terry Allen (NO)? Allen made an appearance Sunday and with Jerald Moore
+and Chad Morton failing to astound anyone, Allen could get more looks.?
+Whether he's got anything left in the tank remains to be seen.
+
+?
+
+WRs Moving Up
+
+WR David Boston (Ari)?? Boston turned in a huge game Sunday and has to be
+considered an upgrade.? He's a streaky guy but with Frank Sanders a total
+non factor, Boston is getting most of QB Jake Plummer's attention these
+days.? And with Arizona almost certain to be playing from behind, he could
+do some damage.
+
+WR Darrell Jackson (Sea)? Jackson was red hot several weeks ago but had
+cooled of late.? He warmed up again Sunday with Jon Kitna under center.?
+It's tough to depend on the Seahawk passing game but Jackson could be worth
+a shot.
+
+WR Curtis Conway (SD)? Conway has benefited the most from the Ryan Leaf
+resurgence.? He caught 7 passes Sunday and should benefit as Leaf continues
+to improve.
+
+WR Willie Jackson (NO)? Jackson's officially moved past the ""flash in the
+pan"" stage with another solid day.? Aaron Brooks continues to look good at
+QB.? Jackson may suffer a bit when Jake Reed gets healthy but for right now,
+he's looking good.
+
+WR Joe Horn (NO)? Again, QB Aaron Brooks delivers and Horn is the prime
+recipient.? Joe Horn is one of the better stories of 2000 and he should
+continue to shine especially if the rushing game doesn't get untracked.
+
+WR Bobby Shaw (Pit)? Shaw may still be available in your league as the
+starting WR opposite Hines Ward.? He found the endzone again and continues
+to make some noise with Kordell Stewart quarterbacking.
+
+WR Terrell Owens (SF)? The best news for Jeff Garcia owners had to be a
+solid day from Terrell Owens.? He's a huge boost to the offense when he can
+go and it looked like he'd made progress with the toe.? Keep an eye out for
+how he responds after the game but I liked what I saw.
+
+WR Shockmain Davis (NE)? Ok, I'll be honest.? I'm pretty much just including
+him here because he's the owner of the coolest name in the league...
+
+?
+
+TEs Moving Up
+
+TE Dwayne Carswell (Den)? Carswell's finally starting to emerge as the TE of
+choice in Denver.? His 62 yards Sunday were second only to San Diego's
+Freddie Jones.? You have to worry about Desmond Clark stealing time but I'd
+have no trouble starting Carswell each week.
+
+TE Reggie Kelly (Atl)? One of the few bright spots for Atlanta has been the
+play of Kelly.? He caught 4 passes for 44 yards Sunday with a TD.? New QB
+Doug Johnson may lean on him as he settles in.
+
+TE Mark Bruener (Pit)? Bruener makes the list not only for having another
+solid game but for making one of the best TD runs after the catch Sunday as
+he piggy backed a defender into the endzone after refusing to go down at the
+5 yard line.
+
+TE Andrew Glover (NO)? Obviously, the play of Aaron Brooks raises the level
+of play for all the Saints receivers.? Glover made a couple of nice plays
+Sunday including a good looking TD catch.
+
+?
+
+Players Moving Down
+
+QBs Moving Down
+
+QB Shane Matthews (Chi)? Take a seat Shane.? Cade McNown likely makes his
+return.? Folks can hardly wait...
+
+QB Troy Aikman (Dal)? Emmitt Smith owners had to love it but did it seem
+strange to anyone else that the Cowboys felt the best way to come back from
+a huge deficit against Tampa was to feed the ball to Emmitt?? Clearly, the
+team has zero faith in Aikman's ability to throw the ball.
+
+QB Shaun King (TB)? I know he's had trouble with the back but 65 passing
+yards?? That's a joke.? He'll be better but I've seen enough.
+
+QB Brad Johnson (Was)? It's the Jeff George show.? At least until?George
+looks bad for a few series...
+
+QB Rob Johnson (Buf)? In leagues that penalize for interceptions, you'd have
+been better off starting yourself this weekend than you would've Rob
+Johnson.? Once again, he starts the game but finishes holding a clipboard.
+
+?
+
+RBs?Moving Down
+
+RB Jamal Anderson (Atl)? Anderson's not playing too badly but the team is
+in shambles.? After QB Chris Chandler was benched, Anderson vented some
+frustrations saying for all he knew, ""he might be punting this week"".? I
+don't think we'll see that but I also don't think we'll see the days of him
+seriously rushing the ball for the rest of the year.
+
+RB Shaun Alexander (Sea)?? RB Ricky Watters has proven to be less than an
+ideal playmate refusing to share the ball.? Actually, he's played so well
+that Mike Holmgren has been reluctant to do anything to disrupt the flow of
+his star.? When the team is struggling as badly as it is, you don't mess
+with the one thing that's working.
+
+Philadelphia RBs? Forget about them.? This team will live and die by
+Donovan McNabb.
+
+RB Jermaine Fazande (SD)? Evidently, Fazande is the 2nd choice behind
+Terrell Fletcher now.? That's gotta hurt...
+
+?
+
+WRs Moving Down
+
+WR Joe Jurevicius (NYG)? This has nothing to do with the play of Jurevicius
+as he's been very solid but you have to think Ike Hilliard will be a factor
+when he returns.? He's no lock to go this week but he may be close.
+
+WR Terrance Mathis (Atl)? Mathis continues to struggle on a team that's in
+a tailspin.? New QB Doug Johnson seemed to like throwing to Shawn Jefferson
+which could spell more bad things for Mathis.
+
+WRs Torrance Small / Charles Johnson (Phi)? Forget about it.? Donovan McNabb
+can be a solid QB without WRs.
+
+WRs James McKnight / Wayne McGarity (Dal)? These guys just aren't very
+McGood.? QB Troy Aikman is a mere shadow of his former self.
+
+WR Marcus Robinson (Chi)? Robinson's back troubles were apparently more
+serious than many had expected.? It was announced Monday that he'll likely
+miss the rest of the season with a bulging disk in his back.? It appears he
+can get by without surgery but he's certainly not looking good.
+
+?
+
+TEs Moving Down
+
+TEs Marcus Pollard / Ken Dilger (Ind)? Neither of these guys did much
+Sunday.? This offense clearly isn't in the same groove it was earlier this
+year.?
+
+TEs Jackie Harris / David LaFleur (Dal)? More bad news associated with Troy
+Aikman.? Neither of these guys were much value Sunday and I don't see that
+changing very quickly.
+
+TE Pete Mitchell (NYG)? One of the bigger disappointments at TE this season,
+he just can't get untracked.
+
+?
+
+?
+
+?
+
+?
+
+To unsubscribe from this group, send an email to:
+cheatsheets-unsubscribe@egroups.com",,bass-e,Trader,bass-e,ClientFacing,List/Unknown,inbox,notes_inbox,False,True,,False,5b1e82d7a47a,1,<1504399.1075854666480.JavaMail.evans@thyme>,bass-e\notes_inbox\138,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"Hi  Folks
+
+It's crunch time so  let's jump right into our  Upgraded and Downgraded=20
+Players.? As we head down the home  stretch, identifying those players movi=
+ng=20
+up or down can be the difference  between?dominating the playoffs or watchi=
+ng=20
+from the sidelines.? As we head into our 15th week  of listing these player=
+s,=20
+it=01,s inevitable that some guys will have made both the  upgrade or downg=
+rade=20
+list.? Make  sure you understand, what we=01,re talking about is players th=
+at=20
+are moving.? In other words, a player like TE Ricky  Dudley could appear on=
+=20
+the downgrade list and still be good enough to be a  starter in your league=
+.?=20
+It just  means I=01,m concerned about the way he seems to be heading.? Like=
+wise,=20
+a player like WR Willie  Jackson may make the upgrade list even though he=
+=01,s=20
+still fairly far down the  list of WRs.? It=01,s all about which  direction=
+=20
+players are moving.?  Keeping an eye on these trends as they can very often=
+=20
+make all the  difference.
+
+Joe
+
+?
+
+Upgrades and  Downgrades.? Some of these  players are obvious moves up or=
+=20
+down and some aren't as clear.? Here's my  list of guys I see moving this=
+=20
+week.
+
+QBs Moving  Up?
+
+QB Aaron Brooks  (NO)? We keep hyping the kid and he keeps delivering.? =20
+Another outstanding game Sunday where he rolled up 441 yards and 2 TDs as h=
+e =20
+went 30 for 48.? The Saints rushing game is clearly struggling so it  appea=
+rs=20
+Brooks will continue to air the ball out.? Yes, he'll make some  young QB=
+=20
+mistakes and I'd be surprised if he didn't throw as many interceptions  as =
+he=20
+does TDs.? I expect him to throw a lot of both.? I almost  started him over=
+=20
+Peyton Manning in my local league but didn't pull the  trigger.? Manning wa=
+s=20
+solid but Brooks was better.
+
+QB Kordell Stewart  (Pit)? Kordell made our upgrade list last week and here=
+=20
+he sits  again.? It took a few years, but he's showing folks that maybe 199=
+7=20
+was no  fluke.? He showed guts coming back in the game after being knocked=
+=20
+out with  a bad knee or calf (depending on whether you listen to coach Bill=
+=20
+Cowher or  Stewart)? The TD rush was highlight material.? His problem all=
+=20
+along  seems to have been confidence and he's surely brimming with it now.?=
+=20
+Kent  Graham was so bad I won't even mention him in the downgrades but he p=
+ut=20
+on a  horrid display when he was in the game.? He's  awful.
+
+QB Jay Fiedler  (Mia)? Dan Fouts said on Monday Night Football a few weeks=
+=20
+ago  that a nice pass just thrown by Fiedler ""was as pretty as anything Dan=
+=20
+Marino  ever threw"".? Fiedler has those moments and he was having them fair=
+ly=20
+often  against the supposedly tough Bills where they were supposedly going =
+to=20
+have an  advantage in their cold weather.? Didn't play out that way.?=20
+Fiedler  looks pretty darn good.
+
+QB Jeff Garcia  (SF)? We had him high in week 14 like we have all year and=
+=20
+he  didn't disappoint.? WR Terrell Owens was a huge help and apparently=20
+Jerry  Rice's wife?harping on the radio had some sort of positive effect.? =
+=20
+The Chargers had been very tough against the pass and Garcia shredded  them=
+.
+
+QB Brett Favre  (GB)? I have a hard time putting a finger on it but this gu=
+y=20
+just  does what it takes to get the job done.? He'd be much better off if W=
+R =20
+Antonio Freeman earned 10% of his paycheck but in the meantime, Bill=20
+Schroeder's  doing a great job.?=20
+
+QB Jeff George  (Was)? Lil Danny Snyder removed the primary obstacle to=20
+keeping  his QB Jeff George off the field by firing Norv Turner Monday.?=20
+George  looks to start this week and possibly for the rest of the year.?=20
+Although  tying Snyder to anything past the next series is a stretch.? I'm =
+a=20
+Jeff  George fan though and he does give the team a big arm.? We'll see how=
+=20
+it  goes but at least it looks as if he'll get his shot.
+
+?
+
+RBs Moving  Up
+
+RB Mike Anderson  (Den)? Like you need me to tell you this.? The fact that=
+=20
+he  ran buck wild on a tough New Orleans defense made the effort all the=20
+more  impressive.? He bruised a knee but seemed to bounce back and looks to=
+=20
+be  good for Sunday.? Clearly, the Denver OL is the star on this team so if=
+=20
+you  own Anderson, it's probably not a bad idea to grab KaRon Coleman for t=
+he=20
+stretch  run.?=20
+
+RB Fred Taylor  (Jac)? For all the early?ripping I've done to Taylor, he's =
+=20
+performed just as we predicted he would lately - like a madman.? You don't =
+=20
+need me to tell you he's been awesome.
+
+RB Warrick Dunn  (TB)? Can the little guy take up the slack for Mike=20
+Alstott??  I've got a couple hundred reasons that says ""yes"".? Ok, rushing=
+=20
+for 200+  against Dallas is nothing special (it's happened in 23% of the=20
+Cowboys games  this year) but you have to admit Dunn looked great  Sunday.?
+
+RB Corey Dillon  (Cin)? One can only salivate about what he might do if he=
+=20
+played  for a team like Denver.? The fact he can continue to roll up huge=
+=20
+yardage  on this team is amazing.? New QB Scott Mitchell is a huge boost as=
+=20
+he looks  like Peyton Manning back there compared to Akili  Smith...
+
+RB Ahman Green  (GB)? Green's a guy that's finally living up to his =20
+potential.? You always knew he had the physical skills but now he seems to =
+=20
+be catching up mentally as well.? He showed a nice nose for the endzone =20
+Sunday with the 2 TDs.
+
+RB Lamar Smith  (Mia)? So much for the cold weather hamstring worries.?=20
+Smith  carried the load Sunday in frigid Buffalo and looked great.? It look=
+s=20
+to me  like he's picking up right where he left off.
+
+RB Terrell Fletcher  (SD)? It's not exactly the same as earning the startin=
+g=20
+RB job in  Tennessee or Indianapolis, but Fletcher does seem to have nailed=
+=20
+down the #1 RB  slot in San Diego.? And that's worth something.? You have t=
+o=20
+decide  how much...
+
+RB Fred Beasley  (SF)? We loved Beasley early in the season as he racked up=
+ =20
+TDs.? He got back i …[truncated]",,"Subject: [cheatsheets] #150 Week 15 Upgrades - Downgrades (12-4-00)
+
+Hi Folks
+
+It's crunch time so let's jump right into our Upgraded and Downgraded
+Players.? As we head down the home stretch, identifying those players moving
+up or down can be the difference between?dominating the playoffs or watching
+from the sidelines.? As we head into our 15th week of listing these players,
+it,s inevitable that some guys will have made both the upgrade or downgrade
+list.? Make sure you understand, what we,re talking about is players that
+are moving.? In other words, a player like TE Ricky Dudley could appear on
+the downgrade list and still be good enough to be a starter in your league.?
+It just means I,m concerned about the way he seems to be heading.? Likewise,
+a player like WR Willie Jackson may make the upgrade list even though he,s
+still fairly far down the list of WRs.? It,s all about which direction
+players are moving.? Keeping an eye on these trends as they can very often
+make all the difference.
+
+Joe
+
+?
+
+Upgrades and Downgrades.? Some of these players are obvious moves up or
+down and some aren't as clear.? Here's my list of guys I see moving this
+week.
+
+QBs Moving Up?
+
+QB Aaron Brooks (NO)? We keep hyping the kid and he keeps delivering.?
+Another outstanding game Sunday where he rolled up 441 yards and 2 TDs as he
+went 30 for 48.? The Saints rushing game is clearly struggling so it appears
+Brooks will continue to air the ball out.? Yes, he'll make some young QB
+mistakes and I'd be surprised if he didn't throw as many interceptions as he
+does TDs.? I expect him to throw a lot of both.? I almost started him over
+Peyton Manning in my local league but didn't pull the trigger.? Manning was
+solid but Brooks was better.
+
+QB Kordell Stewart (Pit)? Kordell made our upgrade list last week and here
+he sits again.? It took a few years, but he's showing folks that maybe 1997
+was no fluke.? He showed guts coming back in the game after being knocked
+out with a bad knee or calf (depending on whether you listen to coach Bill
+Cowher or Stewart)? The TD rush was highlight material.? His problem all
+along seems to have been confidence and he's surely brimming with it now.?
+Kent Graham was so bad I won't even mention him in the downgrades but he put
+on a horrid display when he was in the game.? He's awful.
+
+QB Jay Fiedler (Mia)? Dan Fouts said on Monday Night Football a few weeks
+ago that a nice pass just thrown by Fiedler ""was as pretty as anything Dan
+Marino ever threw"".? Fiedler has those moments and he was having them fairly
+often against the supposedly tough Bills where they were supposedly going to
+have an advantage in their cold weather.? Didn't play out that way.?
+Fiedler looks pretty darn good.
+
+QB Jeff Garcia (SF)? We had him high in week 14 like we have all year and
+he didn't disappoint.? WR Terrell Owens was a huge help and apparently
+Jerry Rice's wife?harping on the radio had some sort of positive effect.?
+The Chargers had been very tough against the pass and Garcia shredded them.
+
+QB Brett Favre (GB)? I have a hard time putting a finger on it but this guy
+just does what it takes to get the job done.? He'd be much better off if WR
+Antonio Freeman earned 10% of his paycheck but in the meantime, Bill
+Schroeder's doing a great job.?
+
+QB Jeff George (Was)? Lil Danny Snyder removed the primary obstacle to
+keeping his QB Jeff George off the field by firing Norv Turner Monday.?
+George looks to start this week and possibly for the rest of the year.?
+Although tying Snyder to anything past the next series is a stretch.? I'm a
+Jeff George fan though and he does give the team a big arm.? We'll see how
+it goes but at least it looks as if he'll get his shot.
+
+?
+
+RBs Moving Up
+
+RB Mike Anderson (Den)? Like you need me to tell you this.? The fact that
+he ran buck wild on a tough New Orleans defense made the effort all the
+more impressive.? He bruised a knee but seemed to bounce back and looks to
+be good for Sunday.? Clearly, the Denver OL is the star on this team so if
+you own Anderson, it's probably not a bad idea to grab KaRon Coleman for the
+stretch run.?
+
+RB Fred Taylor (Jac)? For all the early?ripping I've done to Taylor, he's
+performed just as we predicted he would lately - like a madman.? You don't
+need me to tell you he's been awesome.
+
+RB Warrick Dunn (TB)? Can the little guy take up the slack for Mike
+Alstott?? I've got a couple hundred reasons that says ""yes"".? Ok, rushing
+for 200+ against Dallas is nothing special (it's happened in 23% of the
+Cowboys games this year) but you have to admit Dunn looked great Sunday.?
+
+RB Corey Dillon (Cin)? One can only salivate about what he might do if he
+played for a team like Denver.? The fact he can continue to roll up huge
+yardage on this team is amazing.? New QB Scott Mitchell is a huge boost as
+he looks like Peyton Manning back there compared to Akili Smith...
+
+RB Ahman Green (GB)? Green's a guy that's finally living up to his
+potential.? You always knew he had the physical skills but now he seems to
+be catching up mentally as well.? He showed a nice nose for the endzone
+Sunday with the 2 TDs.
+
+RB Lamar Smith (Mia)? So much for the cold weather hamstring worries.?
+Smith carried the load Sunday in frigid Buffalo and looked great.? It looks
+to me like he's picking up right where he left off.
+
+RB Terrell Fletcher (SD)? It's not exactly the same as earning the starting
+RB job in Tennessee or Indianapolis, but Fletcher does seem to have nailed
+down the #1 RB slot in San Diego.? And that's worth something.? You have to
+decide how much...
+
+RB Fred Beasley (SF)? We loved Beasley early in the season as he racked up
+TDs.? He got back in the mix Sunday with 5 carries and a TD.? The FB for San
+Francisco has always been a valuable FF slot and Beasley might be worth the
+roll of the dice if you're thin at RB.
+
+RB Shawn Bryson (Buf)? Finally, Bryson does something besides make me look
+bad for hyping him.? He rolled up 88 yards on just 12 attempts Sunday and
+looks to take advantage of Sammy Morris' ankle troubles.?
+
+RB Terry Allen (NO)? Allen made an appearance Sunday and with Jerald Moore
+and Chad Morton failing to astound anyone, Allen could get more looks.?
+Whether he's got anything left in the tank remains to be seen.
+
+?
+
+WRs Moving Up
+
+WR David Boston (Ari)?? Boston turned in a huge game Sunday and has to be
+considered an upgrade.? He's a streaky guy but with Frank Sanders a total
+non factor, Boston is getting most of QB Jake Plummer's attention these
+days.? And with Arizona almost certain to be playing from behind, he could
+do some damage.
+
+WR Darrell Jackson (Sea)? Jackson was red hot several weeks ago but had
+cooled of late.? He warmed up again Sunday with Jon Kitna under center.?
+It's tough to depend on the Seahawk passing game but Jackson could be worth
+a shot.
+
+WR Curtis Conway (SD)? Conway has benefited the most from the Ryan Leaf
+resurgence.? He caught 7 passes Sunday and should benefit as Leaf continues
+to improve.
+
+WR Willie Jackson (NO)? Jackson's officially moved past the ""flash in the
+pan"" stage with another solid day.? Aaron Brooks continues to look good at
+QB.? Jackson may suffer a bit when Jake Reed gets healthy but for right now,
+he's looking good.
+
+WR Joe Horn (NO)? Again, QB Aaron Brooks delivers and Horn is the prime
+recipient.? Joe Horn is one of the better stories of 2000 and he should
+continue to shine especially if the rushing game doesn't get untracked.
+
+WR Bobby Shaw (Pit)? Shaw may still be available in your league as the
+starting WR opposite Hines Ward.? He found the endzone again and continues
+to make some noise with Kordell Stewart quarterbacking.
+
+WR Terrell Owens (SF)? The best news for Jeff Garcia owners had to be a
+solid day from Terrell Owens.? He's a huge boost to the offense when he can
+go and it looked like he'd made progress with the toe.? Keep an eye out for
+how he responds after the game but I liked what I saw.
+
+WR Shockmain Davis (NE)? Ok, I'll be honest.? I'm pretty much just including
+him here because he's the owner of the coolest name in the league...
+
+?
+
+TEs Moving Up
+
+TE Dwayne Carswell (Den)? Carswell's finally starting to emerge as the TE of
+choice in Denver.? His 62 yards Sunday were second only to San Diego's
+Freddie Jones.? You have to worry about Desmond Clark stealing time but I'd
+have no trouble starting Carswell each week.
+
+TE Reggie Kelly (Atl)? One of the few bright spots for Atlanta has been the
+play of Kelly.? He caught 4 passes for 44 yards Sunday with a TD.? New QB
+Doug Johnson may lean on him as he settles in.
+
+TE Mark Bruener (Pit)? Bruener makes the list not only for having another
+solid game but for making one of the best TD runs after the catch Sunday as
+he piggy backed a defender into the endzone after refusing to go down at the
+5 yard line.
+
+TE Andrew Glover (NO)? Obviously, the play of Aaron Brooks raises the level
+of play for all the Saints receivers.? Glover made a couple of nice plays
+Sunday including a good looking TD catch.
+
+?
+
+Players Moving Down
+
+QBs Moving Down
+
+QB Shane Matthews (Chi)? Take a seat Shane.? Cade McNown likely makes his
+return.? Folks can hardly wait...
+
+QB Troy Aikman (Dal)? Emmitt Smith owners had to love it but did it seem
+strange to anyone else that the Cowboys felt the best way to come back from
+a huge deficit against Tampa was to feed the ball to Emmitt?? Clearly, the
+team has zero faith in Aikman's ability to throw the ball.
+
+QB Shaun King (TB)? I know he's had trouble with the back but 65 passing
+yards?? That's a joke.? He'll be better but I've seen enough.
+
+QB Brad Johnson (Was)? It's the Jeff George show.? At least until?George
+looks bad for a few series...
+
+QB Rob Johnson (Buf)? In leagues that penalize for interceptions, you'd have
+been better off starting yourself this weekend than you would've Rob
+Johnson.? Once again, he starts the game but finishes holding a clipboard.
+
+?
+
+RBs?Moving Down
+
+RB Jamal Anderson (Atl)? Anderson's not playing too badly but the team is
+in shambles.? After QB Chris Chandler was benched, Anderson vented some
+frustrations saying for all he knew, ""he might be punting this week"".? I
+don't think we'll see that but I also don't think we'll see the days of him
+seriously rushing the ball for the rest of the year.
+
+RB Shaun Alexander (Sea)?? RB Ricky Watters has proven to be less than an
+ideal playmate refusing to share the ball.? Actually, he's played so well
+that Mike Holmgren has been reluctant to do anything to disrupt the flow of
+his star.? When the team is struggling as badly as it is, you don't mess
+with the one thing that's working.
+
+Philadelphia RBs? Forget about them.? This team will live and die by
+Donovan McNabb.
+
+RB Jermaine Fazande (SD)? Evidently, Fazande is the 2nd choice behind
+Terrell Fletcher now.? That's gotta hurt...
+
+?
+
+WRs Moving Down
+
+WR Joe Jurevicius (NYG)? This has nothing to do with the play of Jurevicius
+as he's been very solid but you have to think Ike Hilliard will be a factor
+when he returns.? He's no lock to go this week but he may be close.
+
+WR Terrance Mathis (Atl)? Mathis continues to struggle on a team that's in
+a tailspin.? New QB Doug Johnson seemed to like throwing to Shawn Jefferson
+which could spell more bad things for Mathis.
+
+WRs Torrance Small / Charles Johnson (Phi)? Forget about it.? Donovan McNabb
+can be a solid QB without WRs.
+
+WRs James McKnight / Wayne McGarity (Dal)? These guys just aren't very
+McGood.? QB Troy Aikman is a mere shadow of his former self.
+
+WR Marcus Robinson (Chi)? Robinson's back troubles were apparently more
+serious than many had expected.? It was announced Monday that he'll likely
+miss the rest of the season with a bulging disk in his back.? It appears he
+can get by without surgery but he's certainly not looking good.
+
+?
+
+TEs Moving Down
+
+TEs Marcus Pollard / Ken Dilger (Ind)? Neither of these guys did much
+Sunday.? This offense clearly isn't in the same groove it was earlier this
+year.?
+
+TEs Jackie Harris / David LaFleur (Dal)? More bad news associated with Troy
+Aikman.? Neither of these guys were much value Sunday and I don't see that
+changing very quickly.
+
+TE Pete Mitchell (NYG)? One of the bigger disappointments at TE this season,
+he just can't get untracked.
+
+?
+
+?
+
+?
+
+?
+
+To unsubscribe from this group, send an email to:
+cheatsheets-unsubscribe@egroups.com",,12231,1.0
+290b2d0e02db9c86,calib,False,Areeb,1,False,,,Employee reinstatement,2002-01-10 12:29,"Dietrich, Janet </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JDIETRI>",david.oxley@enron.com; michelle.cash@enron.com; kriste.sullivan@enron.com; terrie.wheeler@enron.com; exec.jones@enron.com,kalen.pieper@enron.com; david.delaney@enron.com; laura.luce@enron.com,"We have offered re-employment to Dierdre McCaffrey and she has accepted effective today. We need to reinstate her back to December 5, 2001. Robert Jones is handling all needed paperwork,etc. Dierdre was in EGM-Freights Markets prior to being terminated on 12/03/01. Prior to EGM, she spent numerous years in various positions in wholesale gas structuring, trading, and origination. She was instrumental in identifying, evaluating, and negotiating most of our gas asset management transactions. She worked with Laura Luce and team on the Peoples' Gas transactions, and she will be critical in ensuring we maintain and optimize these contracts and positions going forward. She will be working with Laura Luce in the Enron Estate.
+
+Thank you.",,delainey-d,Executive,delainey-d,Executive,List/Unknown,inbox,inbox,False,True,,False,18c557fe28ed,1,<5521186.1075860781515.JavaMail.evans@thyme>,delainey-d\inbox\16,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"We have offered re-employment to Dierdre McCaffrey and she has accepted effective today. We need to reinstate her back to December 5, 2001. Robert Jones is handling all needed paperwork,etc. Dierdre was in EGM-Freights Markets prior to being terminated on 12/03/01. Prior to EGM, she spent numerous years in various positions in wholesale gas structuring, trading, and origination. She was instrumental in identifying, evaluating, and negotiating most of our gas asset management transactions. She worked with Laura Luce and team on the Peoples' Gas transactions, and she will be critical in ensuring we maintain and optimize these contracts and positions going forward. She will be working with Laura Luce in the Enron Estate. 
+
+Thank you.",,"Subject: Employee reinstatement
+
+We have offered re-employment to Dierdre McCaffrey and she has accepted effective today. We need to reinstate her back to December 5, 2001. Robert Jones is handling all needed paperwork,etc. Dierdre was in EGM-Freights Markets prior to being terminated on 12/03/01. Prior to EGM, she spent numerous years in various positions in wholesale gas structuring, trading, and origination. She was instrumental in identifying, evaluating, and negotiating most of our gas asset management transactions. She worked with Laura Luce and team on the Peoples' Gas transactions, and she will be critical in ensuring we maintain and optimize these contracts and positions going forward. She will be working with Laura Luce in the Enron Estate.
+
+Thank you.",,739,1.0
+b295b0f3dbcaa627,calib,False,Akashdeep,1,False,,,"E-Notes: U.S. Energy Regulators Restructure The Transmission Gri d, Call for Four Regional Transmission Organizations",2001-07-19 03:45,Janet.L.Mondello@BAKERNET.com,,,"<<...OLE_Obj...>>
+E-Notes provides regular briefings on new developments in global energy and
+public utility law.
+
+JULY 19, 2001
+
+U.S. Energy Regulators Restructure The
+Transmission Grid, Call for Four
+Regional Transmission Organizations
+
+Jonathan W. Gottlieb, Esq.
+Roger M. Gibian, Esq.
+
+On July 12th, the U.S. Federal Energy Regulatory Commission issued a series
+of orders that fundamentally restructures the transmission system in the
+United States. In its orders FERC called for the development of one Regional
+Transmission Organization for each of the Northeast, Midwest, Southeast, and
+Western regions of the country. An immediate result of these actions is
+that FERC directed: (1) the New York ISO, NEPOOL, PJM, and PJM-West into
+mediation proceedings for the formation of a single RTO covering the
+Northeast United States from Maryland and West Virginia north to Maine; and
+(2) the Southern Companies, Southwest Power Pool, Entergy, and GridSouth
+into mediation proceedings for the formation of a single RTO in the
+Southeast. The Commission allowed Southwest Power Pool the option of
+instead pursuing involvement in an RTO in the Midwest, and encouraged, but
+did not require, the entities comprising the GridFlorida RTO to engage in
+the Southeast RTO mediation proceedings.
+
+These orders reflect the ascendancy of a coalition of Commissioners Massey,
+Wood, and Brownell, and represent a fundamental shift in FERC's RTO
+formation policy. FERC has sent a clear signal that it is shifting away
+from its pattern of supporting maintenance of the status quo and towards a
+more actively engaged posture to shape the Nation's energy policy. These
+orders reflect the apparent frustration being felt by many at FERC and the
+fact that the agency has clearly run out of patience with the slow pace of
+the voluntary RTO formation process. In a surprising twist, in its orders
+the Commission openly expresses its disappointment with the lack of progress
+being made in various existing RTO proceedings. Given the dismissive tone
+and far-reaching scope of these orders, it seems safe to assume that FERC
+will not hesitate to terminate collaborative processes it perceives to be
+unproductive, and will take the extraordinary step of directing parties into
+time-limited settlement discussions with the threat of Commission action if
+the parties do not work their problems out on their own. By forcefully
+asserting its control over the process and altering the configuration of
+RTOs at this late stage in their development, the Commission is showing that
+it will aggressively pursue its goal of having large-scale region-wide RTOs
+operational by its December 15, 2001 target date.
+
+With the recent addition over the past several months of new Commissioners
+Wood and Brownell, FERC now possesses a reinvigorated political will to
+take more aggressive action to ensure the implementation of its regulatory
+policy agenda. Commissioner Wood, a close friend of President Bush and
+widely expected to replace Chairman Hebert following the August recess, has
+been pursuing an active agenda since arriving at the Commission earlier this
+year. Although recently rebuffed in his efforts to establish numerous new
+rulemaking dockets (due to lack of available staff support), Commissioner
+Wood's separate concurring statements that renewable resources are an
+increasingly important part of the nation's energy mix, that congestion
+management must be addressed in a standard format nationally, and that the
+$5,000 annual membership fee for voting members of PJM prevents reasonable
+inclusion of individual residential and small customers, indicate that a
+Commission led by a Chairman Wood would be receptive to creative and
+innovative proposals as well as aggressive in its pursuit of the
+organizational structure it believes best for competitive markets.
+
+In its orders on July 12th, the Commission indicated its receptiveness
+towards adopting standardized generation interconnection agreements and
+standardized procedures for the conversion of interconnection agreements,
+while Commissioner Wood expressed additional support for the adoption of a
+national standardized congestion management scheme and the development of
+uniform reliability and market interface practices. Adopting standardized
+procedures in these areas will produce two significant benefits: (1) it
+will promote generation investment and market stability; and (2) it would
+promote the efficient use of FERC staff resources, as staff would no longer
+be required to process the significant number of filings and pleadings it
+presently receives in connection with these issues. This latter point is
+especially important, given that Commissioner Wood has been frustrated in
+his attempts to initiate new rulemaking procedures and promote a more active
+agenda due to a lack of available staff resources. Given Commissioner
+Massey's explicit mention of the ""crushing workload"" that staff has been
+under and Commissioner Wood's incentive for freeing up staff resources, FERC
+should be taking significant steps in the future towards the standardization
+of a wide variety of procedures.
+
+Establishing four region-wide RTOs will increase the availability of power
+supplies, reduce problems in sending electricity between control areas, and
+create a more liquid national electricity market. Placing large portions of
+the Nation's transmission grid under the control of a single operator will
+help eliminate transmission constraints, increase reliability, and lower
+wholesale prices. Given the Commission's disposition towards establishing
+these large-scale RTOs, it appears inevitable that the Commission will
+direct parties in the Midwest and Western regions into mediation proceedings
+similar to those convened for the Northeast and Southeast. Orders
+initiating those proceedings will probably be issued after the Southeast and
+Northeast proceedings have concluded.
+
+Jonathan W. Gottlieb and Roger M. Gibian are attorneys in the Washington, DC
+office of Baker & McKenzie where they specialize in representing clients in
+the competitive power markets in the United States and globally. Mr.
+Gottlieb can be reached at 202.452.7084 or
+mailto:jonathan.w.gottlieb@bakernet.com; Mr. Gibian can be reached at
+202.452.7002 or mailto:roger.m.gibian@bakernet.com.
+
+____________________________________________________________________________
+E-Notes is a publication of Baker & McKenzie. It does not constitute legal
+advice or a legal opinion on any specific facts or circumstances. The
+contents are intended as general information only. You are urged to consult
+your attorney concerning your situation and specific legal questions you may
+have. For further information on the subjects discussed in E-Notes, contact
+Michael J. Zimmer, mailto:michael.j.zimmer@bakernet.com or
+Jonathan W. Gottlieb, mailto:jonathan.w.gottlieb@bakernet.com.
+
+For more information about BAKER & McKENZIE and our global energy and
+utility practice, click on our electronic business card:
+<<...OLE_Obj...>>
+
+or visit our website at <http://www.bakerinfo.com/Practice
+Areas/nabfmp/energy/!viewme.htm> .",,shapiro-r,Manager,shapiro-r,Manager,List/Unknown,inbox,notes_inbox,False,True,meeting,False,244846ed705f,1,<6423634.1075852022119.JavaMail.evans@thyme>,shapiro-r\notes_inbox\98,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"<<...OLE_Obj...>>
+E-Notes provides regular briefings on new developments in global energy and
+public utility law.
+
+JULY 19, 2001
+
+U.S. Energy Regulators Restructure The
+Transmission Grid, Call for Four
+Regional Transmission Organizations
+
+Jonathan W. Gottlieb, Esq.
+Roger M. Gibian, Esq.
+
+On July 12th, the U.S. Federal Energy Regulatory Commission issued a series
+of orders that fundamentally restructures the transmission system in the
+United States. In its orders FERC called for the development of one Regional
+Transmission Organization for each of the Northeast, Midwest, Southeast, and
+Western regions of the country.  An immediate result of these actions is
+that FERC directed:  (1) the New York ISO, NEPOOL, PJM, and PJM-West into
+mediation proceedings for the formation of a single RTO covering the
+Northeast United States from Maryland and West Virginia north to Maine; and
+(2) the Southern Companies, Southwest Power Pool, Entergy, and GridSouth
+into mediation proceedings for the formation of a single RTO in the
+Southeast.  The Commission allowed Southwest Power Pool the option of
+instead pursuing involvement in an RTO in the Midwest, and encouraged, but
+did not require, the entities comprising the GridFlorida RTO to engage in
+the Southeast RTO mediation proceedings.
+
+These orders reflect the ascendancy of a coalition of Commissioners Massey,
+Wood, and Brownell, and represent a fundamental shift in FERC's RTO
+formation policy.  FERC has sent a clear signal that it is shifting away
+from its pattern of supporting maintenance of the status quo and towards a
+more actively engaged posture to shape the Nation's energy policy.  These
+orders reflect the apparent frustration being felt by many at FERC and the
+fact that the agency has clearly run out of patience with the slow pace of
+the voluntary RTO formation process.  In a surprising twist, in its orders
+the Commission openly expresses its disappointment with the lack of progress
+being made in various existing RTO proceedings.  Given the dismissive tone
+and far-reaching scope of these orders, it seems safe to assume that FERC
+will not hesitate to terminate collaborative processes it perceives to be
+unproductive, and will take the extraordinary step of directing parties into
+time-limited settlement discussions with the threat of Commission action if
+the parties do not work their problems out on their own.  By forcefully
+asserting its control over the process and altering the configuration of
+RTOs at this late stage in their development, the Commission is showing that
+it will aggressively pursue its goal of having large-scale region-wide RTOs
+operational by its December 15, 2001 target date.
+
+With the recent addition over the past several months of new Commissioners
+Wood and Brownell,  FERC now possesses a reinvigorated political will to
+take more aggressive action to ensure the implementation of its regulatory
+policy agenda.  Commissioner Wood, a close friend of President Bush and
+widely expected to replace Chairman Hebert following the August recess, has
+been pursuing an active agenda since arriving at the Commission earlier this
+year.  Although recently rebuffed in his efforts to establish numerous new
+rulemaking dockets (due to lack of available staff support), Commissioner
+Wood's separate concurring statements that renewable resources are an
+increasingly important part of the nation's energy mix, that congestion
+management must be addressed in a standard format nationally, and that the
+$5,000 annual membership fee for voting members of PJM prevents reasonable
+inclusion of individual residential and small customers, indicate that a
+Commission led by a Chairman Wood would be receptive to creative and
+innovative proposals as well as aggressive in its pursuit of the
+organizational structure it believes best for competitive markets.
+
+In its orders on July 12th, the Commission indicated its receptiveness
+towards adopting standardized generation interconnection agreements and
+standardized procedures for the conversion of interconnection agreements,
+while Commissioner Wood expressed additional support for the adoption of a
+national standardized congestion management scheme and the development of
+uniform reliability and market interface practices.  Adopting standardized
+procedures in these areas will produce two significant benefits:  (1) it
+will promote generation investment and market stability; and (2) it would
+promote the efficient use of FERC staff resources, as staff would no longer
+be required to process the significant number of filings and pleadings it
+presently receives in connection with these issues.  This latter point is
+especially important, given that Commissioner Wood has been frustrated in
+his attempts to initiate new rulemaking procedures and promote a more active
+agenda due to a lack of available staff resources.  Given Commissioner
+Massey's explicit mention of the ""crushing workload"" that staff has been
+under and Commissioner Wood's incentive for freeing up staff resources, FERC
+should be taking significant steps in the future towards the standardization
+of a wide variety of procedures.
+
+Establishing four region-wide RTOs will increase the availability of power
+supplies, reduce problems in sending electricity between control areas, and
+create a more liquid national electricity market.  Placing large portions of
+the Nation's transmission grid under the control of a single operator will
+help eliminate transmission constraints, increase reliability, and lower
+wholesale prices.  Given the Commission's disposition towards establishing
+these large-scale RTOs, it appears inevitable that the Commission will
+direct parties in the Midwest and Western regions into mediation proceedings
+similar to those convened for the Northeast and Southeast.  Orders
+initiating those proceedings will probably be issued after the Southeast and
+Northeast proceedings have concluded.
+
+Jonathan W. Gottlieb and Roger M. Gibian are attorneys in the Washington, DC
+off …[truncated]",,"Subject: E-Notes: U.S. Energy Regulators Restructure The Transmission Gri d, Call for Four Regional Transmission Organizations
+
+<<...OLE_Obj...>>
+E-Notes provides regular briefings on new developments in global energy and
+public utility law.
+
+JULY 19, 2001
+
+U.S. Energy Regulators Restructure The
+Transmission Grid, Call for Four
+Regional Transmission Organizations
+
+Jonathan W. Gottlieb, Esq.
+Roger M. Gibian, Esq.
+
+On July 12th, the U.S. Federal Energy Regulatory Commission issued a series
+of orders that fundamentally restructures the transmission system in the
+United States. In its orders FERC called for the development of one Regional
+Transmission Organization for each of the Northeast, Midwest, Southeast, and
+Western regions of the country. An immediate result of these actions is
+that FERC directed: (1) the New York ISO, NEPOOL, PJM, and PJM-West into
+mediation proceedings for the formation of a single RTO covering the
+Northeast United States from Maryland and West Virginia north to Maine; and
+(2) the Southern Companies, Southwest Power Pool, Entergy, and GridSouth
+into mediation proceedings for the formation of a single RTO in the
+Southeast. The Commission allowed Southwest Power Pool the option of
+instead pursuing involvement in an RTO in the Midwest, and encouraged, but
+did not require, the entities comprising the GridFlorida RTO to engage in
+the Southeast RTO mediation proceedings.
+
+These orders reflect the ascendancy of a coalition of Commissioners Massey,
+Wood, and Brownell, and represent a fundamental shift in FERC's RTO
+formation policy. FERC has sent a clear signal that it is shifting away
+from its pattern of supporting maintenance of the status quo and towards a
+more actively engaged posture to shape the Nation's energy policy. These
+orders reflect the apparent frustration being felt by many at FERC and the
+fact that the agency has clearly run out of patience with the slow pace of
+the voluntary RTO formation process. In a surprising twist, in its orders
+the Commission openly expresses its disappointment with the lack of progress
+being made in various existing RTO proceedings. Given the dismissive tone
+and far-reaching scope of these orders, it seems safe to assume that FERC
+will not hesitate to terminate collaborative processes it perceives to be
+unproductive, and will take the extraordinary step of directing parties into
+time-limited settlement discussions with the threat of Commission action if
+the parties do not work their problems out on their own. By forcefully
+asserting its control over the process and altering the configuration of
+RTOs at this late stage in their development, the Commission is showing that
+it will aggressively pursue its goal of having large-scale region-wide RTOs
+operational by its December 15, 2001 target date.
+
+With the recent addition over the past several months of new Commissioners
+Wood and Brownell, FERC now possesses a reinvigorated political will to
+take more aggressive action to ensure the implementation of its regulatory
+policy agenda. Commissioner Wood, a close friend of President Bush and
+widely expected to replace Chairman Hebert following the August recess, has
+been pursuing an active agenda since arriving at the Commission earlier this
+year. Although recently rebuffed in his efforts to establish numerous new
+rulemaking dockets (due to lack of available staff support), Commissioner
+Wood's separate concurring statements that renewable resources are an
+increasingly important part of the nation's energy mix, that congestion
+management must be addressed in a standard format nationally, and that the
+$5,000 annual membership fee for voting members of PJM prevents reasonable
+inclusion of individual residential and small customers, indicate that a
+Commission led by a Chairman Wood would be receptive to creative and
+innovative proposals as well as aggressive in its pursuit of the
+organizational structure it believes best for competitive markets.
+
+In its orders on July 12th, the Commission indicated its receptiveness
+towards adopting standardized generation interconnection agreements and
+standardized procedures for the conversion of interconnection agreements,
+while Commissioner Wood expressed additional support for the adoption of a
+national standardized congestion management scheme and the development of
+uniform reliability and market interface practices. Adopting standardized
+procedures in these areas will produce two significant benefits: (1) it
+will promote generation investment and market stability; and (2) it would
+promote the efficient use of FERC staff resources, as staff would no longer
+be required to process the significant number of filings and pleadings it
+presently receives in connection with these issues. This latter point is
+especially important, given that Commissioner Wood has been frustrated in
+his attempts to initiate new rulemaking procedures and promote a more active
+agenda due to a lack of available staff resources. Given Commissioner
+Massey's explicit mention of the ""crushing workload"" that staff has been
+under and Commissioner Wood's incentive for freeing up staff resources, FERC
+should be taking significant steps in the future towards the standardization
+of a wide variety of procedures.
+
+Establishing four region-wide RTOs will increase the availability of power
+supplies, reduce problems in sending electricity between control areas, and
+create a more liquid national electricity market. Placing large portions of
+the Nation's transmission grid under the control of a single operator will
+help eliminate transmission constraints, increase reliability, and lower
+wholesale prices. Given the Commission's disposition towards establishing
+these large-scale RTOs, it appears inevitable that the Commission will
+direct parties in the Midwest and Western regions into mediation proceedings
+similar to those convened for the Northeast and Southeast. Orders
+initiating those proceedings will probably be issued after the Southeast and
+Northeast proceedings have concluded.
+
+Jonathan W. Gottlieb and Roger M. Gibian are attorneys in the Washington, DC
+office of Baker & McKenzie where they specialize in representing clients in
+the competitive power markets in the United States and globally. Mr.
+Gottlieb can be reached at 202.452.7084 or
+mailto:jonathan.w.gottlieb@bakernet.com; Mr. Gibian can be reached at
+202.452.7002 or mailto:roger.m.gibian@bakernet.com.
+
+____________________________________________________________________________
+E-Notes is a publication of Baker & McKenzie. It does not constitute legal
+advice or a legal opinion on any specific facts or circumstances. The
+contents are intended as general information only. You are urged to consult
+your attorney concerning your situation and specific legal questions you may
+have. For further information on the subjects discussed in E-Notes, contact
+Michael J. Zimmer, mailto:michael.j.zimmer@bakernet.com or
+Jonathan W. Gottlieb, mailto:jonathan.w.gottlieb@bakernet.com.
+
+For more information about BAKER & McKENZIE and our global energy and
+utility practice, click on our electronic business card:
+<<...OLE_Obj...>>
+
+or visit our website at <http://www.bakerinfo.com/Practice
+Areas/nabfmp/energy/!viewme.htm> .",,7103,1.0
+c437db19bc1b69a7,dev,False,Ampa,1,False,,,FW: New Mexico Power Plant Project,2001-10-22 09:06,"Watson, Kimberly </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KWATSON>",lorraine.lindberg@enron.com; tk.lohman@enron.com; michelle.lokay@enron.com; mark.mcconnell@enron.com; paul.y'barbo@enron.com,,"Everyone,
+
+Looking for a volunteer to market TW to this new power plant so that they will take the supplies off our pipe. Any takers?
+
+Kim.","-----Original Message-----
+From: 	Lohman, TK  
+Sent:	Monday, October 22, 2001 9:35 AM
+To:	Watson, Kimberly
+Subject:	RE: New Mexico Power Plant Project
+
+Supplies have not been lined up as of yet.  They are waiting to get farther along on the permits.
+
+TK
+
+ -----Original Message-----
+From: 	Watson, Kimberly  
+Sent:	Sunday, October 21, 2001 3:28 PM
+To:	Lohman, TK
+Subject:	FW: New Mexico Power Plant Project
+
+TK, just checking to see if you have heard who may be supplying the supply for this plant?
+
+Thanks, Kim.
+
+ -----Original Message-----
+From: 	Harris, Steven  
+Sent:	Monday, August 13, 2001 11:01 AM
+To:	Watson, Kimberly
+Subject:	FW: New Mexico Power Plant Project
+
+Can we contact them to find out about how they plan to get their gas supply? I know Stan will ask me about this one.
+
+ -----Original Message-----
+From: 	Brennan, Lorna  
+Sent:	Monday, August 13, 2001 10:58 AM
+To:	Chavez, Gabriel; Dowd, Stephen; Gadd, Eric; Hyatt, Kevin; Millar, John; Ratner, Michael; Taylor, Gina; Hass, Glen; Loeffler, Michael; Stanton, Lon; Wilson, Rob; Harris, Steven; Donoho, Lindy; Goradia, Pallavi; Lindberg, Lorraine; Lohman, TK; Lokay, Michelle; Moore, Jan; Watson, Kimberly
+Subject:	New Mexico Power Plant Project
+
+Regent Energy in Pact to Develop 500 MW Plant 
+Regent Energy recently executed a contract with Millennium Energy Ventures, a private Houston-based venture capital and project development ",lokay-m,Operations,lokay-m,Other,To,inbox,inbox,True,False,,False,7cbe8f98d278,1,<32127840.1075855001765.JavaMail.evans@thyme>,lokay-m\inbox\15,Task,,single,True,Medium,,single,True,Neutral,,single,True,False,"Everyone,
+
+Looking for a volunteer to market TW to this new power plant so that they will take the supplies off our pipe.  Any takers?
+
+Kim.","-----Original Message-----
+From: Lohman, TK
+Sent: Monday, October 22, 2001 9:35 AM
+To: Watson, Kimberly
+Subject: RE: New Mexico Power Plant Project
+
+Supplies have not been lined up as of yet. They are waiting to get farther along on the permits.
+
+TK
+
+-----Original Message-----
+From: Watson, Kimberly
+Sent: Sunday, October 21, 2001 3:28 PM
+To: Lohman, TK
+Subject: FW: New Mexico Power Plant Project
+
+TK, just checking to see if you have heard who may be supplying the supply for this plant?
+
+Thanks, Kim.
+
+-----Original Message-----
+From: Harris, Steven
+Sent: Monday, August 13, 2001 11:01 AM
+To: Watson, Kimberly
+Subject: FW: New Mexico Power Plant Project
+
+Can we contact them to find out about how they plan to get their gas supply? I know Stan will ask me about this one.
+
+-----Original Message-----
+From: Brennan, Lorna
+Sent: Monday, August 13, 2001 10:58 AM
+To: Chavez, Gabriel; Dowd, Stephen; Gadd, Eric; Hyatt, Kevin; Millar, John; Ratner, Michael; Taylor, Gina; Hass, Glen; Loeffler, Michael; Stanton, Lon; Wilson, Rob; Harris, Steven; Donoho, Lindy; Goradia, Pallavi; Lindberg, Lorraine; Lohman, TK; Lokay, Michelle; Moore, Jan; Watson, Kimberly
+Subject: New Mexico Power Plant Project
+
+Regent Energy in Pact to Develop 500 MW Plant
+Regent Energy recently executed a contract with Millennium Energy Ventures, a private Houston-based venture capital and project development company, to develop an electric plant with 500 MW generating capacity on Regent's Horseshoe Gallup lease in San Juan County, NM.
+Regent will own 75% of the project, while MEVCO will own the remaining 25%. The estimated cost of the project comes in at $250 million.
+Under the agreement, MEVCO will manage the permitting, estimated at 6 to 9 months, and construction process, arranging the equity as needed for same. Regent will be prepared to give up 50% (total) of its 75% net for the financing, netting a 25% interest following the equity/debt financing.
+Further terms of the agreement provide that MEVCO will assist Regent in the acquisition of several gas fields in the Four Corners area, San Juan and Rio Ariba Counties of New Mexico, totaling an estimated 90+ Bcf and 20 MMcf/d current production. This production will be sufficient to power 100 MW of the power plant, with the remaining supply to be aggregated from other San Juan producers.
+MEVCO Managing Director Phillip Gennarelli noted, ""We are pleased to be involved in this project with Regent. The addition of more producing properties in the area that we bring Regent, coupled with Regent's Horseshoe Gallup holdings, which are in direct proximity with the existing Four Corners Power Plant and the route of the recently announced Sonoran Pipeline venture of Calpine and Kinder Morgan, will provide an unequaled opportunity for both companies.""
+Regent President John Ehrman said, ""The additional production from producing properties which MEVCO is assisting Regent in purchasing, currently producing some $1.5 million per month in net operating income, coupled with the additional income through power generation helps Regent to maximize the location of our holdings in relation to the proximity of the existing power plant and transmission lines to key electricity markets in Los Angeles and other western markets. It is a good use of our surface lease, not related to the current proved mineral reserves of the lease.""
+The producing oil and properties which MEVCO is assisting Regent in purchasing are in Regent's core area of the Four Corners region near Farmington, NM. Regent will be required to finance the acquisition of the oil and gas proven producing properties under consideration.
+Recently, Regent announced that it was in the process of purchasing the interests of all remaining working interest owners in the field, a transaction that is expected to be consummated by the end of the third quarter 2001, giving Regent 100% ownership of the current minerals on the lease.","Subject: FW: New Mexico Power Plant Project
+
+Everyone,
+
+Looking for a volunteer to market TW to this new power plant so that they will take the supplies off our pipe. Any takers?
+
+Kim.",,139,1.0
+775da122c9491c36,dev,False,Ampa,1,False,,,Re: Yahoo - GE Lighting Launches National Energy Program ... Commits to Major Produ,2001-10-12 12:54,"""Bill Perkins"" <gamma@concentric.net>@ENRON",john.arnold@enron.com,,"I will see you there
+
+++++++CONFIDENTIALITY NOTICE+++++ The information in this email may be
+confidential and/or privileged ++++++CONFIDENTIALITY NOTICE+++++ The
+information in this email may be confidential and/or privileged. This email
+is intended to be reviewed by only the individual or organization named
+above. If you are not the intended recipient or an authorized representative
+of the intended recipient, you are hereby notified that any review,
+dissemination or copying of this email and its attachments, if any, or the
+information contained herein is prohibited. If you have received this email
+in error, please immediately notify the sender by return email and delete
+this email from your system. Thank You","[2001-10-12 12:53] john.arnold@enron.com: [Arnold, John]  We're working out today at 4:30",arnold-j,Trader,arnold-j,ClientFacing,To,deleted,deleted_items,True,True,approval,False,36bdad971592,2,<28641930.1075852696358.JavaMail.evans@thyme>,arnold-j\deleted_items\234,Info,,single,True,Low,,single,True,Positive,,single,True,False,"I will see you there
+
+++++++CONFIDENTIALITY NOTICE+++++ The information in this email may be
+confidential and/or privileged ++++++CONFIDENTIALITY NOTICE+++++ The
+information in this email may be confidential and/or privileged. This email
+is intended to be reviewed by only the individual or organization named
+above. If you are not the intended recipient or an authorized representative
+of the intended recipient, you are hereby notified that any review,
+dissemination or copying of this email and its attachments, if any, or the
+information contained herein is prohibited. If you have received this email
+in error, please immediately notify the sender by return email and delete
+this email from your system. Thank You","----- Original Message -----
+From: <John.Arnold@enron.com>
+To: <gamma@concentric.net>
+Sent: Friday, October 12, 2001 2:53 PM
+Subject: RE: Yahoo - GE Lighting Launches National Energy Program ...
+Commits to Major Produ
+
+>
+> [Arnold, John] We're working out today at 4:30
+>
+>
+>
+> **********************************************************************
+> This e-mail is the property of Enron Corp. and/or its relevant affiliate
+and may contain confidential and privileged material for the sole use of the
+intended recipient (s). Any review, use, distribution or disclosure by
+others is strictly prohibited. If you are not the intended recipient (or
+authorized to receive for the recipient), please contact the sender or reply
+to Enron Corp. at enron.messaging.administration@enron.com and delete all
+copies of the message. This e-mail (and any attachments hereto) are not
+intended to be an offer (or an acceptance) and do not create or evidence a
+binding and enforceable contract between Enron Corp. (or any of its
+affiliates) and the intended recipient or any other party, and may not be
+relied on by anyone as the basis of a contract by estoppel or otherwise.
+Thank you.
+> **********************************************************************
+>","Subject: Re: Yahoo - GE Lighting Launches National Energy Program ... Commits to Major Produ
+
+I will see you there
+
+++++++CONFIDENTIALITY NOTICE+++++ The information in this email may be
+confidential and/or privileged ++++++CONFIDENTIALITY NOTICE+++++ The
+information in this email may be confidential and/or privileged. This email
+is intended to be reviewed by only the individual or organization named
+above. If you are not the intended recipient or an authorized representative
+of the intended recipient, you are hereby notified that any review,
+dissemination or copying of this email and its attachments, if any, or the
+information contained herein is prohibited. If you have received this email
+in error, please immediately notify the sender by return email and delete
+this email from your system. Thank You",,718,1.0
+bd50b5e02fa0c366,dev,False,Areeb,1,False,,,Special Visit,2000-05-23 10:00,SueW2@aol.com,sally.beck@enron.com,,"Dear Sally,
+
+I decided that this would be the quickest way to get in touch this afternoon,
+as I know you must be very busy after taking yesterday off to be with us, and
+also I know you will have many things you would like to do at home tonight.
+There is no way to say thanks for the great two days. You are always so
+gracious and generous in every way, time, thought, etc.
+
+I really enjoyed going with you to your office and now I can picture you each
+day. I found it very pleasent to sit at your desk. Please tell Patti that I
+enjoyed meeting her.
+
+Thanks so much for taking me to see the interesting shop, and I will look
+forward to going there again and using my generous Mother's Day gift
+certificate!! I am still thinking about the table I saw there-it is not a
+lot larger than the table I have, but I like the fact that it is a cabinet.
+
+It was very interesting to see your house and what has been done and what you
+plan to do with your furnishings. I think it will be wonderful and I look
+forward to seeimg it all finished. Keep me posted on what is going on and
+what decisions you make. I really do think you and your family will enjoy
+the spacious large room.
+
+I do hope David will have good news about his problem and hope that it can be
+easily treated.
+
+I thoroughly enjoyed the recital, and I think Amanda played beautifully.
+Please tell her that I am so proud of her with the way she is doing in her
+music, with the wonderful gold medal, and also doing so great in her school
+work. I hope she has a great two weeks at camp, and I am sure that you will
+send me her camp address. When you have time we can plan her visit time.
+
+It was fun seeing Meagan, and she was very thoughtful to bring Michael by to
+see us. I mentioned to her that if she just wanted a change of scenery after
+she goes to camp we would love for her to come over and visit.
+
+Tyler was so much fun too, and especially now that he really knows who we are
+and is comfortable with us. We better stay strong and well so he can have
+some visits with us!
+
+I know I probably have forgotten something, but the visit with you was
+great. Thanks you for being such a loving, thoughtful, and generous
+daughter. I am very proud of you.
+
+Much love,
+
+Mom
+
+Mom",,beck-s,Executive,beck-s,Executive,To,custom,personal,False,False,meeting,False,74c11d581d5b,1,<996010.1075855890574.JavaMail.evans@thyme>,beck-s\personal\44,Info,,single,True,Low,,single,True,Positive,,single,True,False,"Dear Sally,
+
+I decided that this would be the quickest way to get in touch this afternoon,
+as I know you must be very busy after taking yesterday off to be with us, and
+also I know you will have many things you would like to do at home tonight.
+There is no way to say thanks for the great two days.  You are always so
+gracious and generous in every way, time, thought, etc.
+
+I really enjoyed going with you to your office and now I can picture you each
+day.  I found it very pleasent to sit at your desk.  Please tell Patti that I
+enjoyed meeting her.
+
+Thanks so much for taking me to see the interesting shop, and I will look
+forward to going there again and using my generous Mother's Day gift
+certificate!!  I am still thinking about the table I saw there-it is not a
+lot larger than the table I have, but I like the fact that it is a cabinet.
+
+It was very interesting to see your house and what has been done and what you
+plan to do with your furnishings.  I think it will be wonderful and I look
+forward to seeimg it all finished.  Keep me posted on what is going on and
+what decisions you make.  I really do think you and your family will enjoy
+the spacious large room.
+
+I do hope David will have good news about his problem and hope that it can be
+easily treated.
+
+I thoroughly enjoyed the recital, and I think Amanda played beautifully.
+Please tell her that I am so proud of her with the way she is doing in her
+music, with the wonderful gold medal, and also doing so great in her school
+work.  I hope she has a great two weeks at camp, and I am sure that you will
+send me her camp address.  When you have time we can plan her visit time.
+
+It was fun seeing Meagan, and she was very thoughtful to bring Michael by to
+see us.  I mentioned to her that if she just wanted a change of scenery after
+she goes to camp we would love for her to come over and visit.
+
+Tyler was so much fun too, and especially now that he really knows who we are
+and is comfortable with us.  We better stay strong and well so he can have
+some visits with us!
+
+I know I probably have forgotten something, but  the visit with you was
+great.  Thanks you for being such a loving, thoughtful, and generous
+daughter.  I am very proud of you.
+
+Much love,
+
+Mom
+
+Mom",,"Subject: Special Visit
+
+Dear Sally,
+
+I decided that this would be the quickest way to get in touch this afternoon,
+as I know you must be very busy after taking yesterday off to be with us, and
+also I know you will have many things you would like to do at home tonight.
+There is no way to say thanks for the great two days. You are always so
+gracious and generous in every way, time, thought, etc.
+
+I really enjoyed going with you to your office and now I can picture you each
+day. I found it very pleasent to sit at your desk. Please tell Patti that I
+enjoyed meeting her.
+
+Thanks so much for taking me to see the interesting shop, and I will look
+forward to going there again and using my generous Mother's Day gift
+certificate!! I am still thinking about the table I saw there-it is not a
+lot larger than the table I have, but I like the fact that it is a cabinet.
+
+It was very interesting to see your house and what has been done and what you
+plan to do with your furnishings. I think it will be wonderful and I look
+forward to seeimg it all finished. Keep me posted on what is going on and
+what decisions you make. I really do think you and your family will enjoy
+the spacious large room.
+
+I do hope David will have good news about his problem and hope that it can be
+easily treated.
+
+I thoroughly enjoyed the recital, and I think Amanda played beautifully.
+Please tell her that I am so proud of her with the way she is doing in her
+music, with the wonderful gold medal, and also doing so great in her school
+work. I hope she has a great two weeks at camp, and I am sure that you will
+send me her camp address. When you have time we can plan her visit time.
+
+It was fun seeing Meagan, and she was very thoughtful to bring Michael by to
+see us. I mentioned to her that if she just wanted a change of scenery after
+she goes to camp we would love for her to come over and visit.
+
+Tyler was so much fun too, and especially now that he really knows who we are
+and is comfortable with us. We better stay strong and well so he can have
+some visits with us!
+
+I know I probably have forgotten something, but the visit with you was
+great. Thanks you for being such a loving, thoughtful, and generous
+daughter. I am very proud of you.
+
+Much love,
+
+Mom
+
+Mom",,2225,1.0
+824be6641febc5c3,calib,False,Ampa,1,False,,,Texas Intrastate White Paper,2001-11-16 10:45,"Redmond, Brian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BREDMON>",w..cantrell@enron.com; jean.ryall@enron.com; d..steffes@enron.com,a..gomez@enron.com,"Rebecca, How is this going?
+
+Topics to be covered in the Texas Intrastate White Paper:
+
+1. Current state of the Texas Intrastate Market
+2. Areas for improvement
+3. Proposed future state of the Texas Intrastate Market
+4. Strategy for implementation
+5. Actions for implementation
+6. Appendicies:
+a. Form of transport contract
+b. Gas flows in Texas
+c. Basis price history",,steffes-j,Manager,steffes-j,Manager,To,inbox,inbox,True,False,,False,749445528566,1,<17949327.1075861634396.JavaMail.evans@thyme>,steffes-j\inbox\295,Task,,single,True,High,,single,True,Neutral,,single,True,False,"Rebecca, How is this going?
+
+Topics to be covered in the Texas Intrastate White Paper:
+
+1.   Current state of the Texas Intrastate Market
+2.	Areas for improvement
+3.	Proposed future state of the Texas Intrastate Market
+4.	Strategy for implementation
+5.	Actions for implementation
+6.	Appendicies:
+a.	Form of transport contract
+b.	Gas flows in Texas
+c.	Basis price history",,"Subject: Texas Intrastate White Paper
+
+Rebecca, How is this going?
+
+Topics to be covered in the Texas Intrastate White Paper:
+
+1. Current state of the Texas Intrastate Market
+2. Areas for improvement
+3. Proposed future state of the Texas Intrastate Market
+4. Strategy for implementation
+5. Actions for implementation
+6. Appendicies:
+a. Form of transport contract
+b. Gas flows in Texas
+c. Basis price history",,368,1.0
+e6e971aa932a3837,calib,False,Ampa,1,False,,,Re: MEH Turbines,2000-12-11 06:54,Brett R Wiggs,david.delainey@enron.com,joe.kishkill@enron.com,"Dave:
+
+The attached sheet provides a summary of information on the turbines.
+
+Brett","[2000-12-08 07:38] david.delainey@enron.com: Brett, can you give me the particulars on the four MEH turbines (ie) 
+scheduled delivery, price, fuel options, heat rate, output,etc - including 
+transferablility to NA.
+
+Regards
+Delainey
+
+[2000-12-08 07:38] david.delainey@enron.com: Brett, can you give me the particulars on the four MEH turbines (ie) 
+scheduled delivery, price, fuel options, heat rate, output,etc - including 
+transferablility to NA.
+
+Regards
+Delainey",delainey-d,Executive,delainey-d,Executive,To,inbox,notes_inbox,False,False,,False,022c817e6bbd,3,<5879037.1075854462048.JavaMail.evans@thyme>,delainey-d\notes_inbox\24,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"Dave:
+
+The attached sheet provides a summary of information on the turbines.
+
+Brett","David W Delainey@ECT
+12/08/2000 06:38 PM
+To: Brett R Wiggs/SA/Enron@Enron
+cc: Joe Kishkill/SA/Enron@Enron
+Subject: MEH Turbines
+
+Brett, can you give me the particulars on the four MEH turbines (ie)
+scheduled delivery, price, fuel options, heat rate, output,etc - including
+transferablility to NA.
+
+Regards
+Delainey","Subject: Re: MEH Turbines
+
+Dave:
+
+The attached sheet provides a summary of information on the turbines.
+
+Brett",,83,1.0
+d0645f034d55d54c,dev,False,Milan,1,False,,,(01-149) Silver and Gold Options Expiration Operational Procedures,2001-05-07 02:37,exchangeinfo@nymex.com,sara.shackleton@enron.com,,"Notice No. 01-149
+May 7, 2001
+
+TO:
+All COMEX Division Members/Member Firms
+All COMEX Division Clearing Members
+All COMEX Division Floor Traders
+All COMEX Division Operations Managers
+
+FROM:
+Michael Campanelli, Vice President
+Floor Operations, COMEX Division
+
+RE:
+Options Expiration Operational Procedures for the Trading Floor and Clearing
+Members
+______________________________________________________________________________
+
+The expiration date for the June 2001 options contract for Silver (SO M1) and
+Gold (OG M1) is Friday, May 11, 2001.
+
+GENERAL OPERATIONAL PROCEDURES
+
+All Clearing Members and Qualified Floor Traders that carried an options
+position as of the close of business day prior to the expiration day, or
+engaged in trading activity on Expiration Day in the expiring options
+contract will be required to have a knowledgeable, duly authorized on-line
+trade entry (&OLTE8) system trained representative available until released
+by the Exchange staff. All adjustments and/or corrections, must be
+accompanied by relevant supporting documentation prior to being incorporated
+into expiration processing. In essence, making the expiration processing an
+extension of the afternoon trade resolution procedures.
+
+Exchange Clearing (299-2110) and Trade Processing (299-2465 and 299-2044)
+personnel will be available to assist with the processing of notices of
+Exercise and Abandonment, position transfers, trade corrections and other
+questions or problems you may have.
+
+Failure by any Clearing Member or qualified Floor Trader to comply with
+procedures as outlined herein may result in severe disciplinary action by the
+Exchange and potential financial liability to customers or members for
+failure to exercise diligence in the processing of information.
+
+TRADING FLOOR OPERATIONAL PROCEDURES
+
+Trading in the June 2001 Silver and Gold Options Contracts will cease at 2:25
+P.M. and 2:30 P.M. respectively on May 11, 2001. All Brokers and Traders
+must inform their Clearing Members of their intentions to exercise or abandon
+such Options by 4:00 P.M.
+
+On Friday, May 11, 2001, all Brokers and Clearing Members must have a duly
+authorized, On-Line Trade Entry (&OLTE8) system trained representative
+available until such time as the Exchange deems necessary.
+
+NOTE: After 4:30 P.M. all expiring option trade data must be inputted on
+special &OLTE8 terminals located in the Trade Processing Room. Any other
+means of submission will be rejected by the Exchange. Members will be able
+to submit all other trade data until 5:00 P.M.
+
+After the UTR and the Preliminary Spot Month Matched Trade Reports are
+displayed, Clearing Member representatives will be able to pick up their
+Preliminary Clearing reports at the Clearing Department.
+
+A final review of all submissions will be made, the Supervisor of the Trade
+Processing Room will detain only those Clearing Members and/or Broker
+representatives involved. All final corrections will be made at this time
+and upon determination of the Supervisor that all option processing is
+complete, all representatives will be released.
+
+Exchange Reports based on Friday,s submissions and processing will be
+available on Monday morning May 14, 2001.
+
+In the event that you have any questions regarding the foregoing trading
+floor procedures please contact Michael Campanelli at (212) 299-2072 or David
+Sherman at (212) 299-2061.
+
+CLEARING DEPARTMENT OPERATIONAL PROCEDURES
+
+1. OPEN POSITION CONFIRMATION (&OPC8) - The OPC should reflect as accurately
+as possible all futures and options gross positions as of close-of business
+on the business day prior to expiration. Review the estimated current gross
+positions as shown and make appropriate adjustments. The OPC must be
+submitted not later than 9:00 AM.
+
+2. OPTIONS EXERCISE/ABANDONMENT REQUEST FORM (&E/A8) - An expiring option
+with a strike price in-the-money by one tick or more will be subject to
+automatic exercise unless an Option Abandonment Request form is submitted
+advising that a Clearing Member (&CM8) elects to abandon some or all of its
+position in that strike price (i.e., for the option series). All other
+options series in the expiring month will be subject to automatic abandonment
+unless an Option Exercise Request form is submitted. When submitting an E/A
+form, please note the following:
+
+(a) An E/A form must be submitted not later than 5:00 PM.
+(b) Do not submit an Exercise form for positions in strike prices, which are
+subject to automatic
+Exercise nor submit an Abandonment form for positions in strike prices, which
+are subject to automatic abandonment.
+(c) If a CM wishes to submit an E/A form to abandon a position in a strike
+price subject to automatic exercise or wishes to exercise a position in a
+strike price which is out of the money, it is necessary to notify Clearing by
+telephone of such anticipated action. The CM must have an officer available
+to confirm such intention.
+(d) CMs may secure from Clearing a time-stamped receipt of the CM copy to
+assure submission of the CM,s E/A forms.
+
+3. OPTION POSITION REDUCTION REQUEST FORM (&OPRR8) - As a general rule,
+purchases and sales of option contracts are presumed to be new business. If
+some or all of your purchases and sales are in fact undertaken for position
+liquidation purposes, OPRR forms may be submitted on the day of expiration
+and will be used in conjunction with trade data to reduce your projected
+position in an expiring contract. OPRR requests in excess of actual traded
+volume will be rejected. Exception: Cabinet trades and cancel correction
+trades will automatically liquidate existing positions, therefore do not
+submit an OPRR form for cabinet or cancel correction trades.
+The OPRR form must be submitted not later than 5:00 PM.
+
+4. HOUSE/CUSTOMER POSITION TRANSFER REQUEST FORM (&H/C8) - H/C forms may be
+used only to transfer previously cleared contracts between a CM,s house and
+customer accounts. Problem trades (those which have not cleared prior to
+expiration day), must be corrected using COMEX,s on-line trade entry system
+under the direct supervision of the Trade Audits Department of COMEX (&Trade
+Audits8). The H/C form must be submitted not later than 3:30 PM.
+
+5. EX-PIT POSITION TRANSFER REQUEST FORM (&Ex-Pit8) - Ex Pit forms may be
+used only to transfer previously cleared contracts between CMs. Problem
+trades (those which have not cleared prior to expiration day), must be
+corrected on the on-line trade entry system under the direct supervision of
+Trade Audits. The Ex-Pit form must be submitted not later than 3:30 PM.
+
+*****
+A) At approximately 4:15 PM, two PRELIMINARY reports of the expiration
+process will be available for distribution at the Nymex Clearing Department:
+
+1. OPTION EXPIRATION REPORT AND CONFIRMATION - The purpose of this report is
+to project the CM,s present position going into the expiration based upon the
+transactions which have already been submitted to Clearing. CMs should
+review and modify their adjusted gross positions as of close-of-business on
+the business day prior to expiration. Further adjustments may be submitted
+not later than 5:00 PM. The projected ending gross positions will reflect
+transactions accepted or rejected for clearance on expiration night,
+inclusive of Ex-Pit, H/C and OPRR transactions which have been submitted to
+Clearing prior to 3:30 PM, and trade information submitted to COMEX prior to
+3:45 PM. Normally, this report will also reflect manually submitted Exercise
+and Abandonment instructions, the projected number of exercises and maximum
+potential assignments for each strike price, the type of exercise (manual or
+automatic), whether the strike is In, At or Out of the money, and the
+exercise val!
+ue!
+associated therewith based on settlement prices established by COMEX on the
+day of expiration.
+
+2. TRANSACTION LISTING - This listing will include in detail all expiring
+option trades submitted to COMEX prior to 3:45 PM on expiration day, and all
+H/C, ExPit, OPRR and E/A transactions submitted to Clearing Prior to 3:30 PM.
+
+Please note: Trade information reflected on the option expiration report and
+transaction listing are trades submitted only. To inquire whether trades have
+matched, each CM must review the trade reports provided by COMEX,s On-Line
+Trade Entry (&OLTE8) system.
+
+B) At approximately 5:30 PM, FINAL reports of the expiration process,
+including all submissions to Clearing and trade information submitted to
+COMEX made by 5:00 PM, will be available for distribution at the Nymex
+Clearing Department.
+
+C) At 5:45 PM, Preliminary In The Money Abandonment and Out Of The Money
+Exercise information will be announced on Fast Facts.
+
+D) At Approximately 7:30 PM, a Final Notice of Exercise/Assignments will be
+available in each CM,s lockbox located at the Nymex Clearing Department.
+Each CM, which has exercised or been assigned one or more options will
+receive a separate statement showing exercises and/or assignments for each
+option series. Please check this statement carefully. Although long options
+positions in-the-money by one tick or more will be automatically exercised,
+not all short option positions will be assigned if there are any options
+manually abandoned at such strike prices. Please note that there also may be
+some at or out-of-the money options being exercised.
+
+E) At approximately 9:00 PM, the final set of clearing sheets will be
+available in each CM,s lockbox located at the Nymex Clearing Department.
+
+It is strongly recommended that each CM have a representative(s) that is
+properly trained to handle the option expiration process available beginning
+at 4:15 PM and who will receive the CM=s reports at the specific times. It
+is solely the responsibility of the CM to review these reports and to notify
+the Clearing staff immediately of any discrepancies.
+
+To obtain the exact time of the availability for each report, clearing
+members should call (212) 513-7405, access code 702. The announcement time
+will occur
+hour prior to availability.
+
+Below, please find a Clearing Member Procedure Summary for ease of
+reference. Please contact John Ramos at (212) 299-2142 (Members 001-500) or
+Mel Garcia at (212) 299-2144 (members 501-999) if you have any questions.
+
+OPTION EXPIRATION PROCESSING CLEARING MEMBER PROCEDURE SUMMARY
+
+Time: 3:30 PM
+Activity: Expits, H/C transfers, Option Position Reduction and
+Exercise/Abandon notices
+Event: Submission to Clearing cutoff time.
+Notes: Final cutoff for Expits and H/C tranfers
+
+Time: 3:45 PM
+Activity: Call Fast Facts to obtain availability time of Preliminary Option
+Expiration Reports.
+Event: Fast Facts notice of Availability
+
+Time: 4:15 PM
+Activity: Preliminary option expiration reports available to clearing members
+at NYMEX Clearing Department
+
+Time: 5:00 PM
+Activity: Options Position Reduction, Exercise/Abandon notices and Gross
+Position Adjustments
+Event: Submission to Clearing Cutoff Time
+Notes: Final cutoff for Option Position Reduction, Exercise/Abandon notices
+and Gross Position Adjustments
+
+Time: 5:05 PM
+Activity: Call Fast Facts to obtain availability time of Final Preliminary
+Option expiration Reports
+Event: Fast Facts notice of Availability
+
+Time: 5:30 PM
+Activity: Final Preliminary option expiration reports available to clearing
+members at NYMEX Clearing Department.
+
+Time: 5:45 PM
+Activity: Call Fast Facts to obtain Preliminary In the Money Abandonment and
+Out of the Money Exercise Information
+Event Fast Facts notice of information
+Notes: New Event
+
+Time: 6:00 PM
+Activity: Corrections to previously Submitted Adjustments or Notices
+Event: Correction period cutoff time (30 minutes after final preliminary
+report is distributed)
+Notes: Final cutoff for corrections
+
+Time: 7:00 PM
+Activity: Call Fast Facts to obtain availability of final expiring option
+position and Exercise/Assignment report
+Event: Fast Facts notice of Availability
+
+Time: 7:30 PM
+Activity: Final expirating options position and Exercise/Assignment report
+available in clearing member's lockbox at NYMEX Clearing Department
+
+Time: 8:30 PM
+Activity: Call Fast Facts to obtain availability of final clearing reports.
+Event: Fast Facts notice of Availability
+
+Time: 9:00 PM
+Activity: Final clearing reports available in clearing member's lockbox at
+NYMEX Clearing Department.
+
+Please contact John Ramos at (212) 299-2142 (Members 001-500) or Mel Garcia
+at (212) 299-2144 (members 501-999) if you have any questions.
+
+__________________________________________________
+Please click on the link below to indicate you have received this
+email.
+
+""http://208.206.41.61/email/email_log.cfm?useremail=sara.shackleton@enron.com&
+refdoc=(01-149)""
+
+Note: If you click on the above line and nothing happens, please copy
+the text between the quotes, open your internet browser,
+paste it into the web site address and press Return.",,shackleton-s,Legal,shackleton-s,Consultant,To,inbox,notes_inbox,False,True,credentials|approval,False,aa856b839072,1,<12206143.1075844795936.JavaMail.evans@thyme>,shackleton-s\notes_inbox\2286,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"Notice No. 01-149
+May 7, 2001
+
+TO:
+All COMEX Division Members/Member Firms
+All COMEX Division Clearing Members
+All COMEX Division Floor Traders
+All COMEX Division Operations Managers
+
+FROM:
+Michael Campanelli, Vice President
+Floor Operations, COMEX Division
+
+RE:
+Options Expiration Operational Procedures for the Trading Floor and Clearin=
+g=20
+Members
+___________________________________________________________________________=
+___
+
+The expiration date for the June 2001 options contract for Silver (SO M1) a=
+nd=20
+Gold (OG M1) is Friday, May 11, 2001.
+
+GENERAL OPERATIONAL PROCEDURES
+
+All Clearing Members and Qualified Floor Traders that carried an options=20
+position as of the close of business day prior to the expiration day, or=20
+engaged in trading activity on Expiration Day in the expiring options=20
+contract will be required to have a knowledgeable, duly authorized on-line=
+=20
+trade entry (=01&OLTE=018) system trained representative available until re=
+leased=20
+by the Exchange staff.  All adjustments  and/or corrections, must be=20
+accompanied by relevant supporting documentation prior to being incorporate=
+d=20
+into expiration processing.  In essence, making the expiration processing a=
+n=20
+extension of the afternoon trade resolution procedures.
+
+Exchange Clearing (299-2110) and Trade Processing (299-2465 and 299-2044)=
+=20
+personnel will be available to assist with the processing of notices of=20
+Exercise and Abandonment, position transfers, trade corrections and other=
+=20
+questions or problems you may have.
+
+Failure by any Clearing Member or qualified Floor Trader to comply with=20
+procedures as outlined herein may result in severe disciplinary action by t=
+he=20
+Exchange and potential financial liability to customers or members for=20
+failure to exercise diligence in the processing of information.
+
+TRADING FLOOR OPERATIONAL PROCEDURES
+
+Trading in the June 2001 Silver and Gold Options Contracts will cease at 2:=
+25=20
+P.M. and 2:30 P.M. respectively on May 11, 2001.  All Brokers and Traders=
+=20
+must inform their Clearing Members of their intentions to exercise or aband=
+on=20
+such Options by 4:00 P.M.
+
+On Friday, May 11, 2001, all Brokers and Clearing Members must have a duly=
+=20
+authorized, On-Line Trade Entry (=01&OLTE=018) system trained representativ=
+e=20
+available until such time as the Exchange deems necessary.
+
+NOTE: After 4:30 P.M. all expiring option trade data must be inputted on=20
+special =01&OLTE=018 terminals located in the Trade Processing Room. Any ot=
+her=20
+means of submission will be rejected by the Exchange.  Members will be able=
+=20
+to submit all other trade data until 5:00 P.M.
+
+After the UTR and the Preliminary Spot Month Matched Trade Reports are=20
+displayed, Clearing Member representatives will be able to pick up their=20
+Preliminary Clearing reports at the Clearing Department.
+
+A final review of all submissions will be made, the Supervisor of the Trade=
+=20
+Processing Room will detain only those Clearing Members and/or Broker=20
+representatives involved.  All final corrections will be made at this time=
+=20
+and upon determination of the Supervisor that all option processing is=20
+complete, all representatives will be released.
+
+Exchange Reports based on Friday=01,s submissions and processing will be=20
+available on Monday morning May 14, 2001.
+
+In the event that you have any questions regarding the foregoing trading=20
+floor procedures please contact Michael Campanelli at (212) 299-2072 or Dav=
+id=20
+Sherman at (212) 299-2061.
+
+CLEARING DEPARTMENT OPERATIONAL PROCEDURES
+
+1. OPEN POSITION CONFIRMATION (=01&OPC=018) - The OPC should reflect as acc=
+urately=20
+as possible all futures and options gross positions as of close-of business=
+=20
+on the business day prior to expiration.  Review the estimated current gros=
+s=20
+positions as shown and make appropriate adjustments.  The OPC must be=20
+submitted not later than 9:00 AM.
+
+2.   OPTIONS EXERCISE/ABANDONMENT REQUEST FORM (=01&E/A=018) - An expiring =
+option=20
+with a strike price in-the-money by one tick or more will be subject to=20
+automatic exercise unless an Option Abandonment Request form is submitted=
+=20
+advising that a Clearing Member (=01&CM=018) elects to abandon some or all =
+of its=20
+position in that strike price (i.e., for the option series).  All other=20
+options series in the expiring month will be subject to automatic abandonme=
+nt=20
+unless an Option Exercise Request form is submitted.  When submitting an E/=
+A=20
+form, please note the following:
+
+(a) An E/A form must be submitted not later than 5:00 PM.
+(b) Do not submit an Exercise form for positions in strike prices, which ar=
+e=20
+subject to automatic
+Exercise nor submit an Abandonment form for positions in strike prices, whi=
+ch=20
+are subject to automatic abandonment.
+(c) If a CM wishes to submit an E/A form to abandon a position in a strike=
+=20
+price subject to automatic exercise or wishes to exercise a position in a=
+=20
+strike price which is out of the money, it is necessary to notify Clearing =
+by=20
+telephone of such anticipated action.  The CM must have an officer availabl=
+e=20
+to confirm such intention.
+(d) CMs may secure from Clearing a time-stamped receipt of the CM copy to=
+=20
+assure submission  of the CM=01,s E/A forms.
+
+3. OPTION POSITION REDUCTION REQUEST FORM (=01&OPRR=018) - As a general rul=
+e,=20
+purchases and sales of option contracts are presumed to be new business.   =
+If=20
+some or all of your purchases and sales are in fact undertaken for position=
+=20
+liquidation purposes, OPRR forms may be submitted on the day of expiration=
+=20
+and will be used in conjunction with trade data to reduce your projected=20
+position in an expiring contract.  OPRR requests in excess of actual traded=
+=20
+volume will be rejected.  Exception: Cabinet trades and cancel correction=
+=20
+trades will automatically liquidate existing positions, therefore do not=20
+submit an OPRR form for cabinet or cancel correction trades.
+The  …[truncated]",,"Subject: (01-149) Silver and Gold Options Expiration Operational Procedures
+
+Notice No. 01-149
+May 7, 2001
+
+TO:
+All COMEX Division Members/Member Firms
+All COMEX Division Clearing Members
+All COMEX Division Floor Traders
+All COMEX Division Operations Managers
+
+FROM:
+Michael Campanelli, Vice President
+Floor Operations, COMEX Division
+
+RE:
+Options Expiration Operational Procedures for the Trading Floor and Clearing
+Members
+______________________________________________________________________________
+
+The expiration date for the June 2001 options contract for Silver (SO M1) and
+Gold (OG M1) is Friday, May 11, 2001.
+
+GENERAL OPERATIONAL PROCEDURES
+
+All Clearing Members and Qualified Floor Traders that carried an options
+position as of the close of business day prior to the expiration day, or
+engaged in trading activity on Expiration Day in the expiring options
+contract will be required to have a knowledgeable, duly authorized on-line
+trade entry (&OLTE8) system trained representative available until released
+by the Exchange staff. All adjustments and/or corrections, must be
+accompanied by relevant supporting documentation prior to being incorporated
+into expiration processing. In essence, making the expiration processing an
+extension of the afternoon trade resolution procedures.
+
+Exchange Clearing (299-2110) and Trade Processing (299-2465 and 299-2044)
+personnel will be available to assist with the processing of notices of
+Exercise and Abandonment, position transfers, trade corrections and other
+questions or problems you may have.
+
+Failure by any Clearing Member or qualified Floor Trader to comply with
+procedures as outlined herein may result in severe disciplinary action by the
+Exchange and potential financial liability to customers or members for
+failure to exercise diligence in the processing of information.
+
+TRADING FLOOR OPERATIONAL PROCEDURES
+
+Trading in the June 2001 Silver and Gold Options Contracts will cease at 2:25
+P.M. and 2:30 P.M. respectively on May 11, 2001. All Brokers and Traders
+must inform their Clearing Members of their intentions to exercise or abandon
+such Options by 4:00 P.M.
+
+On Friday, May 11, 2001, all Brokers and Clearing Members must have a duly
+authorized, On-Line Trade Entry (&OLTE8) system trained representative
+available until such time as the Exchange deems necessary.
+
+NOTE: After 4:30 P.M. all expiring option trade data must be inputted on
+special &OLTE8 terminals located in the Trade Processing Room. Any other
+means of submission will be rejected by the Exchange. Members will be able
+to submit all other trade data until 5:00 P.M.
+
+After the UTR and the Preliminary Spot Month Matched Trade Reports are
+displayed, Clearing Member representatives will be able to pick up their
+Preliminary Clearing reports at the Clearing Department.
+
+A final review of all submissions will be made, the Supervisor of the Trade
+Processing Room will detain only those Clearing Members and/or Broker
+representatives involved. All final corrections will be made at this time
+and upon determination of the Supervisor that all option processing is
+complete, all representatives will be released.
+
+Exchange Reports based on Friday,s submissions and processing will be
+available on Monday morning May 14, 2001.
+
+In the event that you have any questions regarding the foregoing trading
+floor procedures please contact Michael Campanelli at (212) 299-2072 or David
+Sherman at (212) 299-2061.
+
+CLEARING DEPARTMENT OPERATIONAL PROCEDURES
+
+1. OPEN POSITION CONFIRMATION (&OPC8) - The OPC should reflect as accurately
+as possible all futures and options gross positions as of close-of business
+on the business day prior to expiration. Review the estimated current gross
+positions as shown and make appropriate adjustments. The OPC must be
+submitted not later than 9:00 AM.
+
+2. OPTIONS EXERCISE/ABANDONMENT REQUEST FORM (&E/A8) - An expiring option
+with a strike price in-the-money by one tick or more will be subject to
+automatic exercise unless an Option Abandonment Request form is submitted
+advising that a Clearing Member (&CM8) elects to abandon some or all of its
+position in that strike price (i.e., for the option series). All other
+options series in the expiring month will be subject to automatic abandonment
+unless an Option Exercise Request form is submitted. When submitting an E/A
+form, please note the following:
+
+(a) An E/A form must be submitted not later than 5:00 PM.
+(b) Do not submit an Exercise form for positions in strike prices, which are
+subject to automatic
+Exercise nor submit an Abandonment form for positions in strike prices, which
+are subject to automatic abandonment.
+(c) If a CM wishes to submit an E/A form to abandon a position in a strike
+price subject to automatic exercise or wishes to exercise a position in a
+strike price which is out of the money, it is necessary to notify Clearing by
+telephone of such anticipated action. The CM must have an officer available
+to confirm such intention.
+(d) CMs may secure from Clearing a time-stamped receipt of the CM copy to
+assure submission of the CM,s E/A forms.
+
+3. OPTION POSITION REDUCTION REQUEST FORM (&OPRR8) - As a general rule,
+purchases and sales of option contracts are presumed to be new business. If
+some or all of your purchases and sales are in fact undertaken for position
+liquidation purposes, OPRR forms may be submitted on the day of expiration
+and will be used in conjunction with trade data to reduce your projected
+position in an expiring contract. OPRR requests in excess of actual traded
+volume will be rejected. Exception: Cabinet trades and cancel correction
+trades will automatically liquidate existing positions, therefore do not
+submit an OPRR form for cabinet or cancel correction trades.
+The OPRR form must be submitted not later than 5:00 PM.
+
+4. HOUSE/CUSTOMER POSITION TRANSFER REQUEST FORM (&H/C8) - H/C forms may be
+used only to transfer previously cleared contracts between a CM,s house and
+customer accounts. Problem trades (those which have not cleared prior to
+expiration day), must be corrected using COMEX,s on-line trade entry system
+under the direct supervision of the Trade Audits Department of COMEX (&Trade
+Audits8). The H/C form must be submitted not later than 3:30 PM.
+
+5. EX-PIT POSITION TRANSFER REQUEST FORM (&Ex-Pit8) - Ex Pit forms may be
+used only to transfer previously cleared contracts between CMs. Problem
+trades (those which have not cleared prior to expiration day), must be
+corrected on the on-line trade entry system under the direct supervision of
+Trade Audits. The Ex-Pit form must be submitted not later than 3:30 PM.
+
+*****
+A) At approximately 4:15 PM, two PRELIMINARY reports of the expiration
+process will be available for distribution at the Nymex Clearing Department:
+
+1. OPTION EXPIRATION REPORT AND CONFIRMATION - The purpose of this report is
+to project the CM,s present position going into the expiration based upon the
+transactions which have already been submitted to Clearing. CMs should
+review and modify their adjusted gross positions as of close-of-business on
+the business day prior to expiration. Further adjustments may be submitted
+not later than 5:00 PM. The projected ending gross positions will reflect
+transactions accepted or rejected for clearance on expiration night,
+inclusive of Ex-Pit, H/C and OPRR transactions which have been submitted to
+Clearing prior to 3:30 PM, and trade information submitted to COMEX prior to
+3:45 PM. Normally, this report will also reflect manually submitted Exercise
+and Abandonment instructions, the projected number of exercises and maximum
+potential assignments for each strike price, the type of exercise (manual or
+automatic), whether the strike is In, At or Out of the money, and the
+exercise val!
+ue!
+associated therewith based on settlement prices established by COMEX on the
+day of expiration.
+
+2. TRANSACTION LISTING - This listing will include in detail all expiring
+option trades submitted to COMEX prior to 3:45 PM on expiration day, and all
+H/C, ExPit, OPRR and E/A transactions submitted to Clearing Prior to 3:30 PM.
+
+Please note: Trade information reflected on the option expiration report and
+transaction listing are trades submitted only. To inquire whether trades have
+matched, each CM must review the trade reports provided by COMEX,s On-Line
+Trade Entry (&OLTE8) system.
+
+B) At approximately 5:30 PM, FINAL reports of the expiration process,
+including all submissions to Clearing and trade information submitted to
+COMEX made by 5:00 PM, will be available for distribution at the Nymex
+Clearing Department.
+
+C) At 5:45 PM, Preliminary In The Money Abandonment and Out Of The Money
+Exercise information will be announced on Fast Facts.
+
+D) At Approximately 7:30 PM, a Final Notice of Exercise/Assignments will be
+available in each CM,s lockbox located at the Nymex Clearing Department.
+Each CM, which has exercised or been assigned one or more options will
+receive a separate statement showing exercises and/or assignments for each
+option series. Please check this statement carefully. Although long options
+positions in-the-money by one tick or more will be automatically exercised,
+not all short option positions will be assigned if there are any options
+manually abandoned at such strike prices. Please note that there also may be
+some at or out-of-the money options being exercised.
+
+E) At approximately 9:00 PM, the final set of clearing sheets will be
+available in each CM,s lockbox located at the Nymex Clearing Department.
+
+It is strongly recommended that each CM have a representative(s) that is
+properly trained to handle the option expiration process available beginning
+at 4:15 PM and who will receive the CM=s reports at the specific times. It
+is solely the responsibility of the CM to review these reports and to notify
+the Clearing staff immediately of any discrepancies.
+
+To obtain the exact time of the availability for each report, clearing
+members should call (212) 513-7405, access code 702. The announcement time
+will occur
+hour prior to availability.
+
+Below, please find a Clearing Member Procedure Summary for ease of
+reference. Please contact John Ramos at (212) 299-2142 (Members 001-500) or
+Mel Garcia at (212) 299-2144 (members 501-999) if you have any questions.
+
+OPTION EXPIRATION PROCESSING CLEARING MEMBER PROCEDURE SUMMARY
+
+Time: 3:30 PM
+Activity: Expits, H/C transfers, Option Position Reduction and
+Exercise/Abandon notices
+Event: Submission to Clearing cutoff time.
+Notes: Final cutoff for Expits and H/C tranfers
+
+Time: 3:45 PM
+Activity: Call Fast Facts to obtain availability time of Preliminary Option
+Expiration Reports.
+Event: Fast Facts notice of Availability
+
+Time: 4:15 PM
+Activity: Preliminary option expiration reports available to clearing members
+at NYMEX Clearing Department
+
+Time: 5:00 PM
+Activity: Options Position Reduction, Exercise/Abandon notices and Gross
+Position Adjustments
+Event: Submission to Clearing Cutoff Time
+Notes: Final cutoff for Option Position Reduction, Exercise/Abandon notices
+and Gross Position Adjustments
+
+Time: 5:05 PM
+Activity: Call Fast Facts to obtain availability time of Final Preliminary
+Option expiration Reports
+Event: Fast Facts notice of Availability
+
+Time: 5:30 PM
+Activity: Final Preliminary option expiration reports available to clearing
+members at NYMEX Clearing Department.
+
+Time: 5:45 PM
+Activity: Call Fast Facts to obtain Preliminary In the Money Abandonment and
+Out of the Money Exercise Information
+Event Fast Facts notice of information
+Notes: New Event
+
+Time: 6:00 PM
+Activity: Corrections to previously Submitted Adjustments or Notices
+Event: Correction period cutoff time (30 minutes after final preliminary
+report is distributed)
+Notes: Final cutoff for corrections
+
+Time: 7:00 PM
+Activity: Call Fast Facts to obtain availability of final expiring option
+position and Exercise/Assignment report
+Event: Fast Facts notice of Availability
+
+Time: 7:30 PM
+Activity: Final expirating options position and Exercise/Assignment report
+available in clearing member's lockbox at NYMEX Clearing Department
+
+Time: 8:30 PM
+Activity: Call Fast Facts to obtain availability of final clearing reports.
+Event: Fast Facts notice of Availability
+
+Time: 9:00 PM
+Activity: Final clearing reports available in clearing member's lockbox at
+NYMEX Clearing Department.
+
+Please contact John Ramos at (212) 299-2142 (Members 001-500) or Mel Garcia
+at (212) 299-2144 (members 501-999) if you have any questions.
+
+__________________________________________________
+Please click on the link below to indicate you have received this
+email.
+
+""http://208.206.41.61/email/email_log.cfm?useremail=sara.shackleton@enron.com&
+refdoc=(01-149)""
+
+Note: If you click on the above line and nothing happens, please copy
+the text between the quotes, open your internet browser,
+paste it into the web site address and press Return.",,12785,1.0
+c3e9eccd6592626b,dev,False,Areeb,1,False,,,update on Avistar,2001-05-30 08:30,Brian Wood <bwood@avistar.com>@ENRON <IMCEANOTES-Brian+20Wood+20+3Cbwood+40avistar+2Ecom+3E+40ENRON@ENRON.com>,sally.beck@enron.com,,"Sally,
+Thank you for your continued support of Avistar. As you probably know Brent Price has approved additional Avistar equipment for his direct reports in Houston, London and Singapore. We will begin to install these additional desktop conferencing units within the next couple weeks.
+I know we had also discussed a possible deployment to Stace and Jeff's groups. I am in Houston this week if you would like to discuss their possible project and get a sense of the budget requirements.
+Please feel free to reach me on my cell phone if you have any additional questions, 650.281.3860.
+Thanks
+Brian Wood
+Avistar Systems
+Manager, Client Development
+650.610.2917 phone
+650.610.2901 fax
+650.632.1912 video",,beck-s,Executive,beck-s,Executive,To,inbox,inbox,False,False,approval,False,d610535f39fb,1,<14396442.1075845079685.JavaMail.evans@thyme>,beck-s\inbox\374,Meeting,,single,True,Medium,,single,True,Positive,,single,True,False,"Sally, 
+Thank you for your continued support of Avistar.  As you probably know Brent Price has approved additional Avistar equipment for his direct reports in Houston, London and Singapore.  We will begin to install these additional desktop conferencing units within the next couple weeks.  
+I know we had also discussed a possible deployment to Stace and Jeff's groups.  I am in Houston this week if you would like to discuss their possible project and get a sense of the budget requirements.
+Please feel free to reach me on my cell phone if you have any additional questions, 650.281.3860. 
+Thanks 
+Brian Wood 
+Avistar Systems 
+Manager, Client Development 
+650.610.2917 phone 
+650.610.2901 fax 
+650.632.1912 video",,"Subject: update on Avistar
+
+Sally,
+Thank you for your continued support of Avistar. As you probably know Brent Price has approved additional Avistar equipment for his direct reports in Houston, London and Singapore. We will begin to install these additional desktop conferencing units within the next couple weeks.
+I know we had also discussed a possible deployment to Stace and Jeff's groups. I am in Houston this week if you would like to discuss their possible project and get a sense of the budget requirements.
+Please feel free to reach me on my cell phone if you have any additional questions, 650.281.3860.
+Thanks
+Brian Wood
+Avistar Systems
+Manager, Client Development
+650.610.2917 phone
+650.610.2901 fax
+650.632.1912 video",,702,1.0
+d791b2ae8a8bb1d0,calib,False,Milan,1,False,,,Re: Benchmarking Study,2001-01-05 01:27,Sally Beck,vince.kaminski@enron.com,,"I passed this information along to some of my direct reports for their
+thoughts, and truthfully didn't hear back from anyone and didn't follow up.
+Two years ago, we agreed to be part of a benchmarking study that was done by
+AA's Houston office (interestingly enough, Wes Colwell was the AA partner who
+led this effort) and we had mixed results. The study was designed to cover
+gas and power. Despite our involvement in the steering committee, the study
+itself was very, very detailed, such that it was troublesome to complete.
+Jim Fallon at the time refused to submit information on the majority of the
+questions surrounding power, so our survey data for power was not very
+useful.
+
+I would agree that at this time we will pass on this request. Thanks for
+passing it along, however. I would be happy to convey this directly to the
+person that has contacted you. Just let me know his/her name and number and
+I will follow through on that if you would like.
+
+Hope that your holidays was enjoyable and that the new year will be a good
+one for you. --Sally","[2001-01-03 07:29] vince.kaminski@enron.com: Sally,
+
+I gave you some time ago a brochure on this benchmarking study request.
+They renewed their request for Enron's participation.
+
+What is your view on this? Do you think the benefits of knowing what's
+going on offset the loss due information released and time spent on the 
+project.
+
+My recommendation is to forget it.
+
+Vince
+
+---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/03/2001 
+03:28 PM ---------------------------
+
+""Theresa Sanders"" <TSanders@eei.org> on 12/27/2000 01:32:18 PM
+To: <vkamins@enron.com>
+cc:  
+Subject: Benchmarking Study
+
+Dear Vince,
+
+Peter Nance and I wanted to follow-up our discussion of Enron's participation 
+in our benchmarking study.  Have you dis
+
+[2001-01-03 07:29] vince.kaminski@enron.com: Sally,
+
+I gave you some time ago a brochure on this benchmarking study request.
+They renewed their request for Enron's participation.
+
+What is your view on this? Do you think the benefits of knowing what's
+going on offset the loss due information released and time spent on the 
+project.
+
+My recommendation is to forget it.
+
+Vince
+
+---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/03/2001 
+03:28 PM ---------------------------
+
+""Theresa Sanders"" <TSanders@eei.org> on 12/27/2000 01:32:18 PM
+To: <vkamins@enron.com>
+cc:  
+Subject: Benchmarking Study
+
+Dear Vince,
+
+Peter Nance and I wanted to follow-up our discussion of Enron's participation 
+in our benchmarking study.  Have you dis
+
+[2001-01-03 07:29] vince.kaminski@enron.com: Sally,
+
+I gave you some time ago a brochure on this benchmarking study request.
+They renewed their request for Enron's participation.
+
+What is your view on this? Do you think the benefits of knowing what's
+going on offset the loss due information released and time spent on the 
+project.
+
+My recommendation is to forget it.
+
+Vince
+
+---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/03/2001 
+03:28 PM ---------------------------
+
+""Theresa Sanders"" <TSanders@eei.org> on 12/27/2000 01:32:18 PM
+To: <vkamins@enron.com>
+cc:  
+Subject: Benchmarking Study
+
+Dear Vince,
+
+Peter Nance and I wanted to follow-up our discussion of Enron's participation 
+in our benchmarking study.  Have you dis",kaminski-v,Manager,kaminski-v,Manager,To,sent,_sent_mail,False,False,,False,01147248f47a,8,<6054721.1075856100254.JavaMail.evans@thyme>,beck-s\_sent_mail\1033,Info,,single,True,Low,,single,True,Neutral,,single,True,False,"I passed this information along to some of my direct reports for their 
+thoughts, and truthfully didn't hear back from anyone and didn't follow up.  
+Two years ago, we agreed to be part of a benchmarking study that was done by 
+AA's Houston office (interestingly enough, Wes Colwell was the AA partner who 
+led this effort) and we had mixed results.  The study was designed to cover 
+gas and power.  Despite our involvement in the steering committee, the study 
+itself was very, very detailed, such that it was troublesome to complete.  
+Jim Fallon at the time refused to submit information on the majority of the 
+questions surrounding power, so our survey data for power was not very 
+useful.  
+
+I would agree that at this time we will pass on this request.  Thanks for 
+passing it along, however.  I would be happy to convey this directly  to the 
+person that has contacted you.  Just let me know his/her name and number and 
+I will follow through on that if you would like.  
+
+Hope that your holidays was enjoyable and that the new year will be a good 
+one for you.  --Sally","Vince J Kaminski
+01/03/2001 03:29 PM
+To: Sally Beck/HOU/ECT@ECT
+cc: Vince J Kaminski/HOU/ECT@ECT
+Subject: Benchmarking Study
+
+Sally,
+
+I gave you some time ago a brochure on this benchmarking study request.
+They renewed their request for Enron's participation.
+
+What is your view on this? Do you think the benefits of knowing what's
+going on offset the loss due information released and time spent on the
+project.
+
+My recommendation is to forget it.
+
+Vince
+
+---------------------- Forwarded by Vince J Kaminski/HOU/ECT on 01/03/2001
+03:28 PM ---------------------------
+
+""Theresa Sanders"" <TSanders@eei.org> on 12/27/2000 01:32:18 PM
+To: <vkamins@enron.com>
+cc:
+Subject: Benchmarking Study
+
+Dear Vince,
+
+Peter Nance and I wanted to follow-up our discussion of Enron's participation
+in our benchmarking study. Have you discussed Enron's participation in the
+project with your colleagues?
+
+Here is a small sample set of metrics that were taken from a comprehensive
+list of over 700 metrics. The study group will decide which metrics to use.
+
+With EEI's credibility and Teknecon's technical expertise, we intend to
+become the industry standard in benchmarking. We would very much like to
+have Enron participate in the study.
+
+I would be happy to set up another meeting with you and your colleagues with
+Peter Nance if you think that would be helpful.
+
+Best regards,
+
+Theresa Sanders
+Director of Business Development
+Alliance of Energy Suppliers
+Edison Electric Institute
+Tel: 202-508-5183
+
+- EEI metrics-short list.xls
+- ebrochure.doc
+- RiskBenc.ppt","Subject: Re: Benchmarking Study
+
+I passed this information along to some of my direct reports for their
+thoughts, and truthfully didn't hear back from anyone and didn't follow up.
+Two years ago, we agreed to be part of a benchmarking study that was done by
+AA's Houston office (interestingly enough, Wes Colwell was the AA partner who
+led this effort) and we had mixed results. The study was designed to cover
+gas and power. Despite our involvement in the steering committee, the study
+itself was very, very detailed, such that it was troublesome to complete.
+Jim Fallon at the time refused to submit information on the majority of the
+questions surrounding power, so our survey data for power was not very
+useful.
+
+I would agree that at this time we will pass on this request. Thanks for
+passing it along, however. I would be happy to convey this directly to the
+person that has contacted you. Just let me know his/her name and number and
+I will follow through on that if you would like.
+
+Hope that your holidays was enjoyable and that the new year will be a good
+one for you. --Sally",,1052,1.0
+5b5376ab288caac6,dev,False,Akashdeep,1,False,,,NewCo,2001-12-06 18:23,"Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>",sally.beck@enron.com,,"I am going to ask Greg W if you can be included in NewCo, but I never really asked if you wanted to be. Do you want to be?",,beck-s,Executive,beck-s,Executive,To,sent,sent_items,True,False,,False,9b462d48fe1a,1,<18434870.1075855290434.JavaMail.evans@thyme>,kitchen-l\sent_items\1604,Approval,,single,True,Low,,single,True,Neutral,,single,True,False,"I am  going to ask Greg W if you can be included in NewCo, but I never really asked if you wanted to be.  Do you want to be?",,"Subject: NewCo
+
+I am going to ask Greg W if you can be included in NewCo, but I never really asked if you wanted to be. Do you want to be?",,122,1.0
+7cda178b40aa57db,dev,False,Ampa,1,False,,,FW: EES contracts,2001-12-19 15:17,"Sharp, Vicki </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VSHARP>",w..delainey@enron.com,,Have we forwarded this on to anyone yet to make sure that corp. is requiring us to take this action?,"-----Original Message-----
+From: 	Sharp, Vicki  
+Sent:	Tuesday, December 18, 2001 8:53 AM
+To:	Delainey, David W.
+Cc:	Dietrich, Janet; Smith, Mike D.
+Subject:	EES contracts
+
+I wanted to bring you up to speed about some meetings we have been having regarding contract issues in the bankruptcy proceedings.
+
+In connection with our asset sales, EES has been concerned about the deterioration in the value of the EES book as we receive notices from customers that they are terminating their contracts with us.  In general, our customers would not have the right to terminate EES contracts unless the contracts are considered forward contracts.  If the contracts are non forward executory contracts, the customer would have no right to terminate, and only EES as the debtor could effectively terminate by rejecting the contract.  
+
+In any event, EES had been planning to write to the utilities where we had customer books that we are trying to sell, and state, in short, that the utility did not have the right to terminate our contracts with the utility because they were executory contracts, and that the utility did not have the right to process customer requests to switch  to other retail energy providers   because the customers did not have the right to terminate our contracts, since they were executory contracts. 
+
+As we have discussed,  it is an open issue as to whether our contracts are forwar",delainey-d,Executive,delainey-d,Executive,List/Unknown,inbox,inbox,True,False,,False,1a4303915033,1,<19829670.1075859109644.JavaMail.evans@thyme>,delainey-d\inbox\7,Task,,single,True,Medium,,single,True,Neutral,,single,True,False,Have we forwarded this on to anyone yet to make sure that corp. is requiring us to take this action?,"-----Original Message-----
+From: Sharp, Vicki
+Sent: Tuesday, December 18, 2001 8:53 AM
+To: Delainey, David W.
+Cc: Dietrich, Janet; Smith, Mike D.
+Subject: EES contracts
+
+I wanted to bring you up to speed about some meetings we have been having regarding contract issues in the bankruptcy proceedings.
+
+In connection with our asset sales, EES has been concerned about the deterioration in the value of the EES book as we receive notices from customers that they are terminating their contracts with us. In general, our customers would not have the right to terminate EES contracts unless the contracts are considered forward contracts. If the contracts are non forward executory contracts, the customer would have no right to terminate, and only EES as the debtor could effectively terminate by rejecting the contract.
+
+In any event, EES had been planning to write to the utilities where we had customer books that we are trying to sell, and state, in short, that the utility did not have the right to terminate our contracts with the utility because they were executory contracts, and that the utility did not have the right to process customer requests to switch to other retail energy providers because the customers did not have the right to terminate our contracts, since they were executory contracts.
+
+As we have discussed, it is an open issue as to whether our contracts are forward or non-forward contracts. The arguments that these contracts are not forward contracts would be based on the theory that our customer is not a forward contract merchant, that retail contracts are much more than commodity contracts and include numerous other services, and that the contract can only be terminated by a forward contract merchant. If we receive some offers to buy the retail books, claiming that our contracts are non-forward contracts would maximize the value of EES because the customers would be prevented from terminating their contracts and would not be switched to new retail energy providers. However, on a long term basis, there may be advantages to any retail business on a go forward basis to consider these contracts forward contracts. This would allow energy providers in the future to terminate upon customer bankruptcies.
+
+At the trading issues meeting Janet, Mike and I attended yesterday, it was the strong view of the group that the best position for Enron in the bankruptcy process was that retail contracts were forward contracts, and that this position should be taken on an Enron wide basis. I am assuming that we will want someone in a commercial role to confirm that this is the position EES is being asked to take for the benefit of the overall estate, and that we should not, in any letters we are writing to the utilities, describe our contracts as executory and subject to the automatic stay of the bankruptcy court. I think we would go forward with other parts of the letter to the utilities that is not inconsistent with the overall positions.
+
+Please let me know if you need more info. Thanks.","Subject: FW: EES contracts
+
+Have we forwarded this on to anyone yet to make sure that corp. is requiring us to take this action?",,100,1.0
+8357ea2bacad1e0b,calib,False,Areeb,1,False,,,Expense Reports Awaiting Your Approval,2001-10-11 23:26,enron_update@concureworkplace.com@ENRON,jarnold@enron.com,,"The following reports have been waiting for your approval for more than 4 days. Please review.
+
+Owner: Henry H Quigley
+Report Name: Quigley 100301
+Days In Mgr. Queue: 8","[2001-10-08 23:46] enron_update@concureworkplace.com: The following reports have been waiting for your approval for more than 4 days.  Please review.
+
+Owner: Henry H Quigley
+Report Name: Quigley 100301
+Days In Mgr. Queue: 5
+
+[2001-10-09 23:20] enron_update@concureworkplace.com: The following reports have been waiting for your approval for more than 4 days.  Please review.
+
+Owner: Henry H Quigley
+Report Name: Quigley 100301
+Days In Mgr. Queue: 6
+
+[2001-10-10 23:23] enron_update@concureworkplace.com: The following reports have been waiting for your approval for more than 4 days.  Please review.
+
+Owner: Henry H Quigley
+Report Name: Quigley 100301
+Days In Mgr. Queue: 7",arnold-j,Trader,arnold-j,ClientFacing,List/Unknown,deleted,deleted_items,True,False,approval,False,7ee766842107,14,<9738823.1075852702385.JavaMail.evans@thyme>,arnold-j\deleted_items\415,Approval,,single,True,Critical,,single,True,Frustrated,,single,True,False,"The following reports have been waiting for your approval for more than 4 days.  Please review.
+
+Owner: Henry H Quigley
+Report Name: Quigley 100301
+Days In Mgr. Queue: 8",,"Subject: Expense Reports Awaiting Your Approval
+
+The following reports have been waiting for your approval for more than 4 days. Please review.
+
+Owner: Henry H Quigley
+Report Name: Quigley 100301
+Days In Mgr. Queue: 8",,168,1.0

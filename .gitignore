@@ -16,3 +16,13 @@ _backup_pre_c5/
 # accidental duplicates (verify first)
 runs_throughput/
 Data/emb/emb/
+
+runs/decoder_cache/
+
+model_v1.zip
+d2_context.txt
+phase_d_context.txt
+runs/phase_d_state.json
+
+*.partial.jsonl
+*.zip
